@@ -10,7 +10,7 @@
      "bg_index": 0,
      "bg_sheet": 0,
      "version": 3,
-     "revision": 0
+     "revision": 1
  }
  "storeContent": [
      {
@@ -26,14 +26,45 @@
              "sheet_index": 0,
              "last_updated": "2024-08-21 at 16:24 (UTC)"
          },
-         "Download stronghold_library.json": [
+         "Broken Stronghold Chest Fix (USA)": [
              {
                  "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/blob/main/Content/Mods/stronghold_library.json",
                  "message": "stronghold_library.json",
                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables",
                  "type": "downloadFile"
              }
+             {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
          ],
+         "Broken Stronghold Chest Fix (EUR)": [
+             {
+                 "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/blob/main/Content/Mods/stronghold_library.json",
+                 "message": "stronghold_library.json",
+                 "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables",
+                 "type": "downloadFile"
+             }
+             {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Broken Stronghold Chest Fix (JPN)": [
+             {
+                 "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/blob/main/Content/Mods/stronghold_library.json",
+                 "message": "stronghold_library.json",
+                 "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables",
+                 "type": "downloadFile"
+             }
+             {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
      }
  ]
 }
