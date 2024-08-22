@@ -88,7 +88,7 @@
          },
          "Technoblade Skin (USA)":[
             {
-               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/techno-skin.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/Content/Skins/techno-skin.zip",
                "output":"sdmc:/Minecraft 3DS/techno-skin.zip",
                "type":"downloadFile"
             },
@@ -110,7 +110,7 @@
          ],
          "Technoblade Skin (EUR)":[
             {
-               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/techno-skin.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/Content/Skins/techno-skin.zip",
                "output":"sdmc:/Minecraft 3DS/techno-skin.zip",
                "type":"downloadFile"
             },
@@ -132,7 +132,7 @@
          ],
          "Technoblade Skin (JPN)":[
             {
-               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/techno-skin.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/Content/Skins/techno-skin.zip",
                "output":"sdmc:/Minecraft 3DS/techno-skin.zip",
                "type":"downloadFile"
             },
