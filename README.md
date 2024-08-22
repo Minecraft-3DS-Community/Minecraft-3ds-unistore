@@ -12,7 +12,83 @@ Minecraft 3DS Community and Universal-Server Discord servers
 ### Testing
 Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Minecraft 3DS Community Discord server
 ## Item creators
-*
+* ArcModzzz
+    * World in Jar 3DS
+    * Find the Button
+* Babylion122
+    * Ender Dragon Elytra
+    * Lapiz's Funland map
+    * Stampy's Lovely World map port
+* CleetusMcfarln
+    * DanTDM's Lab
+* Cracko298
+    * MC3DS-MAC
+    * MC3DS-Options
+    * Nuclear Creeper
+    * Bat Bombs
+    * Mojangles Font
+    * Festive World Override
+    * Amplified World Generation
+    * Zombie Apocalypse
+    * DevWorld v2
+    * Rare Bones
+    * April Fools mod
+    * Festive as Default Textures
+    * TNT Mimic
+    * Farlandia world
+    * Xray Shader, Remove Clouds, Remove Skybox, and Creative Mode Block Break
+    * Remove Mob Cap mod
+    * Tricky Trials OST 320kHz
+    * Skyblock Plus world
+    * Mob Tower structure
+    * Enhanced Particles
+    * Block skin
+    * SD Card Dropper Map
+* CZX
+    * The Dropper: 3DS Remaster
+    * GenSpace Mod
+* Dale
+    * Modernization MegaPak (includes content from various other people)
+* ENDERMANYK
+    * Shaders
+* Genspace
+    * Minecraft 3DS Modernization Map
+    * The Dropper: 3DS Remaster
+    * GenSpace's Skyblock
+    * SkyDen
+* Glonk
+    * Broken Stronghold Chest Fix
+* linuxwizard
+    * Mipmapping patch
+* PanguinBoi
+    * PanGames
+* PokéTube
+    * PokéTube City map
+* RetroRemade
+    * Better Creepers mod
+* Ruff64
+    * The Dropper: 3DS Remaster
+* STBUniverse
+    * STB-MC3DS Unistore
+    * Vanilla 1.20 textures port
+* TheRustico36
+    * Cleann'slick GUI
+    * New Base Skins port
+    * Legacy Console Default skin pack port
+* UnknownLoser
+    * DualFlow
+* Vicrtl345
+    * SkyDen map port
+* Virtual Overtime
+    * LavaCity PVP map
+    * FNAF Hide and Seek map
+* WaterMelon
+    * The Dropper: 3DS Remaster
+    * The Dropper Submission
+    * Debug Mode 3D
+    * Blind Mazes
+    * PC Gamer Cow
+    * GenSpace Textures
 
 
 **ALL CONTENT HAS THE APPROVAL OF THEIR RESPECIVE CREATORS/SUBMITTERS TO BE IN THIS STORE**
