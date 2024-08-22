@@ -1,7 +1,7 @@
 # THE MINECRAFT 3DS UNISTORE
 The NEW Minecraft 3DS Community UniStore, and the #1 place to get custom content for the game.
 
-## Our unistore is now recommended! You can istall it by going into Recommended Unistores section in Universal Updater
+## Our unistore is now recommended! You can install it by going into Recommended Unistores section in Universal Updater
 
 ## Information
 
