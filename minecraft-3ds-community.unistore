@@ -28,7 +28,7 @@
          },
          "Download stronghold_library.json": [
              {
-                 "file": "https://archive.org/download/stronghold_library.json",
+                 "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/blob/main/Content/Mods/stronghold_library.json",
                  "message": "stronghold_library.json",
                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables",
                  "type": "downloadFile"
