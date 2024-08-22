@@ -79,12 +79,12 @@
             "screenshots": [
                {
                   "description": "Technoblade skin",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/technoblade-skin.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/res/screenshots/technoblade-skin.png"
                }
             ],
-            "icon_index":15,
+            "icon_index":1,
             "sheet_index":0,
-            "last_updated":"2022-07-29 at 00:00 (UTC)"
+            "last_updated":"2024-08-23 at 00:00 (UTC)"
          },
          "Technoblade Skin (USA)":[
             {
