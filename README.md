@@ -1,5 +1,4 @@
 # THE MINECRAFT 3DS UNISTORE
-![Minecraft 3DS UniStore](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
 The NEW Minecraft 3DS Community UniStore, and the #1 place to get custom content for the game.
 
 ## Our unistore is now recommended! You can istall it by going into Recommended Unistores section in Universal Updater
