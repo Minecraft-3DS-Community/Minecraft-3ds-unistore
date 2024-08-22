@@ -6,8 +6,8 @@ The NEW Minecraft 3DS Community UniStore, and the #1 place to get custom content
 ## Information
 
 **If you want to know how to use this store, read the manual on our discord: https://discord.gg/xSrN6k965F**
-**If you wish to add content to the Store, then please fill out an issue: https://github.com/mc-3ds-team/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=**
-**If you wish to have something removed from the Store, then please fill out this issue: https://github.com/mc-3ds-team/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-removal.md&title=**
+**If you wish to add content to the Store, then please fill out an issue: 
+**If you wish to have something removed from the Store, then please fill out this issue: 
 ## Credits
 ### Support
 Minecraft 3DS Community and Universal-Server Discord servers
