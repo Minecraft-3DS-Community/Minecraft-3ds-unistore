@@ -58,6 +58,10 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
     * SkyDen
 * Glonk
     * Broken Stronghold Chest Fix
+* KrftRV249
+    * Random Loot mod
+    * Guns mod
+    * Instant Eating mod
 * linuxwizard
     * Mipmapping patch
 * PanguinBoi
