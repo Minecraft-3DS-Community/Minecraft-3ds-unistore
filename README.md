@@ -89,6 +89,11 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
     * Blind Mazes
     * PC Gamer Cow
     * GenSpace Textures
+* Zexlo
+    * 1.20 Lava textures
+    * 1.20 Mob textures
+    * 1.20 Seamless varied textures
+    * Barebones textures
 
 
 **ALL CONTENT HAS THE APPROVAL OF THEIR RESPECIVE CREATORS/SUBMITTERS TO BE IN THIS STORE**
