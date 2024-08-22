@@ -81,6 +81,19 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
     * Legacy Console Default skin pack port
 * UnknownLoser
     * DualFlow
+* Vance
+    * Technoblade Skin
+    * Technoblade's Crown
+    * Skyblock map port
+    * Breaking Bad skins
+    * Sheeptastic mod port
+    * Giant Baby Zombie mod
+    * 3DSpleef
+    * Building Time map
+    * Randoms map demo
+    * Frequently Asked Questions
+    * GenSpace Mod
+    * Mega Dropper
 * Vicrtl345
     * SkyDen map port
 * Virtual Overtime
