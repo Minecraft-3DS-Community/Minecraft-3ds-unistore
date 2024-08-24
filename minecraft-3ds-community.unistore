@@ -5,7 +5,7 @@
      "description": "An online database of mods, textures, skins, and worlds for Minecraft: New Nintendo 3DS Edition",
      "file": "minecraft-3ds-community.unistore",
      "url": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore",
-     "sheet": "mc3ds-community.t3x",
+     "sheet": "atlas.t3x",
      "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore",
      "bg_index": 0,
      "bg_sheet": 0,
@@ -28,7 +28,7 @@
          },
          "Broken Stronghold Chest Fix (USA)": [
              {
-                 "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/blob/main/Content/Mods/stronghold_library.json",
+                 "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/res/mods/stronghold_library.json",
                  "message": "stronghold_library.json",
                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables",
                  "type": "downloadFile"
@@ -41,7 +41,7 @@
          ],
          "Broken Stronghold Chest Fix (EUR)": [
              {
-                 "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/blob/main/Content/Mods/stronghold_library.json",
+                 "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/res/mods/stronghold_library.json",
                  "message": "stronghold_library.json",
                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables",
                  "type": "downloadFile"
@@ -54,7 +54,7 @@
          ],
          "Broken Stronghold Chest Fix (JPN)": [
              {
-                 "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/blob/main/Content/Mods/stronghold_library.json",
+                 "file": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/res/mods/stronghold_library.json",
                  "message": "stronghold_library.json",
                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables",
                  "type": "downloadFile"
@@ -88,7 +88,7 @@
          },
          "Technoblade Skin (USA)":[
             {
-               "file":"https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/Content/Skins/techno-skin.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/res/skins/techno-skin.zip",
                "output":"sdmc:/Minecraft 3DS/techno-skin.zip",
                "type":"downloadFile"
             },
@@ -110,7 +110,7 @@
          ],
          "Technoblade Skin (EUR)":[
             {
-               "file":"https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/Content/Skins/techno-skin.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/res/skins/techno-skin.zip",
                "output":"sdmc:/Minecraft 3DS/techno-skin.zip",
                "type":"downloadFile"
             },
@@ -132,7 +132,7 @@
          ],
          "Technoblade Skin (JPN)":[
             {
-               "file":"https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/Content/Skins/techno-skin.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/res/skins/techno-skin.zip",
                "output":"sdmc:/Minecraft 3DS/techno-skin.zip",
                "type":"downloadFile"
             },
@@ -179,7 +179,7 @@
          },
          "Technoblade's Crown (USA)":[
             {
-               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/Content/Textures/techno-crown.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/techno-crown.zip",
                "output":"sdmc:/Minecraft 3DS/techno-crown.zip",
                "type":"downloadFile"
             },
@@ -211,7 +211,7 @@
          ],
          "Technoblade's Crown (EUR)":[
             {
-               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/Content/Textures/techno-crown.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/techno-crown.zip",
                "output":"sdmc:/Minecraft 3DS/techno-crown.zip",
                "type":"downloadFile"
             },
@@ -243,7 +243,7 @@
          ],
          "Technoblade's Crown (JPN)":[
             {
-               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/Content/Textures/techno-crown.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/techno-crown.zip",
                "output":"sdmc:/Minecraft 3DS/techno-crown.zip",
                "type":"downloadFile"
             },
