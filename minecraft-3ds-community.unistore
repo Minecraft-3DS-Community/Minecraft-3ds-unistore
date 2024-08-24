@@ -5,11 +5,11 @@
         "description": "An online database of mods, textures, skins, and worlds for Minecraft: New Nintendo 3DS Edition",
         "file": "minecraft-3ds-community.unistore",
         "url": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/minecraft-3ds-community.unistore",
-        "sheet": "atlas.t3x",
-        "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/atlas.t3x",
+        "sheet": "mc3ds.t3x",
+        "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 4,
+        "revision": 5,
         "version": 3
     },
     "storeContent": [
