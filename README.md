@@ -121,3 +121,16 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
 2. Add Directories: `.\devkitPro\tools\bin`, and `.\devkitPro\msys2\usr\bin` to your Account PATH.
 3. You may also need to add the Directories: `.\devkitPro\devkitARM\bin`, and `.\devkitPro\libctru\include` to your Account PATH.
 4. Start powershell, and run the command: `pacman -S tex3ds`.
+5. Create a new Directory, and get Textures you may need (48x48 size for Icons).
+6. Create a File inside of your 'new' Directory, called `.\file.t3s`, then open it in notepad, and write the following strings to it.
+```
+--atlas -f rgba -z auto
+
+{yourIconFile0.png}
+{yourIconFile1.png}
+{yourIconFile2.png}
+{yourIconFile3.png}
+```
+`{yourIconFileX.png} is your PNG Icons in the Current Directory with the 'file.t3s' file`.
+7. It should generate a File with the Extension `*.t3x` not `*.t3s`.
+8. That is your Icon Atlas.
