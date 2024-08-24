@@ -132,5 +132,7 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
 {yourIconFile3.png}
 ```
 `{yourIconFileX.png} is your PNG Icons in the Current Directory with the 'file.t3s' file`.
+
 7. It should generate a File with the Extension `*.t3x` not `*.t3s`.
+
 8. That is your Icon Atlas.
