@@ -5,18 +5,18 @@
         "description": "An online database of mods, textures, skins, and worlds for Minecraft: New Nintendo 3DS Edition",
         "file": "minecraft-3ds-community.unistore",
         "url": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/minecraft-3ds-community.unistore",
-        "sheet": "mc3ds.t3x",
-        "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
+        "sheet": "atlas.t3x",
+        "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/atlas.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 5,
+        "revision": 6,
         "version": 3
     },
     "storeContent": [
         {
             "info": {
                 "title": "Broken Stronghold Chest Fix",
-                "author": "Vance",
+                "author": "Vance, Glonk",
                 "version": "v1",
                 "category": ["Mod"],
                 "console": ["New 3DS"],
@@ -24,7 +24,7 @@
                 "license": "unknown",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2024-08-21 at 16:24 (UTC)"
+                "last_updated": "2022-09-01 at 00:00 (UTC)"
             },
             "Broken Stronghold Chest Fix (USA)": [
                 {
@@ -84,7 +84,7 @@
                ],
                "icon_index":1,
                "sheet_index":0,
-               "last_updated":"2024-08-23 at 00:00 (UTC)"
+               "last_updated":"2022-07-29 at 00:00 (UTC)"
             },
             "Technoblade Skin (USA)":[
                {
@@ -175,7 +175,7 @@
                ],  
                "icon_index":2,
                "sheet_index":0,
-               "last_updated":"2024-08-23 at 00:00 (UTC)"
+               "last_updated":"2022-09-29 at 00:00 (UTC)"
             },
             "Technoblade's Crown (USA)":[
                {
@@ -283,7 +283,7 @@
                "console":["3DS"],
                "description":"Take survival to new heights as you start on a tiny floating island with limited resources and unlimited possibilities. In honor of TechnoBlade.",
                "license":"unknown",
-               "releasenotes": "Take survival to new heights as you start on a tiny floating island with limited resources and unlimited possibilities. Build, farm, and conquer challenges in the sky to create your own thriving world. \n\nNOTE - This is the '2.1' version of skyblock. It has the L-shaped grass island and the desert island. The map is not built in a void world as one is not available for now. It is built on an ordinary flat world. This will be fixed in the future once we discover how to make void worlds. \n\nType - Port, Survival\n\nPorter- DarkForPresident\n\nCreator- NoobCrew\n\nVersion - 1.9.19",
+               "releasenotes": "Take survival to new heights as you start on a tiny floating island with limited resources and unlimited possibilities. Build, farm, and conquer challenges in the sky to create your own thriving world. \n\nNOTE - This is the '2.1' version of skyblock. It has the L-shaped grass island and the desert island. The map is not built in a void world as one is not available for now. It is built on an ordinary flat world. This will be fixed in the future once we discover how to make void worlds. \n\nType - Port, Survival\n\nPorter- Vance\n\nCreator- NoobCrew\n\nVersion - 1.9.19",
                "screenshots": [
                   {
                      "description": "Image #1",
@@ -333,7 +333,7 @@
                "console":["New 3DS"],
                "description":"This skin pack includes six iconic characters from the Breaking Bad and Better Call Saul television shows.",
                "license":"unknown",
-               "releasenotes": "This skin pack includes six iconic characters from the Breaking Bad and Better Call Saul television shows.\n\nThis skin pack replaces certain skins in the free 'Holiday 2015' skin pack, which is referred to as 'Festive' in the game's files. Unfortunately, due to some skins having unchangeable 3D elements, I was only able to replace 6 of the skins properly. These are:\nWalter White - sweater_steve.3dst\nJesse Pinkman - gingerbread.3dst\nSaul Goodman - parka_steve.3dst\nMike Ehrmantraut - Festive_Snow_Suit_Kid.3dst\nGustavo Fring - ruldolph.3dst\nKim Wexler - mrs_claus_slim.3dst\n\nSkins - 6\n\nPorter - DarkForPresident",
+               "releasenotes": "This skin pack includes six iconic characters from the Breaking Bad and Better Call Saul television shows.\n\nThis skin pack replaces certain skins in the free 'Holiday 2015' skin pack, which is referred to as 'Festive' in the game's files. Unfortunately, due to some skins having unchangeable 3D elements, I was only able to replace 6 of the skins properly. These are:\nWalter White - sweater_steve.3dst\nJesse Pinkman - gingerbread.3dst\nSaul Goodman - parka_steve.3dst\nMike Ehrmantraut - Festive_Snow_Suit_Kid.3dst\nGustavo Fring - ruldolph.3dst\nKim Wexler - mrs_claus_slim.3dst\n\nSkins - 6\n\nPorter - Vance",
                "screenshots": [
                   {
                      "description": "Image #1",
@@ -445,6 +445,416 @@
                   "count":1
                }
             ]
+         },
+         {
+            "info":{
+               "title":"Sheeptastic",
+               "author":"Vance",
+               "version":"2",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Created by Falkenvergh, Sheeptastic is a fantastic mod which makes sheep much more useful.",
+               "license":"unknown",
+               "releasenotes": "Sheeptastic is a fantastic mod which makes sheep much more useful. You'll be able to use them for things such as a riding mount or as a cute, harmless pet. And if you really wanna try your chances then you can summon the Black Sheep and fight your (probably first ever) boss battle against a huge sheep. Full instructions are in the read me files.\n\nNOTE - This is a Bedrock Edition add-on that has been ported to New 3DS.\n\nPorter - Vance\n\nCreator - Falkenvergh\n\nVersion - 1.9.19\n\nKNOWN BUG:\n\nIt is not possible to shear any sheep while using this mod. This bug will be fixed in due time.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-c.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-d.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-e.png"
+                  }
+               ],
+               "icon_index":5,
+               "sheet_index":0,
+               "last_updated":"2023-02-07 at 18:02 (UTC)"
+            },
+            "Sheeptastic (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sheeptastic.zip",
+                  "output":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/entities",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+                  "input":"Sheeptastic 3DS Port/entities/sheep.json",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/sheep.json"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/3Minecraft 3DS/modsds/sheeptastic.zip",
+                  "input":"Sheeptastic 3DS Port/loot_tables/entities/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ],
+            "Sheeptastic (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sheeptastic.zip",
+                  "output":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/entities",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+                  "input":"Sheeptastic 3DS Port/entities/sheep.json",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/sheep.json"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+                  "input":"Sheeptastic 3DS Port/loot_tables/entities/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ],
+            "Sheeptastic (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sheeptastic.zip",
+                  "output":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/entities",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+                  "input":"Sheeptastic 3DS Port/entities/sheep.json",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/sheep.json"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+                  "input":"Sheeptastic 3DS Port/loot_tables/entities/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"Giant Baby Zombie Mod",
+               "author":"Vance",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"This mod makes baby zombies over 8 times the size of normal zombies, aside from the head. That's it.",
+               "license":"unknown",
+               "releasenotes": "This mod makes baby zombies over 8 times the size of normal zombies, aside from the head. That's it.\n\nCreator - Vance",
+               "screenshots": [
+                  {
+                     "description": "Giant baby zombie",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/giant-baby-zombie.png"
+                  }
+               ],
+               "icon_index":6,
+               "sheet_index":0,
+               "last_updated":"2023-01-09 at 00:00 (UTC)"
+            },
+            "Giant Baby Zombie (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/giant-baby-zombie.zip",
+                  "output":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+                  "input":"Giant Baby Zombie Mod/zombie.json",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/zombie.json"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ],
+            "Giant Baby Zombie (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/giant-baby-zombie.zip",
+                  "output":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+                  "input":"Giant Baby Zombie Mod/zombie.json",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/zombie.json"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ],
+            "Giant Baby Zombie (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/giant-baby-zombie.zip",
+                  "output":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+                  "input":"Giant Baby Zombie Mod/zombie.json",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/zombie.json"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"3DSpleef",
+               "author":"Vance",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"The classic multiplayer pvp minigame is now in Minecraft 3DS!",
+               "license":"unknown",
+               "releasenotes": "The classic multiplayer pvp minigame is now in Minecraft 3DS! Use shovels to mine the snow underneath your opponent to send them falling into the void. There is currently one spleef 'arena', which is 32 blocks by 32 blocks. To reset the arena, simply quit without saving and rejoin.\n\nCreator - Vance\nVoid world - DeadSkullzJr",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dspleef-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dspleef-b.png"
+                  }
+               ],
+               "icon_index":7,
+               "sheet_index":0,
+               "last_updated":"2022-10-28 at 00:16 (UTC)"
+            },
+            "3DSpleef":{
+               "size":"374 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dspleef.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip",
+                     "input": "3DSpleef/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/3DSpleef/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Building Time",
+               "author":"Vance",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"The classic Stampy series is now in Minecraft 3DS.",
+               "license":"unknown",
+               "releasenotes":"The classic Stampy series is now in Minecraft 3DS. Note: this does not include the podium-like structures. Everything in this world is visible in the screenshot.\n\nCreator - Vance",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/building-time.png"
+                  }
+               ],
+               "icon_index":8,
+               "sheet_index":0,
+               "last_updated":"2022-03-07 at 12:02 (UTC)"
+            },
+            "Building Time":{
+               "size":"245 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/building-time.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/building-time.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/building-time.zip",
+                     "input": "Building Time/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Building Time/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/building-time.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Randoms",
+               "author":"Vance",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"A nostalgic adventure map (played by Stampy and Squid) where each level is completely random!",
+               "license":"unknown",
+               "releasenotes": "A nostalgic adventure map (played by Stampy and Squid) where each level is completely random!\n\nCreator - Joker2039",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/randoms.png"
+                  }
+               ],
+               "icon_index":9,
+               "sheet_index":0,
+               "last_updated":"2022-11-05 at 04:22 (UTC)"
+            },
+            "Randoms Demo":{
+               "size":"318 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/randoms-demo.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip",
+                     "input": "Randoms Demo/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Randoms Demo/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
          }
       ]
    }
