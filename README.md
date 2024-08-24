@@ -44,6 +44,7 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
     * Enhanced Particles
     * Block skin
     * SD Card Dropper Map
+    * IronBrute
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
