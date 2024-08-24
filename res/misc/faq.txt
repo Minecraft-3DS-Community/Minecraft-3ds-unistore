@@ -1,0 +1,191 @@
+MINECRAFT 3DS FREQUENTLY ASKED QUESTIONS
+Revision 3
+ALL PROMPTS WERE TAKEN FROM THE MINECRAFT 3DS WEBSITE
+https://www.minecraft3ds.net/misc/faq/questions
+-------------------
+Where can I find a download link for Minecraft: New Nintendo 3DS Edition?
+
+The Minecraft 3DS Community does not condone any piracy unless it is literally impossible to officially purchase. If you want to play this version on a New 3DS/2DS, you need to purchase the cartridge. Otherwise, if you want to play this version on Citra or any other emulator, dump the game files yourself.
+-------------------
+I have a non-USA system. What title ID do I use?
+
+The USA title ID is 00040000001B8700, the EU title ID is 000400000017CA00, and the JP title ID is 000400000017FD00. 
+-------------------
+How can I play online multiplayer?
+
+Unfortunately, this version of Minecraft only has two-player local multiplayer player, which means online multiplayer is not possible. If you want to play with your friends on your New 3DS/2DS, you'll have to be in close proximity to them. If you're playing on Citra, however, you can use netplay to play online with your friends. However, this method of multiplayer is very unstable. It's also worth noting that a mod that adds online multiplayer would not work well (or at all, for that matter) due to the limitations of the New 3DS/2DS family of systems.
+-------------------
+How does the 3DSMP work?
+
+The Minecraft 3DSMP is not online multiplayer. The way it works is that someone plays, puts their inventory in a chest, and then uploads the world to the private Discord channel exclusively for members. Applications are currently closed, but you can join the Discord for updates.
+-------------------
+How can I submit my own piece of Custom Content?
+
+Each Custom Content category's page has a button for submissions, aside from the Mods section. Pressing the submit button will send you to a page where you can fill out a Google Form with information about your custom content. This button and Google Form is currently absent from the Mod section's page due to the wide variety of mods that are possible and for quality control. Join the Discord server to ask a Staff member to add your Mod to the website.
+-------------------
+How advanced are the known modding capabilities?
+
+The current modification capabilities for Minecraft: New Nintendo 3DS Edition are not very advanced. Currently the most advanced mods possible are shader and mob behavior/loot table edits.
+-------------------
+Is this game region locked?
+
+Unfortunately, Minecraft: New Nintendo 3DS Edition is region locked. Additionally, the only region with a cartridge release is North America. In Europe and Japan, the game was only ever available digitally.
+-------------------
+Who developed this version of the game?
+
+The New Nintendo 3DS Edition of Minecraft was developed by Other Ocean Interactive's Emeryville studio in collaboration with Mojang.
+-------------------
+What is Minecraft 3DS' closest version equivalent?
+
+Minecraft: New Nintendo 3DS Edition is closest to Minecraft: Pocket (now Bedrock) Edition version 1.1.7. It is essentially a port of that version.
+-------------------
+What language is Minecraft 3DS coded in?
+
+This game was coded in C++ and ARM Assembly.
+-------------------
+How does the local multiplayer work?
+
+The local multiplayer in this version supports up to two players who are within a close range of each other. Each player needs their own copy of the game as it does not support Download play. It was added in version 1.4.
+-------------------
+What is the world height limit?
+
+The block height limit it 128 blocks.
+-------------------
+What are the world sizes?
+
+'Small' worlds are 672x672 blocks, 'Medium' worlds are 1344x1344 blocks, and 'Large' worlds are 2016x2016 blocks. These sizes are even bigger than the Legacy Console world sizes. The size of your world cannot be changed in-game after creation.
+-------------------
+What are the mob caps?
+
+The game can load 24 enemies, 24 animals, 16 squid, and 16 villagers at a time. These are much stricter than even the Legacy Console mob caps.
+-------------------
+What is the FPS?
+
+This version of Minecraft aims for 60 FPS in normal worlds and 30 FPS in Mash-up worlds.
+-------------------
+How do the map and coordinates work?
+
+The player's coordinates and map are always displayed on the bottom screen, along with their hotbar. There are also buttons for inventory and crafting, plus a button to pause the game.
+-------------------
+What are the in-game controls?
+
+The circle pad is used to move. The left and right d-pad buttons are used to navigate the hotbar. The up d-pad button is used to toggle camera perspectives. The down d-pad button is used to toggle sneaking. The A button is used to jump. The B button is used to drop items. The X button is used to open the crafting menu. The Y button is used to open the inventory. The start and select buttons are used to pause the game. The L button is used to place/use blocks. The R button is used to break blocks and attack mobs. The ZL and ZR buttons are used to navigate the hotbar.
+-------------------
+When was Minecraft 3DS released?
+
+Minecraft: New Nintendo 3DS Edition was released digitally in North America on September 13th, 2017, a day later in Japan, and later in Europe on September 20th 2018. It was released physically in North America on November 10th, 2017.
+-------------------
+How do I use the Woodland and Ocean Explorer maps?
+
+To use the Woodland or Ocean Explorer map, you need to put it somewhere in your hotbar. An icon will then display on your bottom screen map telling you where to go. You can get these maps from Cartographer villagers (the light gray ones).
+-------------------
+What DLC packs were available?
+
+The New Nintendo 3DS Edition of Minecraft came bundled with 7 Skin packs (Standard, Biome Settlers Pack 1 + 2, Redstone Specialists, Journey to the West, Holiday 2015, and Super Mario Mash-Up), four Texture packs (Minecraft [Default], City, Plastic, and Super Mario Mash-Up), and one Mash-Up world (Super Mario Mash-up). Additionally, the store had 14 Skin packs (Campfire Tales, City Folk, Town Folk, Battle and Beasts, Star Wars Classic, Star Wars Rebels, Star Wars Prequel, Stranger Things, Villains, Strangers - Biome Settlers Pack 3, Moana, Mighty Morphin' Power Rangers, Magic: The Gathering, and Halloween Costume), 5 Texture packs (Cartoon, Fantasy, Candy, Natural, and Steampunk), and one Mash-up pack (Festive Mash-up). It is no longer possible to purchase any of these packs since the eShop was closed on 3/27/2023.
+-------------------
+Why was I never able to buy the Power Rangers skin pack?
+
+Many players recall not being able to purchase Mighty Morphin' Power Rangers pack while the eShop was still up. While the reason is not known for sure, the most common theory is that a licensing contract expired. Some players were able to buy it in the months after it initially released, and the date it was taken down is unknown.  A similar situation occurred with the Stranger Things skin pack, where it was taken down from the store in the second half of 2022.
+-------------------
+I can't find fireworks in the item menu. Where are they?
+
+Firework rockets are unfortunately absent from this version. They were added to Minecraft: Pocket (now Bedrock) Edition in version 1.2, which is the update just after the update New Nintendo 3DS Edition is based on. To boost elytra flight, you can shoot yourself with an enchanted Punch bow.
+-------------------
+Why doesn't this game have 3D support?
+
+Soon after release, the developers stated Minecraft: New Nintendo 3DS Edition would receive 3D support at some point in the future. Unfortunately, that never happened, and the game's updates stopped in January 2019.
+-------------------
+How does the Totem of Undying work?
+
+To use the Totem of Undying, you need to have it in any hotbar slot. If you die with it in your hotbar, you will be revived and receive extra hearts in addition to Resistance and Fire Resistance effects.
+-------------------
+My physical copy has an Amiibo icon. How do I use them?
+
+If your physical copy of Minecraft 3DS has an Amiibo icon, it is a misprint. The game has no Amiibo functionality.
+-------------------
+What's the newest update?
+
+Minecraft: New Nintendo 3DS Edition received its final update on January 15th, 2019 (in North America), with the 1.9.19 update. This update added features from the Discovery update. It was released in other countries the following day.
+-------------------
+What features did each update add?
+
+Update 0.1.0 was the base update included with the game. It was the only update to be prefixed with 0.
+Update 1.1.06 was released on November 8th (NA) / 9th (JP), 2017 and added:
+- Improved save/load times
+- More quick move functionality
+- Various UI tweaks
+- The ability to gain experience from smelting and trading
+- Smaller font for Roman alphabet languages
+- Various stability/performance improvements
+- Fixes to item stacking
+- Fixed crashes with various entities, including bottles o' enchanting
+Update 1.2.12 was released on December 22nd, 2017. It was the only update to be released in both NA and JP on the same day. It added:
+- Achievements
+- Effect icons and timers to the HUD
+- Various UI tweaks
+- Various stability/performance improvements
+- Fixed hardlock that occured sometimes with sleep mode
+Update 1.3.12 was released on January 29th (NA) / 30th (JP), 2018. It is generally referred to as the Boss Update. It added:
+- The Wither
+- Beacons
+- Nether Stars
+- Arrow, Potion, and Splash Potion of Decay.
+- Ocean Monuments
+- Elder Guardian (and Spawn Egg)
+- Guardian (and Spawn Egg)
+- Prismarine
+- Prismarine Bricks
+- Dark Prismarine
+- Prismarine Shards and Crystals
+- Wet Sponges
+- Sea Lanterns
+- Local Brewery Achievement
+- Repopulation Achievement
+- Pork Chop Achievement
+- Have a Shearful Day Achievement
+- Renewable Energy Achievement
+- Body Guard Achievement
+- Zombie Doctor Achievement
+- Lion Tamer Achievement
+- Saddle Up Achievement
+- Beaconator Achievement
+- Overpowered Achievement
+- The Beginning? Achievement
+- The Beginning. Achievement
+- Free Diver Achievement
+- Rabbit Season Achievement
+- The Deep End Achievement
+- Dry Spell Achievement
+- Super Fuel Achievement
+- Various stability/performance improvements
+- Improved visibility in caves
+- Improved view distance in the Nether
+The rest of the update changelogs will be added soon.
+-------------------
+Do I need to jailbreak my system to download Custom Content?
+
+Yes, your Nintendo 3DS/2DS needs to be homebrewed with Luma to download use any Custom Content. Use 3ds.hacks.guide to homebrew your system if you haven't already. It's a easy and simple process and unless you go out of your way to, you won't brick your system.
+-------------------
+What seed do speedrunners use?
+
+Those who speedrun Minecraft 3DS in the 'Set Seed Glitched' category use the seed 1472235109. Set Seed Glitched means the speedrunner is allowed to use any seed they want and use any glitches/exploits they want. Those who speedrun Minecraft 3DS in the 'Set Seed Glitchless' category use the seed 149577394. Set Seed Glitchless means the speedrunner is allowed to use any seed they want but is not allowed to use any glitches/exploits.
+-------------------
+What is the speedrun world record?
+
+The world record for the following categories are:
+- Set Seed Glitched - 4m 40s, achieved by CZX on 12/16/2022.
+- Set Seed Glitchless - 24m 54s, achieved by CZX on 5/27/2022
+- Random Seed Glitched - 18m 48s, achieved by CZX on 3/08/2022
+Random Seed Glitchess has no world record as nobody has completed a run. Maybe you could be the first!
+-------------------
+What does 'RSG' mean?
+
+Minecraft speedrunners use the term 'RSG' to refer to Random Seed Glitchless. 'RS' is Random Seed Glitched, 'SSG' is Set Seed Glitchless, 'SS' is Set Seed Glitched, 'IL' is Individual Levels (Short categories, an example is 'Obtain Melon'), and 'CE' is Category Extensions (Medium categories, an example is 'Reach Closest Border').
+-------------------
+Where can I download mods?
+
+To download mods like Sheeptastic, Better Creepers, and Giant Baby Zombie, navigate to our Mods section.
+-------------------
+Where can I make mods?
+
+You can use our Mod Maker tool to create simple Mods that change the behavior of the mobs in the game. Navigate to our Mods section and press the 'Mod Maker' button to access it.
