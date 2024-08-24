@@ -18,7 +18,7 @@
                 "title": "Broken Stronghold Chest Fix",
                 "author": "Vance",
                 "version": "v1",
-                "category": ["mod"],
+                "category": ["Mod"],
                 "console": ["New 3DS"],
                 "description": "This mod removes the possiblity of a broken map spawning in stronghold chests",
                 "license": "unknown",
@@ -71,7 +71,7 @@
                "title":"Technoblade Skin",
                "author":"Vance",
                "version":"1",
-               "category":["skin"],
+               "category":["Skin Pack"],
                "console":["New 3DS"],
                "description":"The iconic skin of one of the greatest Minecraft players of all time. Rest in Peace.",
                "license":"unknown",
@@ -158,7 +158,7 @@
                "title":"Technoblade's Crown",
                "author":"Vance",
                "version":"1",
-               "category":["texture pack"],
+               "category":["Texture Pack"],
                "console":["New 3DS"],
                "description":"This texture pack gives every pig Technoblade's iconic crown.",
                "license":"unknown",
@@ -270,6 +270,178 @@
                {
                   "type":"promptMessage",
                   "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"Skyblock",
+               "author":"Vance",
+               "version":"2.1",
+               "category":["World"],
+               "console":["3DS"],
+               "description":"Take survival to new heights as you start on a tiny floating island with limited resources and unlimited possibilities. In honor of TechnoBlade.",
+               "license":"unknown",
+               "releasenotes": "Take survival to new heights as you start on a tiny floating island with limited resources and unlimited possibilities. Build, farm, and conquer challenges in the sky to create your own thriving world. \n\nNOTE - This is the '2.1' version of skyblock. It has the L-shaped grass island and the desert island. The map is not built in a void world as one is not available for now. It is built on an ordinary flat world. This will be fixed in the future once we discover how to make void worlds. \n\nType - Port, Survival\n\nPorter- DarkForPresident\n\nCreator- NoobCrew\n\nVersion - 1.9.19",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyblock-1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyblock-2.png"
+                  }
+               ],
+               "icon_index":3,
+               "sheet_index":0,
+               "last_updated":"2023-06-30"
+            },
+            "Skyblock 2.1":{
+               "size":"1.53 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/skyblock-21.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/skyblock-21.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/skyblock-21.zip",
+                     "input": "Skyblock 2.1/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Skyblock 2.1/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/skyblock-21.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Breaking Bad Skins",
+               "author":"Vance",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"This skin pack includes six iconic characters from the Breaking Bad and Better Call Saul television shows.",
+               "license":"unknown",
+               "releasenotes": "This skin pack includes six iconic characters from the Breaking Bad and Better Call Saul television shows.\n\nThis skin pack replaces certain skins in the free 'Holiday 2015' skin pack, which is referred to as 'Festive' in the game's files. Unfortunately, due to some skins having unchangeable 3D elements, I was only able to replace 6 of the skins properly. These are:\nWalter White - sweater_steve.3dst\nJesse Pinkman - gingerbread.3dst\nSaul Goodman - parka_steve.3dst\nMike Ehrmantraut - Festive_Snow_Suit_Kid.3dst\nGustavo Fring - ruldolph.3dst\nKim Wexler - mrs_claus_slim.3dst\n\nSkins - 6\n\nPorter - DarkForPresident",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-c.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-d.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-e.png"
+                  },
+                  {
+                     "description": "Image #6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-f.png"
+                  }
+               ],
+               "icon_index":4,
+               "sheet_index":0,
+               "last_updated":"2022-10-20 at 00:00 (UTC)"
+            },
+            "Breaking Bad Skins (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/breaking-bad.zip",
+                  "output":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+                  "input":"Minecraft 3DS Breaking Bad/Festive/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/breaking-bad.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Breaking Bad Skins (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/breaking-bad.zip",
+                  "output":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+                  "input":"Minecraft 3DS Breaking Bad/Festive/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/breaking-bad.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Breaking Bad Skins (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/breaking-bad.zip",
+                  "output":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+                  "input":"Minecraft 3DS Breaking Bad/Festive/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/breaking-bad.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                   "count":1
                }
             ]
