@@ -115,3 +115,9 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
 
 
 **ALL CONTENT HAS THE APPROVAL OF THEIR RESPECIVE CREATORS/SUBMITTERS TO BE IN THIS STORE**
+
+## Building Atlas *.t3x.
+1. Download [DevKitPro](https://github.com/devkitPro/installer/releases/latest)
+2. Add Directories: `.\devkitPro\tools\bin`, and `.\devkitPro\msys2\usr\bin` to your Account PATH.
+3. You may also need to add the Directories: `.\devkitPro\devkitARM\bin`, and `.\devkitPro\libctru\include` to your Account PATH.
+4. Start powershell, and run the command: `pacman -S tex3ds`.
