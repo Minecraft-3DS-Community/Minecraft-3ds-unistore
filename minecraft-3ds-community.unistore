@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 11,
+        "revision": 12,
         "version": 3
     },
     "storeContent": [
@@ -1552,6 +1552,1770 @@
                      "type": "promptMessage",
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"MC3DS-MAC",
+               "author":"Cracko298",
+               "version":2.0,
+               "category":["Tool"],
+               "console":["New 3DS"],
+               "description":"A 3DS Homebrew Application that converts Material Attribute Files from MC-3DS Edition to *.json",
+               "license":"none",
+               "releasenotes":"# MC3DS-MAC\n\n----------\n\nWHATS NEW IN THIS RELEASE:\n\n##Release 2.0\n\n###Featureful update\n\n- App is not instantaneous anymore, rather it allows the user to see what's going on with the Application,\n- Cleaned up the code.\n- Fixed a critical memory leakage bug.\n- New directory for the files, now it's: '/mc3ds_files/attribute_conv'.\n- Added HxD's *.bak backup format.\n- Creates the directories now, instead of you needing to manually create them using FBI.\n\n----------\n\n- **A 3DS (Nintendo 3DS) Homebrew Application that converts Material Attribute Files from MC-3DS Edition to  .json**\n- **I spent too much invested time into this App.**\n- **Has compatibility with Citra on both <ins>PC, & Android</ins>.**\n\n## Usage:\n- **After downloading and installing the compiled .cia/.3dsx Open the application once to create a folder on the system SDHC Card.**\n- **Then copy over your Material Attribute Files (.material, .material3ds, .images, .dat, .mat, .bak) in the newly created: '[./mc3ds_files/attribute_conv](https://github.com/Cracko298/MC3DS-MAC)' Folder.**\n- **Enter the Application again, and now each file should have a newer generated file with the extension of '.json'.**\n- \n\n## Download(s):\n- **Download Standalone .cia [Here](https://github.com/Cracko298/MC3DS-MAC/releases/download/v1.4.1/MC3DS-MAC.cia).**\n- **Download HB Launcher .3dsx [Here](https://github.com/Cracko298/MC3DS-MAC/releases/download/v1.4.1/mc3ds-mac.3dsx).**\n- **Download Source .elf File [Here](https://github.com/Cracko298/MC3DS-MAC/releases/download/v1.4.1/mc3ds-mac.elf).**\n- **A Standalone Application for 'Windows x64' is avaliable [Here](https://github.com/Cracko298/MC3DS-Material-Converter).**\n\n### Don't have an SD Reader or a FTP Server?\n- **I have you covered, Click [Here](https://raw.githubusercontent.com/Cracko298/MC3DS-MAC/main/imgs/frame.png) for a <ins>Direct QR-Code</ins> Download.**\n\n## Building:\n- **Requires Devkitpro v3.0.3 or higher and the Basic 3DS SDK from it.**\n\n### Banner:\n```\n.(BACKSLASH)bannertool.exe makebanner -i 'banner_ico.png' -ca 'banner.bcwav' -o 'banner.bnr'\n```\n### Icon (SMDH):\n```\n.(BACKSLASH)bannertool.exe makesmdh -s 'MC3DS-MAC' -l 'MC Material Attribute Converter' -p 'Cracko298' -i 'pack.png' -o 'icon.smdh'\n```\n### Sound:\n```\n.(BACKSLASH)cwavtool.exe -i banner.wav -e pcm8 -o banner.bcwav\n```\n### MakeRom\n```\n.(BACKSLASH)makerom.exe -f cia -o MC3DS-MAC.cia -elf mc3ds-mac.elf -rsf files.rsf -icon icon.smdh -banner banner.bnr -major 1 -minor 3 -micro 9\n```\n\n## Requirement(s):\n- **A Homebrewed/Hacked 3DS Console with access to CFW and a Title Installer, or Homebrew Launcher.**\n- **An SDHC Card that's being used for your 3DS Games.**\n- **Material Attribute Files for Converting into .JSON Format.**\n\n## Credit(s):\n- **[Cracko298](https://github.com/Cracko298) Development of this Homebrew Application.**\n- **Steveice10 for [bannertool](https://github.com/Steveice10/bannertool).**\n- **PabloMK7 for [cwavtool](https://github.com/PabloMK7/cwavtool).**\n- **3DSGuy for [Project_CTR (makerom)](https://github.com/3DSGuy/Project_CTR).**",
+               "screenshots": [
+                  {
+                     "description": "Example 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mac1.png"
+                  },
+                  {
+                     "description": "Example 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mac2.png"
+                  },
+                  {
+                     "description": "Example 3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mac3.png"
+                  }
+               ],
+               "icon_index":19,
+               "sheet_index":0,
+               "last_updated":"2024-01-07 at 16:01 (CST)"
+            },
+               "MC3DS-MAC (CIA)":{
+               "size":"279 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/tools/MC3DS-MAC2.cia",
+                     "output": "sdmc:/Minecraft 3DS/MC3DS-MAC2.cia"
+                  },
+                  {
+                     "type": "installCia",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-MAC2.cia"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-MAC2.cia"
+                  }
+               ]
+            },
+            "MC3DS-MAC (3DSX)":{
+               "size":"114 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/tools/mc3ds-mac1.3dsx",
+                     "output": "sdmc:/3ds/mc3ds-mac.3dsx"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"MC3DS-Options",
+               "author":"Cracko298",
+               "version":1.2,
+               "category":["Tool"],
+               "console":["New 3DS"],
+               "description":"Enables editing of 'options.txt' from MC3DS using the Built-in Windows Notepad Application.",
+               "license":"none",
+               "releasenotes":"# MC3DS-Options-WinEdit\n- **Enables editing of 'options.txt' from MC3DS using the Built-in Windows Notepad Application.**\n- **Basically works with any Text Editor that treats `NULL` bytes as Spacing(s), like Notepad.**\n\n## Download(s)\n- **Download the Converter [Here](https-//github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.1.0/options_converter.exe).**\n- **Do you need a Python Version? I did that as well [Here](https-//github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.1.0/options_converter.py).**\n- **Want to convert it back to that Notepad Format? Sure I have you covered [Here](https-//github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.1.0/options_revert.exe).**\n\n## Building-\n```\ng++ -o options_converter.exe -O3 -s options_converter.cpp\ng++ -o options_revert.exe -O3 -s options_revert.cpp\n.(BACKSLASH)makerom.exe -f cia -o Options-Converter.cia -elf options_edit.elf -rsf files.rsf -icon icon.smdh -banner banner.bnr -major 1 -minor 3 -micro 9\n```\n\n## Usage-\n![](https-//github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/showoff.gif)\n### CLI Example-\n- All scripts take the input file path as the 1st argument and if it wasn't specified, it defaults to `options.txt`.\n\n### Example(s)-\n**Defualt Command Usage-**\n```\noptions_convert my_cool_options.txt\n```\n**For Legacy Consoles-**\n```\n.(BACKSLASH)options_convert.exe my_cool_options.txt\n```\n\n### Release Hashes-\n```\noptions_revert.exe    -    SHA256  -    17d0825669c08fd59201464630f55d6f43ba4c518243987a0612f30daa8e013e\noptions_revert.exe    -    SHA1    -    7a29bcc836e935e352a369426f18d6b4d2941886\noptions_revert.exe    -    MD5     -    9252dfa2db109d5db5877a91fa0ee04a\n\noptions_convert.exe   -    SHA256  -    ecc6880332dd1926d4bd1a7a6f7661a49ab79325f5b1bdc103971652d6b8ef1c\noptions_convert.exe   -    SHA1    -    407fcc7933eaab23ee5dc7896be0a995341652bb\noptions_convert.exe   -    MD5     -    f9495f28d862055144a4dbb1ecc75056\n```\n",
+               "screenshots": [
+                  {
+                     "description": "In the app",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3dsoptions-a.png"
+                  },
+                  {
+                     "description": "HOME Menu preview",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3dsoptions-b.png"
+                  },
+                  {
+                     "description": "Banner",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3dsoptions-c.png"
+                  }
+               ],
+               "icon_index":20,
+               "sheet_index":0,
+               "last_updated":"2024-01-15 at 12:41 (CST)"
+            },
+               "MC3DS-Options (CIA)":{
+               "size":"299 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/tools/options_converter.cia",
+                     "output": "sdmc:/Minecraft 3DS/options_converter.cia"
+                  },
+                  {
+                     "type": "installCia",
+                     "file": "sdmc:/Minecraft 3DS/options_converter.cia"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/options_converter.cia"
+                  }
+               ]
+            },
+            "MC3DS-Options (3DSX)":{
+               "size":"147 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/tools/options_converter.3dsx",
+                     "output": "sdmc:/3ds/options_converter.3dsx"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Nuclear Creeper",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"A mod that stretches MC-3DS to its' Absolute Limits. Just try to avoid the creepers at all Costs.",
+               "license":"unknown",
+               "releasenotes": "A mod that stretches MC-3DS to its' Absolute Limits. Just try to avoid the creepers at all Costs.",
+               "screenshots": [
+                  {
+                     "description": "Image 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/creeper-nuke-a.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/creeper-nuke-b.png"
+                  },
+                  {
+                     "description": "Image 3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/creeper-nuke-c.png"
+                  },
+                  {
+                     "description": "Image 4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/creeper-nuke-d.png"
+                  }
+               ], 
+               "icon_index":21,
+               "sheet_index":0,
+               "last_updated":"2024-01-28 at 17:09 (CST)"
+            },
+            "Nuclear Creeper (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nuclear-creeper/creeper.json",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/creeper.json",
+                  "type":"downloadFile"
+               }
+            ],
+            "Nuclear Creeper (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nuclear-creeper/creeper.json",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/creeper.json",
+                  "type":"downloadFile"
+               }
+            ],
+            "Nuclear Creeper (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nuclear-creeper/creeper.json",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/creeper.json",
+                  "type":"downloadFile"
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"Bat Bombs",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"A Mod based off of the May 15th 1943 disaster, brings you a whole new game mechanic (Good luck mining).",
+               "license":"unknown",
+               "releasenotes": "A Mod based off of the May 15th 1943 disaster, brings you a whole new game mechanic (Good luck mining).\n\nhttps://github.com/Cracko298/MC3DS-BatBomb",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ], 
+               "icon_index":22,
+               "sheet_index":0,
+               "last_updated":"2024-01-28 at 15:36 (CST)"
+            },
+            "Bat Bombs (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/bat-bombs/bat.json",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/bat.json",
+                  "type":"downloadFile"
+               }
+            ],
+            "Bat Bombs (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/bat-bombs/bat.json",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/bat.json",
+                  "type":"downloadFile"
+               }
+            ],
+            "Bat Bombs (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/bat-bombs/bat.json",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/bat.json",
+                  "type":"downloadFile"
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"Mojangles Font",
+               "author":"Cracko298",
+               "version":"1.0.1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"The old font ported to the latest patch (v1.9).",
+               "license":"none",
+               "releasenotes": "The old font ported to the latest patch (v1.9)",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-c.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-d.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-e.png"
+                  },
+                  {
+                     "description": "Image #6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-f.png"
+                  },
+                  {
+                     "description": "Image #7",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesa.png"
+                  },
+                  {
+                     "description": "Image #8",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesb.png"
+                  },
+                  {
+                     "description": "Image #9",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesc.png"
+                  },
+                  {
+                     "description": "Image #10",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesd.png"
+                  },
+                  {
+                     "description": "Image #11",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglese.png"
+                  },
+                  {
+                     "description": "Image #12",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesf.png"
+                  },
+                  {
+                     "description": "Image #13",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesg.png"
+                  },
+                  {
+                     "description": "Image #14",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesh.png"
+                  }
+               ],
+               "icon_index":23,
+               "sheet_index":0,
+               "last_updated":"2024-03-24 at 16:01 (CST)"
+            },
+            "Mojangles Font (USA)":{
+               "size":"703 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Mojangles_v1.0.1.zip",
+                     "output": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip",
+                     "input": "Mojangles_v1.0.1/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/3ds/font/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Mojangles Font (EUR)":{
+               "size":"703 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Mojangles_v1.0.1.zip",
+                     "output": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip",
+                     "input": "Mojangles_v1.0.1/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/3ds/font/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Mojangles Font (JPN)":{
+               "size":"703 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Mojangles_v1.0.1.zip",
+                     "output": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip",
+                     "input": "Mojangles_v1.0.1/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/3ds/font/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Festive World Override",
+               "author":"Cracko298",
+               "version":"0.1",
+               "category":["Miscellaneous"],
+               "console":["New 3DS"],
+               "description":"A proof of concept mod that doesn't take up any space on the World Saving Menu.",
+               "license":"none",
+               "releasenotes":"A proof of concept mod that doesn't take up any space on the World Saving Menu. It's a custom World that replaces the Festive World.\nhttps://github.com/Cracko298/MC3DS-World-Injection\nThanks to STBUniverse for making the panoramas.",
+               "screenshots": [
+                  {
+                     "description": "Image 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive1.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive2.png"
+                  },
+                  {
+                     "description": "Image 3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive3.png"
+                  },
+                  {
+                     "description": "Image 4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive4.png"
+                  },
+                  {
+                     "description": "Image 5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive5.png"
+                  },
+                  {
+                     "description": "Image 6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive6.png"
+                  },
+                  {
+                     "description": "Image 7",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive7.png"
+                  }
+               ],
+               "icon_index":24,
+               "sheet_index":0,
+               "last_updated":"2024-02-22 at 23:45 (CST)"
+            },
+            "v0.1 (USA)":{
+               "size":"4.17 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/misc/Custom_FestiveWorldTest.zip",
+                     "output": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/templates/festive/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                     "input": "resourcepacks/festive/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/festive/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+                  }
+               ]
+            },
+            "v0.1 (EUR)":{
+               "size":"4.17 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/misc/Custom_FestiveWorldTest.zip",
+                     "output": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/templates/festive/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                     "input": "resourcepacks/festive/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/festive/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+                  }
+               ]
+            },
+            "v0.1 (JPN)":{
+               "size":"4.17 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/misc/Custom_FestiveWorldTest.zip",
+                     "output": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/templates/festive/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                     "input": "resourcepacks/festive/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/festive/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Amplified World Generation",
+               "author":"Cracko298",
+               "version":"1.1.4",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"This is a mod that Enables Amplified World Generation, and adds Brand New structure too the game.",
+               "license":"none",
+               "releasenotes":"This is a mod that Enables Amplified World Generation, and adds Brand New structure to the game. All of which are randomly generated and based on the SEED (includes more features than listed here).\n\nhttps://github.com/Cracko298/MC3DS-AWG",
+               "screenshots": [
+                  {
+                     "description": "Image 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen1.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen2.png"
+                  },
+                  {
+                     "description": "Image 3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen3.png"
+                  },
+                  {
+                     "description": "Image 4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen4.png"
+                  },
+                  {
+                     "description": "Image 5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen5.png"
+                  },
+                  {
+                     "description": "Image 6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen6.png"
+                  },
+                  {
+                     "description": "Image 7",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen7.png"
+                  },
+                  {
+                     "description": "Image 8",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen8.png"
+                  },
+                  {
+                     "description": "Image 9",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen9.png"
+                  },
+                  {
+                     "description": "Image 10",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen10.png"
+                  },
+                  {
+                     "description": "Image 11",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen11.png"
+                  },
+                  {
+                     "description": "Image 12",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen12.png"
+                  }
+               ],
+               "icon_index":25,
+               "sheet_index":0,
+               "last_updated":"2024-04-03 at 10:30 (CST)"
+            },
+            "Amplified World Generation (USA)":{
+               "size":"19.2 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Amplified_Worlds_v116.zip",
+                     "output": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/templates/festive/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
+                     "input": "resourcepacks/festive/textures/ui/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/festive/textures/ui/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
+                  }
+               ]
+            },
+            "Amplified World Generation (EUR)":{
+               "size":"19.2 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Amplified_Worlds_v116.zip",
+                     "output": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/templates/festive/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
+                     "input": "resourcepacks/festive/textures/ui/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/festive/textures/ui/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
+                  }
+               ]
+            },
+            "Amplified World Generation (JPN)":{
+               "size":"19.2 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Amplified_Worlds_v116.zip",
+                     "output": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/templates/festive/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
+                     "input": "resourcepacks/festive/textures/ui/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/festive/textures/ui/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Zombie Apocalypse",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"A Mod that turns Villages into a Dangerous Place.",
+               "license":"unknown",
+               "releasenotes": "A Mod that turns Villages into a Dangerous Place.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/apocalypse.png"
+                  }
+               ], 
+               "icon_index":26,
+               "sheet_index":0,
+               "last_updated":"2024-03-19 at 22:39 (CST)"
+            },
+            "Zombie Apocalypse (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/apocalypse.zip",
+                  "output":"sdmc:/Minecraft 3DS/apocalypse.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/apocalypse.zip",
+                  "input": "shitstain/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/apocalypse.zip"
+               }
+            ],
+            "Zombie Apocalypse (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/apocalypse.zip",
+                  "output":"sdmc:/Minecraft 3DS/apocalypse.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/apocalypse.zip",
+                  "input": "shitstain/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/apocalypse.zip"
+               }
+            ],
+            "Zombie Apocalypse (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/apocalypse.zip",
+                  "output":"sdmc:/Minecraft 3DS/apocalypse.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/apocalypse.zip",
+                  "input": "shitstain/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/apocalypse.zip"
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"DevWorld v2",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"A World that allows users to build and develop their own Minecraft Maps in the Void.",
+               "license":"unknown",
+               "releasenotes": "A World that allows users to build and develop their own Minecraft Maps in the Void. This is a recreation of the Development World that was made by DeadSkullzJr.\n\nhttps://github.com/Cracko298/MC3DS-Development-World",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld4.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld5.png"
+                  }
+               ], 
+               "icon_index":27,
+               "sheet_index":0,
+               "last_updated":"2024-03-26 at 10:24 (CST)"
+            },
+            "DevWorld v2":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/DevWorld_v2.zip",
+                  "output":"sdmc:/Minecraft 3DS/worlds/DevWorld_v2.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/DevWorld_v2.zip",
+                  "input": "DevWorld_v2/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/DevWorld v2/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/DevWorld_v2.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"Rare Bones",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Replaces Fossil (bone blocks) with diamond blocks",
+               "license":"unknown",
+               "releasenotes": "Replaces Fossil (bone blocks) with diamond blocks",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ], 
+               "icon_index":28,
+               "sheet_index":0,
+               "last_updated":"2024-03-26 at 18:55 (CST)"
+            },
+            "Rare Bones (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/FossilModv1.zip",
+                  "output":"sdmc:/Minecraft 3DS/FossilModv1.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/FossilModv1.zip",
+                  "input": "FossilModv1/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/structures/fossils/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/FossilModv1.zip"
+               }
+            ],
+            "Rare Bones (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/FossilModv1.zip",
+                  "output":"sdmc:/Minecraft 3DS/FossilModv1.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/FossilModv1.zip",
+                  "input": "FossilModv1/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/structures/fossils/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/FossilModv1.zip"
+               }
+            ],
+            "Rare Bones (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/FossilModv1.zip",
+                  "output":"sdmc:/Minecraft 3DS/FossilModv1.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/FossilModv1.zip",
+                  "input": "FossilModv1/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/structures/fossils/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/FossilModv1.zip"
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"April Fools Mod",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"April Fools mod that is very special.",
+               "license":"none",
+               "releasenotes":"April Fools mod that is very special.",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":29,
+               "sheet_index":0,
+               "last_updated":"2024-04-01 at 18:16 (CST)"
+            },
+            "April Fools Mod (USA)":{
+               "size":"21 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AprilFoolsMod_CC3D_FTW.zip",
+                     "output": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip",
+                     "input": "resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "April Fools Mod (EUR)":{
+               "size":"21 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AprilFoolsMod_CC3D_FTW.zip",
+                     "output": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip",
+                     "input": "resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "April Fools Mod (JPN)":{
+               "size":"21 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AprilFoolsMod_CC3D_FTW.zip",
+                     "output": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip",
+                     "input": "resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Festive Textures as Default",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Changes the Default World Resource Pack to the Festive Pack, allows saving while still having that Christmas Cheer.",
+               "license":"none",
+               "releasenotes":"Changes the Default World Resource Pack to the Festive Pack, allows saving while still having that Christmas Cheer.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festivedef1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festivedef2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festivedef3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festivedef4.png"
+                  }
+               ],
+               "icon_index":30,
+               "sheet_index":0,
+               "last_updated":"2024-04-01 at 18:48 (CST)"
+            },
+            "Festive Textures (USA)":{
+               "size":"3.46 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/FestiveWorldAsDefualt.zip",
+                     "output": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                     "input": "atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                     "input": "resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "Festive Textures (EUR)":{
+               "size":"3.46 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/FestiveWorldAsDefualt.zip",
+                     "output": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                     "input": "atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                     "input": "resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "Festive Textures (JPN)":{
+               "size":"3.46 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/FestiveWorldAsDefualt.zip",
+                     "output": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                     "input": "atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                     "input": "resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"TNT Mimics",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"A Minecraft 3DS Mod that adds a new Entity to the Game. They Mimic TNT Blocks, they're highly aggressive, and very explosive.",
+               "license":"none",
+               "releasenotes":"A Minecraft 3DS Mod that adds a new Entity to the Game. They Mimic TNT Blocks, they're highly aggressive, and very explosive. They replace Shulkers, but are planned to become their own Entity Soon.",
+               "screenshots": [
+                  {
+                     "description": "Banner",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic5.png"
+                  },
+                  {
+                     "description": "1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic1.png"
+                  },
+                  {
+                     "description": "2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic2.png"
+                  },
+                  {
+                     "description": "3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic3.png"
+                  },
+                  {
+                     "description": "4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic4.png"
+                  }
+               ],
+               "icon_index":31,
+               "sheet_index":0,
+               "last_updated":"2024-04-13 at 09:28 (CST)"
+            },
+            "TNT Mimic (USA)":{
+               "size":"294 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/TNT_Mimics.zip",
+                     "output": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "resourcepacks/vanilla/client/textures/entity/shulker/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/shulker/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+                  }
+               ]
+            },
+            "TNT Mimic (EUR)":{
+               "size":"294 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/TNT_Mimics.zip",
+                     "output": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "resourcepacks/vanilla/client/textures/entity/shulker/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/shulker/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+                  }
+               ]
+            },
+            "TNT Mimic (JPN)":{
+               "size":"294 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/TNT_Mimics.zip",
+                     "output": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "resourcepacks/vanilla/client/textures/entity/shulker/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/shulker/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                     "input": "resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Farlandia",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"Traverse through the Farlands in Minecraft 3DS.",
+               "license":"none",
+               "releasenotes":"Traverse through the Farlands in Minecraft 3DS.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/farlands1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/farlands2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/farlands3.png"
+                  }
+               ],
+               "icon_index":32,
+               "sheet_index":0,
+               "last_updated":"2024-04-14 at 16:21 (CST)"
+            },
+            "Farlandia":{
+               "size":"5.60 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Farlandia.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Farlandia.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Farlandia.zip",
+                     "input": "/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Farlandia/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Farlandia.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count":1
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"IMPORTANT NOTICE:\n\nThis should only be played on an emualtor, such as\nCitra, as it is very laggy.\nAlso, in the world, you have to turn to a\n45 degree angle and push the keys in the opposite\ndirection and the way you want.",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Cracko's Experimental Mods",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod","Shader"],
+               "console":["New 3DS"],
+               "description":"A bunch of experimental mods from Cracko298, including Xray Shaders, Remove Clouds, Remove Skybox, and Creative Mode Block Break.",
+               "license":"none",
+               "releasenotes":"A bunch of experimental mods from Cracko298, including Xray Shaders, Remove Clouds, Remove Skybox, and Creative Mode Block Break.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/noclouds.png"
+                  }
+               ],
+               "icon_index":33,
+               "sheet_index":0,
+               "last_updated":"2024-04-28 at 12:56 (CST)"
+            },
+            "Remove Clouds (USA)":{
+               "size":"719 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveClouds.zip",
+                     "output": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip",
+                     "input": "cloud.shbin",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/cloud.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+                  }
+               ]
+            },
+            "Remove Clouds (EUR)":{
+               "size":"719 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveClouds.zip",
+                     "output": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip",
+                     "input": "cloud.shbin",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/cloud.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+                  }
+               ]
+            },
+            "Remove Clouds (JPN)":{
+               "size":"719 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveClouds.zip",
+                     "output": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip",
+                     "input": "cloud.shbin",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/cloud.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+                  }
+               ]
+            },
+            "Remove Skybox (USA)":{
+               "size":"715 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveSkybox.zip",
+                     "output": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip",
+                     "input": "sky.shbin",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/sky.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+                  }
+               ]
+            },
+            "Remove Skybox (EUR)":{
+               "size":"715 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveSkybox.zip",
+                     "output": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip",
+                     "input": "sky.shbin",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/sky.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+                  }
+               ]
+            },
+            "Remove Skybox (JPN)":{
+               "size":"715 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveSkybox.zip",
+                     "output": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip",
+                     "input": "sky.shbin",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/sky.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+                  }
+               ]
+            },
+            "Creative Mode Block Break (USA)":{
+               "size":"735 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/CreativeModeBlockBreaking.zip",
+                     "output": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip",
+                     "input": "block_overlay.shbin",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/block_overlay.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+                  }
+               ]
+            },
+            "Creative Mode Block Break (EUR)":{
+               "size":"735 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/CreativeModeBlockBreaking.zip",
+                     "output": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip",
+                     "input": "block_overlay.shbin",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/block_overlay.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+                  }
+               ]
+            },
+            "Creative Mode Block Break (JPN)":{
+               "size":"735 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/CreativeModeBlockBreaking.zip",
+                     "output": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip",
+                     "input": "block_overlay.shbin",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/block_overlay.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+                  }
+               ]
+            },
+            "Xray Shaders (USA)":{
+               "size":"1.28 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/xray-shader.zip",
+                     "output": "sdmc:/Minecraft 3DS/xray-shader.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/xray-shader.zip",
+                     "input": "renderchunk.shbin",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/renderchunk.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/xray-shader.zip"
+                  }
+               ]
+            },
+            "Xray Shaders (EUR)":{
+               "size":"1.28 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/xray-shader.zip",
+                     "output": "sdmc:/Minecraft 3DS/xray-shader.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/xray-shader.zip",
+                     "input": "renderchunk.shbin",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/renderchunk.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/xray-shader.zip"
+                  }
+               ]
+            },
+            "Xray Shaders (JPN)":{
+               "size":"1.28 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/xray-shader.zip",
+                     "output": "sdmc:/Minecraft 3DS/xray-shader.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/xray-shader.zip",
+                     "input": "renderchunk.shbin",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/renderchunk.shbin"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/xray-shader.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Remove Mob Cap",
+               "author":"Cracko298",
+               "version":"1.2",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Removes the mob cap in-game.",
+               "license":"none",
+               "releasenotes":"Removes the mob cap in-game.",
+               "screenshots": [
+                  {
+                     "description": "Image 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap2.png"
+                  },
+                  {
+                     "description": "Image 3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap3.png"
+                  },
+                  {
+                     "description": "Image 4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap4.png"
+                  },
+                  {
+                     "description": "Image 5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap5.png"
+                  }
+               ],
+               "icon_index":34,
+               "sheet_index":0,
+               "last_updated":"2024-05-05 at 15:26 (CST)"
+            },
+            "Remove Mob Cap (USA)":{
+               "size":"154 Bytes",
+               "script":[
+                  {
+                     "type":"promptMessage",
+                     "message":"CAUTION:\nThis can cause very poor game\nperformance, and even crashing and overheating.\nPlease be careful when you use this mod.",
+                     "count":1
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nomobcap3.zip",
+                     "output": "sdmc:/Minecraft 3DS/nomobcap3.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/nomobcap3.zip",
+                     "input": "00040000001B8700.txt",
+                     "output": "sdmc:/cheats/00040000001B8700.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/nomobcap3.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"To use this mod, load up Minecraft 3DS, and open\nthe Rosalina Menu or CTRPF 7.X and click 'cheats'\nor 'action replay' respectively.",
+                     "count":1
+                  }
+               ]
+            },
+            "Remove Mob Cap (EUR)":{
+               "size":"154 Bytes",
+               "script":[
+                  {
+                     "type":"promptMessage",
+                     "message":"CAUTION:\nThis can cause very poor game\nperformance, and even crashing and overheating.\nPlease be careful when you use this mod.",
+                     "count":1
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nomobcap3.zip",
+                     "output": "sdmc:/Minecraft 3DS/nomobcap3.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/nomobcap3.zip",
+                     "input": "000400000017CA00.txt",
+                     "output": "sdmc:/cheats/000400000017CA00.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/nomobcap3.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"To use this mod, load up Minecraft 3DS, and open\nthe Rosalina Menu or CTRPF 7.X and click 'cheats'\nor 'action replay' respectively.",
+                     "count":1
+                  }
+               ]
+            },
+            "Remove Mob Cap (JPN)":{
+               "size":"154 Bytes",
+               "script":[
+                  {
+                     "type":"promptMessage",
+                     "message":"CAUTION:\nThis can cause very poor game\nperformance, and even crashing and overheating.\nPlease be careful when you use this mod.",
+                     "count":1
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nomobcap3.zip",
+                     "output": "sdmc:/Minecraft 3DS/nomobcap3.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/nomobcap3.zip",
+                     "input": "000400000017FD00.txt",
+                     "output": "sdmc:/cheats/000400000017FD00.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/nomobcap3.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"To use this mod, load up Minecraft 3DS, and open\nthe Rosalina Menu or CTRPF 7.X and click 'cheats'\nor 'action replay' respectively.",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Tricky Trials OST 320kHz",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Audio"],
+               "console":["New 3DS"],
+               "description":"Replaces the menu music with high quality new music from Minecraft 1.21.",
+               "license":"none",
+               "releasenotes":"Replaces the menu music with high quality new music from Minecraft 1.21.",
+               "screenshots": [
+                  {
+                     "description": "No image available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":35,
+               "sheet_index":0,
+               "last_updated":"2024-05-05 at 13:27 (CST)"
+            },
+            "Tricky Trials OST (USA)":{
+               "size":"179 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://download1592.mediafire.com/zyg2w7suo1ug5xJzkVeRKryvtYT6TLhgJunhPv9bq0BYdyGM3W8dK6U4FC1wL2buIC6gdCYEFRZXQ7kD0D_c-yxr9lwfAV-X27aKuUZY4n28NrRjsmseWFnQhj5DN_i-W_v7aTl_1hdw7uxztPqZ2itoOft3huORI4DYiNGgdg/d60104lrw13ecr8/NewTrickyTrialsOST320Khz.zip",
+                     "output": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip",
+                     "input": "sounds/music/menu/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip"
+                  }
+               ]
+            },
+            "Tricky Trials OST (EUR)":{
+               "size":"179 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://download1592.mediafire.com/zyg2w7suo1ug5xJzkVeRKryvtYT6TLhgJunhPv9bq0BYdyGM3W8dK6U4FC1wL2buIC6gdCYEFRZXQ7kD0D_c-yxr9lwfAV-X27aKuUZY4n28NrRjsmseWFnQhj5DN_i-W_v7aTl_1hdw7uxztPqZ2itoOft3huORI4DYiNGgdg/d60104lrw13ecr8/NewTrickyTrialsOST320Khz.zip",
+                     "output": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip",
+                     "input": "sounds/music/menu/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip"
+                  }
+               ]
+            },
+            "Tricky Trials OST (JPN)":{
+               "size":"179 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://download1592.mediafire.com/zyg2w7suo1ug5xJzkVeRKryvtYT6TLhgJunhPv9bq0BYdyGM3W8dK6U4FC1wL2buIC6gdCYEFRZXQ7kD0D_c-yxr9lwfAV-X27aKuUZY4n28NrRjsmseWFnQhj5DN_i-W_v7aTl_1hdw7uxztPqZ2itoOft3huORI4DYiNGgdg/d60104lrw13ecr8/NewTrickyTrialsOST320Khz.zip",
+                     "output": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip",
+                     "input": "sounds/music/menu/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/sounds/music/menu/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip"
                   }
                ]
             }
