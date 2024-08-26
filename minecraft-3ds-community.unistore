@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 10,
+        "revision": 11,
         "version": 3
     },
     "storeContent": [
@@ -936,6 +936,617 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/dropper.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"World in a Jar 3DS",
+               "author":"ArcModzzz",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"A basic survival but you are in a jar in the sky.",
+               "license":"unknown",
+               "releasenotes": "A basic survival but you are in a jar in the sky.\nChallenge :\n1 : Make a farm\n2 : Find the secret chest (not the jar library)\n3 : Mine the entire jar spawn and make a house\n\nCreator - ArcModzzz",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/world-in-jar-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/world-in-jar-b.png"
+                  }
+               ],
+               "icon_index":12,
+               "sheet_index":0,
+               "last_updated":"2022-05-05 at 13:02 (UTC)"
+            },
+            "World in a Jar 3DS":{
+               "size":"2.08 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/world-in-jar.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip",
+                     "input": "World in Jar 3DS by ArcModzzz/KwIAAH6MBwA=/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/World in a Jar 3DS/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Find the Button",
+               "author":"ArcModzzz",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"This map in the classic Find the Button genre has four levels.",
+               "license":"unknown",
+               "releasenotes": "This map in the classic Find the Button genre has four levels.\n\nCreator - ArcModzzz",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/find-the-button-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/find-the-button-b.png"
+                  }
+               ],
+               "icon_index":13,
+               "sheet_index":0,
+               "last_updated":"2022-04-29 at 11:07 (UTC)"
+            },
+            "Find the Button":{
+               "size":"1.29 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/find-the-button.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip",
+                     "input": "Find the Button 3DS/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Find the Button/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Ender Dragon Elytra Texture",
+               "author":"Babylion122",
+               "version":"1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"This texture pack changes the Elytra Wings to make them look like the Ender Dragon's wings",
+               "license":"unknown",
+               "releasenotes": "This texture pack changes the Elytra Wings to make them look like the Ender Dragon's wings\n\nCreator: Babylion122",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ender-elytra-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ender-elytra-b.png"
+                  }
+               ],
+               "icon_index":14,
+               "sheet_index":0,
+               "last_updated":"2022-10-24 at 00:00 (UTC)"
+            },
+            "Ender Dragon Elytra (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
+                  "output":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/elytra model/elytra.3dst",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/models/armor/elytra.3dst"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/elytra.3dst",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/items/elytra.3dst"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/broken_elytra.3dst",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/items/broken_elytra.3dst"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/atlas.items.meta_79954554_0.3dst",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/atlas.items.meta_79954554_0.3dst"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ],
+            "Ender Dragon Elytra (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
+                  "output":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/elytra model/elytra.3dst",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/models/armor/elytra.3dst"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/elytra.3dst",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/items/elytra.3dst"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/broken_elytra.3dst",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/items/broken_elytra.3dst"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/atlas.items.meta_79954554_0.3dst",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/atlas.items.meta_79954554_0.3dst"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ],
+            "Ender Dragon Elytra (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
+                  "output":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/elytra model/elytra.3dst",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/models/armor/elytra.3dst"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/elytra.3dst",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/items/elytra.3dst"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/broken_elytra.3dst",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/items/broken_elytra.3dst"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+                  "input":"Ender Dragon Elytra/atlas.items.meta_79954554_0.3dst",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/atlas.items.meta_79954554_0.3dst"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"Lapiz's Funland",
+               "author":"Babylion122",
+               "version":"1.1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"Basically a theme park.",
+               "license":"unknown",
+               "releasenotes": "A world with 20 total buildings. around 6 of which being minigames. Basically a theme park.\n\nCreator - Babylion122",
+               "screenshots": [
+                  {
+                     "description": "v1.0",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/lapiz-funland-a.png"
+                  },
+                  {
+                     "description": "v1.1 - City and Snow",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/lapiz-funland-b.png"
+                  }
+               ],
+               "icon_index":15,
+               "sheet_index":0,
+               "last_updated":"2022-10-28 at 00:16 (UTC)"
+            },
+            "Lapiz's Funland v1.0":{
+               "size":"1.33 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip",
+                     "input": "Lapiz_s Funland/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Lapiz's Funland v1.0/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "Lapiz's Funland v1.1 - City and Snow":{
+               "size":"1.33 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland-11.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip",
+                     "input": "Lapiz Funland 1_1 City and Snow/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Lapiz's Funland v1.1 - City and Snow/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Stampy's Lovely World",
+               "author":"Babylion122",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"Stampy's iconic let's-play world.",
+               "license":"unknown",
+               "releasenotes": "Stampy's iconic let's play world. This version only includes his house, but the rest of his world will come in a later update.\n\nCreator - Stampylonghead",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/stampy-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/stampy-b.png"
+                  }
+               ],
+               "icon_index":16,
+               "sheet_index":0,
+               "last_updated":"2022-10-01 at 11:01 (UTC)"
+            },
+            "Stampy's Lovely World":{
+               "size":"1.64 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/stampys-world.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/stampys-world.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/stampys-world.zip",
+                     "input": "Stampy_s World 3DS/Stampy_s World/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Stampy's Lovely World/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/stampys-world.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "Stampy's Lovely World - v1.1 Snapshot":{
+               "size":"1.33 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/stampys-world-11-snap.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/stampys-world-11-snap.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/stampys-world-11-snap.zip",
+                     "input": "Stampy_s World 3DS/Stampy_s World/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Stampy's Lovely World - v1.1 Snapshot/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/stampys-world-11-snap.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Blue 3dx's Modpack",
+               "author":"Blue 3dx",
+               "version":"6",
+               "category":["Modpack"],
+               "console":["3DS"],
+               "description":"A Minecraft 3ds Modpack! Replaces: Tools/Weapons/Armors Textures/Replaces Mobs And Blocks+items textures And Characters textures",
+               "license":"unknown",
+               "releasenotes": "A Minecraft 3ds Modpack! Replaces: Tools/Weapons/Armors Textures/Replaces Mobs And Blocks+items textures And Characters textures",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2c.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2d.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2e.png"
+                  }
+               ],
+               "icon_index":17,
+               "sheet_index":0,
+               "last_updated":"2024-07-12 at 07:17 (CST)"
+            },
+            "3dx's Modpack (USA)":{
+               "size":"3.93 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/3dxpack2.zip",
+                     "output": "sdmc:/Minecraft 3DS/3dxpack2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "resourcepacks/skins/skinpacks/Base/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "resourcepacks/vanilla/server/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip"
+                  }
+               ]
+            },
+            "3dx's Modpack (EUR)":{
+               "size":"3.93 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/3dxpack2.zip",
+                     "output": "sdmc:/Minecraft 3DS/3dxpack2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "resourcepacks/skins/skinpacks/Base/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "resourcepacks/vanilla/server/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip"
+                  }
+               ]
+            },
+            "3dx's Modpack (JPN)":{
+               "size":"3.93 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/3dxpack2.zip",
+                     "output": "sdmc:/Minecraft 3DS/3dxpack2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "resourcepacks/skins/skinpacks/Base/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "resourcepacks/vanilla/server/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip",
+                     "input": "resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/3dxpack2.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"DanTDM's Lab",
+               "author":"CleetusMcfarln",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"DanTDM’s lab recreated as accurately as possible.",
+               "license":"unknown",
+               "releasenotes": "DanTDM’s lab recreated as accurately as possibly; the seed isn’t perfect.\n\nOriginal Creator - DanTDM",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dantdm-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dantdm-b.png"
+                  }
+               ],
+               "icon_index":18,
+               "sheet_index":0,
+               "last_updated":"2022-03-27 at 02:47 (UTC)"
+            },
+            "DanTDM's Lab":{
+               "size":"1.08 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/dantdm-lab.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip",
+                     "input": "DanTDM Lab/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/DanTDM's Lab/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip"
                   },
                   {
                      "type": "promptMessage",
