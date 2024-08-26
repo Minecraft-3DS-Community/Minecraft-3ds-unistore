@@ -10,7 +10,7 @@ The NEW Minecraft 3DS Community UniStore, and the #1 place to get custom content
 ### Support
 Minecraft 3DS Community and Universal-Server Discord servers
 ### Testing
-Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Minecraft 3DS Community Discord server
+Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Minecraft 3DS Community Discord server. Thanks Susbaconhairman for idea of unistore.
 ## Item creators
 * ArcModzzz
     * World in Jar 3DS
