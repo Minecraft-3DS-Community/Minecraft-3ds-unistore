@@ -3535,6 +3535,937 @@
                   }
                ]
             }
+         },
+         {
+            "info":{
+               "title":"Mob Tower",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Adds a Brand-New and extremely rare Structure to Minecraft 3DS Edition. Fight through waves of Mobs as you try to Parkour and Mine your way to riches.",
+               "license":"unknown",
+               "releasenotes": "Adds a Brand-New and extremely rare Structure to Minecraft 3DS Edition. Fight through waves of Mobs as you try to Parkour and Mine your way to riches.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mobtowera.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mobtowerc.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mobtowerd.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mobtower2.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mobtower1.png"
+                  }
+               ],
+               "icon_index":37,
+               "sheet_index":0,
+               "last_updated":"2024-07-10 at 13:17 (CST)"
+            },
+            "Mob Tower (USA)":{
+               "size":"39 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/MobTower.zip",
+                     "output": "sdmc:/Minecraft 3DS/MobTower.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MobTower.zip",
+                     "input": "structures/igloo/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/structures/igloo/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/MobTower.zip"
+                  }
+               ]
+            },
+            "Mob Tower (EUR)":{
+               "size":"39 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/MobTower.zip",
+                     "output": "sdmc:/Minecraft 3DS/MobTower.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MobTower.zip",
+                     "input": "structures/igloo/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/structures/igloo/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/MobTower.zip"
+                  }
+               ]
+            },
+            "Mob Tower (JPN)":{
+               "size":"39 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/MobTower.zip",
+                     "output": "sdmc:/Minecraft 3DS/MobTower.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MobTower.zip",
+                     "input": "structures/igloo/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/structures/igloo/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/MobTower.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Cracko298's Game Patches",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Game patches by Cracko298.",
+               "license":"unknown",
+               "releasenotes": "Enhanced Particles:\nFixes some partical lag, and overall enhances how the game feels for certain stuff.\n\nhttps://github.com/Cracko298/MC3DS-ROMHACKS/tree/main",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":38,
+               "sheet_index":0,
+               "last_updated":"2024-07-20 at 23:34 (CST)"
+            },
+            "Enhanced Particles (USA ONLY)":{
+               "size":"164 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/enpart.zip",
+                     "output": "sdmc:/Minecraft 3DS/enpart.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                     "input": "code.ips",
+                     "output": "sdmc:/luma/titles/00040000001B8700/code.ips"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/enpart.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Blocky Skin",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"Adds a 'Blocky' Character to Game. His name is Block, everyone is Block.",
+               "license":"unknown",
+               "releasenotes": "Adds a 'Blocky' Character to Game. His name is Block, everyone is Block.\n\nIt's more of a corruption/demon than anything...\nBut yeah\nblock.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/block1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/block2.png"
+                  }
+               ],
+               "icon_index":39,
+               "sheet_index":0,
+               "last_updated":"2024-07-21 at 23:05 (CST)"
+            },
+            "Blocky skin (USA)":{
+               "size":"103 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Block.zip",
+                     "output": "sdmc:/Minecraft 3DS/Block.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Block.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Block.zip",
+                     "input": "resourcepacks/skins/skinpacks/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Block.zip"
+                  }
+               ]
+            },
+            "Blocky skin (EUR)":{
+               "size":"103 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Block.zip",
+                     "output": "sdmc:/Minecraft 3DS/Block.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Block.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Block.zip",
+                     "input": "resourcepacks/skins/skinpacks/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Block.zip"
+                  }
+               ]
+            },
+            "Blocky skin (JPN)":{
+               "size":"103 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Block.zip",
+                     "output": "sdmc:/Minecraft 3DS/Block.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Block.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Block.zip",
+                     "input": "resourcepacks/skins/skinpacks/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Block.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"SD Card Dropper Map",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"The dropper map on your sd card",
+               "license":"none",
+               "releasenotes":"The dropper map on your sd card. recommended mode creative because of spawn bug in this version, thanks to Cracko298 for help on FWO. Also thanks to STBUniverse for the panoramas.",
+               "screenshots": [
+                  {
+                     "description": "Image 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sdworld1.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sdworld2.png"
+                  },
+                  {
+                     "description": "Image 3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sdworld3.png"
+                  }
+               ],
+               "icon_index":40,
+               "sheet_index":0,
+               "last_updated":"2024-03-12 at 18:26 (CST)"
+            },
+            "Dropper (USA)":{
+               "size":"2.04 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/MC3DS-SDD.zip",
+                     "output": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/templates/festive/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "resourcepacks/festive/textures/ui/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/festive/textures/ui/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip"
+                  }
+               ]
+            },
+            "Dropper (EUR)":{
+               "size":"2.04 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/MC3DS-SDD.zip",
+                     "output": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/templates/festive/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "resourcepacks/festive/textures/ui/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/festive/textures/ui/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip"
+                  }
+               ]
+            },
+            "Dropper (JPN)":{
+               "size":"2.04 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/MC3DS-SDD.zip",
+                     "output": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "loc/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/templates/festive/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "resourcepacks/festive/textures/ui/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/festive/textures/ui/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"GenSpace Mod",
+               "author":"Vance, czx.",
+               "version":"1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Very nice addition to the game.",
+               "license":"unknown",
+               "releasenotes": "Put the credits folder in luma>titles>00040000001B8700>romfs\nPut the client folder in luma>titles>00040000001B8700>romfs>resourcepacks>vanilla",
+               "screenshots": [
+                  {
+                     "description": "screenshot",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/genspace.png"
+                  }
+               ],
+               "icon_index":41,
+               "sheet_index":0,
+               "last_updated":"2022-12-22 at 00:00 (CST)"
+            },
+            "GenSpace Mod (USA)":{
+               "size":"73 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
+                     "output": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                     "input": "GenSpace mod/credits/credits.txt",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/credits/credits.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                     "input": "GenSpace mod/client/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+                  }
+               ]
+            },
+            "GenSpace Mod (EUR)":{
+               "size":"73 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
+                     "output": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                     "input": "GenSpace mod/credits/credits.txt",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/credits/credits.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                     "input": "GenSpace mod/client/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+                  }
+               ]
+            },
+            "GenSpace Mod (JPN)":{
+               "size":"73 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
+                     "output": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                     "input": "GenSpace mod/credits/credits.txt",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/credits/credits.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                     "input": "GenSpace mod/client/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Modernization MegaPak",
+               "author":"Dale, various others",
+               "version":"1.0",
+               "category":["Modpack"],
+               "console":["New 3DS"],
+               "description":"An all-in-one modpack containing modernization mods for MC3DS compiled from community work and my own contributions.",
+               "license":"unknown",
+               "releasenotes": "An all-in-one modpack containing modernization mods for MC3DS compiled from community work and my own contributions. (pack version 1.0)\nContains: (with credit)\n-Cracko298's Enhanced Particles patch\n-Cracko298's port of the Mojangles (default Minecraft & MC3DS 1.0) font\n-TheRustico36's Cleann'slick GUI (v3.1) with adjustments made for this pack\n-TheRustico36's port of the post-Java 1.19.3 Steve and Alex skins\n-Zexlo's port of the post-Java 1.14 villager models and textures\n-susbaconhairman's new microSD texture from Vanilla Remastered\n-STBUniverse's ports of the Caves & Cliffs Part II and Nether Update panoramas\n-STBUniverse's port of the new bat model and textures introduced in Java 1.20.3\n\nAlso includes a near-full port of the post-Java 1.14 textures compiled from various sources and texture conversions made specifically for this pack as well as a replacement for the generic dirt background found in MC3DS loading screens\n\nThanks to Cracko298, TheRustico36, Zexlo, susbaconhairman, STBUniverse, and other members of the MC3DS modding community.\n\nAlso note that the new font may not fit perfectly into some menus, particularly the achievements menu – if you would prefer the MC3DS 1.9 font simply delete the fonts folder included in this pack\n\nhttps://github.com/wyndchyme/mc3ds-modern",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak4.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak5.png"
+                  },
+                  {
+                     "description": "Image #6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak6.png"
+                  },
+                  {
+                     "description": "Image #7",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak7.png"
+                  },
+                  {
+                     "description": "Image #8",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak8.png"
+                  },
+                  {
+                     "description": "Image #9",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak9.png"
+                  },
+                  {
+                     "description": "Image #10",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak10.png"
+                  }
+               ],
+               "icon_index":42,
+               "sheet_index":0,
+               "last_updated":"2024-08-19 at 21:39 (CST)"
+            },
+            "Modernization MegaPak (USA)":{
+               "size":"14.8 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "code.bin",
+                     "output": "sdmc:/luma/titles/00040000001B8700/code.bin"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/3ds/font/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/3ds/font/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/skins/skinpacks/Base/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/skins/skinpacks/StarWarsPrequel/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/StarWarsPrequel/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/mojang_logo.3dst",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/mojang_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/models/mobs.bjson",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/models/mobs.bjson"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/textures/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  }
+               ]
+            },
+            "Modernization MegaPak (EUR)":{
+               "size":"14.8 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "code.bin",
+                     "output": "sdmc:/luma/titles/000400000017CA00/code.bin"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/3ds/font/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/3ds/font/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/skins/skinpacks/Base/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/skins/skinpacks/StarWarsPrequel/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/StarWarsPrequel/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/mojang_logo.3dst",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/mojang_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/models/mobs.bjson",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/models/mobs.bjson"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/textures/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  }
+               ]
+            },
+            "Modernization MegaPak (JPN)":{
+               "size":"14.8 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "code.bin",
+                     "output": "sdmc:/luma/titles/000400000017FD00/code.bin"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/3ds/font/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/3ds/font/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/skins/skinpacks/Base/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/skins/skinpacks/StarWarsPrequel/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/StarWarsPrequel/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/mojang_logo.3dst",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/mojang_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/models/mobs.bjson",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/models/mobs.bjson"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/textures/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Maryland Mixup Skins",
+               "author":"Duckan",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"This pack includes 8 skins, and replaces some of the PVP Warrior skins.",
+               "license":"unknown",
+               "releasenotes": "Maryland Mixpack\nBy Duckan - Lucia\nCollection of skins\n\nThis pack includes 8 skins, and replaces some of the PVP Warrior skins.\n\nHere is a list of them and what skin they replace in-game -\n\nLucia - Desert_Archer\nKris - Desert_Brawler\nTrans Icon Herobrine (with better pants)(by Anon1449) - Desert_Brewer\nTrans Icon Herobrine (with better pants) but he is responibly self isolating (by Anon1449) - Desert_Engineer\nbicon herobrine (by Anon1449) - Desert_Griefer\nTheo (Celeste)(LovelyCelery)- Desert_Hunter\nMadeline (Celeste)(LovelyCelery) - Desert_Husk\nBadeline (Celeste)(LovelyCelery)- Desert_Tamer\n",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ], 
+               "icon_index":43,
+               "sheet_index":0,
+               "last_updated":"2024-01-15 at 00:45 (CST)"
+            },
+            "Maryland Mixup (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
+                  "output":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+                  "input":"Maryland Mixup/PVP_Warriors/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Maryland Mixup (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
+                  "output":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+                  "input":"Maryland Mixup/PVP_Warriors/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Maryland Mixup (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
+                  "output":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+                  "input":"Maryland Mixup/PVP_Warriors/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"ENDERMANYK's Shaders",
+               "author":"ENDERMANYK",
+               "version":"1.0.2",
+               "category":["Shader"],
+               "console":["New 3DS"],
+               "description":"This shader increases the world brightness and adds the side block shadow.",
+               "license":"none",
+               "releasenotes": "This shader increases the world brightness and adds the side block shadow.\n\nRelease 1.0.2\n\nNotes:\n-Rewrite the shadow code\n-Add the Lighting blocks color\n\nYou will need a Modded 3ds for the file works.\n\nMake sure you enabled Game Patching in the Luma3ds menu.\n\nPut the file to:\nUSA Version game\nsdcard:/luma/titles/00040000001B8700/romfs/shaders/3DS/\nEurope Version game\nsdcard:/luma/titles/000400000017CA00/romfs/shaders/3DS\nJapan Version game\nsdcard:/luma/titles/000400000017FD00/romfs/shaders/3DS",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/shader.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-a.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-b.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-c.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-d.png"
+                  }
+               ],
+               "icon_index":44,
+               "sheet_index":0,
+               "last_updated":"2023-04-08 at 09:33 (CDT)"
+            },
+            "ENDERMANYK's Shaders (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/endermanyk/renderchunk.shbin",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/renderchunk.shbin",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "ENDERMANYK's Shaders (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/endermanyk/renderchunk.shbin",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/renderchunk.shbin",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "ENDERMANYK's Shaders (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/endermanyk/renderchunk.shbin",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/renderchunk.shbin",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
          }
       ]
    }
