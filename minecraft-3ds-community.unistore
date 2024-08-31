@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 18,
+        "revision": 19,
         "version": 3
     },
     "storeContent": [
@@ -1564,7 +1564,7 @@
                "category":["Tool"],
                "console":["New 3DS"],
                "description":"A 3DS Homebrew Application that converts Material Attribute Files from MC-3DS Edition to *.json",
-               "license":"none",
+               "license":"Apache-2.0",
                "releasenotes":"# MC3DS-MAC\n\n----------\n\nWHATS NEW IN THIS RELEASE:\n\n##Release 2.0\n\n###Featureful update\n\n- App is not instantaneous anymore, rather it allows the user to see what's going on with the Application,\n- Cleaned up the code.\n- Fixed a critical memory leakage bug.\n- New directory for the files, now it's: '/mc3ds_files/attribute_conv'.\n- Added HxD's *.bak backup format.\n- Creates the directories now, instead of you needing to manually create them using FBI.\n\n----------\n\n- **A 3DS (Nintendo 3DS) Homebrew Application that converts Material Attribute Files from MC-3DS Edition to  .json**\n- **I spent too much invested time into this App.**\n- **Has compatibility with Citra on both <ins>PC, & Android</ins>.**\n\n## Usage:\n- **After downloading and installing the compiled .cia/.3dsx Open the application once to create a folder on the system SDHC Card.**\n- **Then copy over your Material Attribute Files (.material, .material3ds, .images, .dat, .mat, .bak) in the newly created: '[./mc3ds_files/attribute_conv](https://github.com/Cracko298/MC3DS-MAC)' Folder.**\n- **Enter the Application again, and now each file should have a newer generated file with the extension of '.json'.**\n- \n\n## Download(s):\n- **Download Standalone .cia [Here](https://github.com/Cracko298/MC3DS-MAC/releases/download/v1.4.1/MC3DS-MAC.cia).**\n- **Download HB Launcher .3dsx [Here](https://github.com/Cracko298/MC3DS-MAC/releases/download/v1.4.1/mc3ds-mac.3dsx).**\n- **Download Source .elf File [Here](https://github.com/Cracko298/MC3DS-MAC/releases/download/v1.4.1/mc3ds-mac.elf).**\n- **A Standalone Application for 'Windows x64' is avaliable [Here](https://github.com/Cracko298/MC3DS-Material-Converter).**\n\n### Don't have an SD Reader or a FTP Server?\n- **I have you covered, Click [Here](https://raw.githubusercontent.com/Cracko298/MC3DS-MAC/main/imgs/frame.png) for a <ins>Direct QR-Code</ins> Download.**\n\n## Building:\n- **Requires Devkitpro v3.0.3 or higher and the Basic 3DS SDK from it.**\n\n### Banner:\n```\n.(BACKSLASH)bannertool.exe makebanner -i 'banner_ico.png' -ca 'banner.bcwav' -o 'banner.bnr'\n```\n### Icon (SMDH):\n```\n.(BACKSLASH)bannertool.exe makesmdh -s 'MC3DS-MAC' -l 'MC Material Attribute Converter' -p 'Cracko298' -i 'pack.png' -o 'icon.smdh'\n```\n### Sound:\n```\n.(BACKSLASH)cwavtool.exe -i banner.wav -e pcm8 -o banner.bcwav\n```\n### MakeRom\n```\n.(BACKSLASH)makerom.exe -f cia -o MC3DS-MAC.cia -elf mc3ds-mac.elf -rsf files.rsf -icon icon.smdh -banner banner.bnr -major 1 -minor 3 -micro 9\n```\n\n## Requirement(s):\n- **A Homebrewed/Hacked 3DS Console with access to CFW and a Title Installer, or Homebrew Launcher.**\n- **An SDHC Card that's being used for your 3DS Games.**\n- **Material Attribute Files for Converting into .JSON Format.**\n\n## Credit(s):\n- **[Cracko298](https://github.com/Cracko298) Development of this Homebrew Application.**\n- **Steveice10 for [bannertool](https://github.com/Steveice10/bannertool).**\n- **PabloMK7 for [cwavtool](https://github.com/PabloMK7/cwavtool).**\n- **3DSGuy for [Project_CTR (makerom)](https://github.com/3DSGuy/Project_CTR).**",
                "screenshots": [
                   {
@@ -1621,7 +1621,7 @@
                "category":["Tool"],
                "console":["New 3DS"],
                "description":"Enables editing of 'options.txt' from MC3DS using the Built-in Windows Notepad Application.",
-               "license":"none",
+               "license":"Apache-2.0",
                "releasenotes":"# MC3DS-Options-WinEdit\n- **Enables editing of 'options.txt' from MC3DS using the Built-in Windows Notepad Application.**\n- **Basically works with any Text Editor that treats `NULL` bytes as Spacing(s), like Notepad.**\n\n## Download(s)\n- **Download the Converter [Here](https-//github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.1.0/options_converter.exe).**\n- **Do you need a Python Version? I did that as well [Here](https-//github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.1.0/options_converter.py).**\n- **Want to convert it back to that Notepad Format? Sure I have you covered [Here](https-//github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.1.0/options_revert.exe).**\n\n## Building-\n```\ng++ -o options_converter.exe -O3 -s options_converter.cpp\ng++ -o options_revert.exe -O3 -s options_revert.cpp\n.(BACKSLASH)makerom.exe -f cia -o Options-Converter.cia -elf options_edit.elf -rsf files.rsf -icon icon.smdh -banner banner.bnr -major 1 -minor 3 -micro 9\n```\n\n## Usage-\n![](https-//github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/showoff.gif)\n### CLI Example-\n- All scripts take the input file path as the 1st argument and if it wasn't specified, it defaults to `options.txt`.\n\n### Example(s)-\n**Defualt Command Usage-**\n```\noptions_convert my_cool_options.txt\n```\n**For Legacy Consoles-**\n```\n.(BACKSLASH)options_convert.exe my_cool_options.txt\n```\n\n### Release Hashes-\n```\noptions_revert.exe    -    SHA256  -    17d0825669c08fd59201464630f55d6f43ba4c518243987a0612f30daa8e013e\noptions_revert.exe    -    SHA1    -    7a29bcc836e935e352a369426f18d6b4d2941886\noptions_revert.exe    -    MD5     -    9252dfa2db109d5db5877a91fa0ee04a\n\noptions_convert.exe   -    SHA256  -    ecc6880332dd1926d4bd1a7a6f7661a49ab79325f5b1bdc103971652d6b8ef1c\noptions_convert.exe   -    SHA1    -    407fcc7933eaab23ee5dc7896be0a995341652bb\noptions_convert.exe   -    MD5     -    f9495f28d862055144a4dbb1ecc75056\n```\n",
                "screenshots": [
                   {
@@ -1678,7 +1678,7 @@
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"A mod that stretches MC-3DS to its' Absolute Limits. Just try to avoid the creepers at all Costs.",
-               "license":"unknown",
+               "license":"MIT",
                "releasenotes": "A mod that stretches MC-3DS to its' Absolute Limits. Just try to avoid the creepers at all Costs.",
                "screenshots": [
                   {
@@ -1732,7 +1732,7 @@
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"A Mod based off of the May 15th 1943 disaster, brings you a whole new game mechanic (Good luck mining).",
-               "license":"unknown",
+               "license":"MIT",
                "releasenotes": "A Mod based off of the May 15th 1943 disaster, brings you a whole new game mechanic (Good luck mining).\n\nhttps://github.com/Cracko298/MC3DS-BatBomb",
                "screenshots": [
                   {
@@ -1774,7 +1774,7 @@
                "category":["Texture Pack"],
                "console":["New 3DS"],
                "description":"The old font ported to the latest patch (v1.9).",
-               "license":"none",
+               "license":"MIT",
                "releasenotes": "The old font ported to the latest patch (v1.9)",
                "screenshots": [
                   {
@@ -2063,7 +2063,7 @@
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"This is a mod that Enables Amplified World Generation, and adds Brand New structure too the game.",
-               "license":"none",
+               "license":"Apache-2.0",
                "releasenotes":"This is a mod that Enables Amplified World Generation, and adds Brand New structure to the game. All of which are randomly generated and based on the SEED (includes more features than listed here).\n\nhttps://github.com/Cracko298/MC3DS-AWG",
                "screenshots": [
                   {
@@ -2224,7 +2224,7 @@
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"A Mod that turns Villages into a Dangerous Place.",
-               "license":"unknown",
+               "license":"Apache-2.0",
                "releasenotes": "A Mod that turns Villages into a Dangerous Place.",
                "screenshots": [
                   {
@@ -2296,7 +2296,7 @@
                "category":["World"],
                "console":["New 3DS"],
                "description":"A World that allows users to build and develop their own Minecraft Maps in the Void.",
-               "license":"unknown",
+               "license":"Apache-2.0",
                "releasenotes": "A World that allows users to build and develop their own Minecraft Maps in the Void. This is a recreation of the Development World that was made by DeadSkullzJr.\n\nhttps://github.com/Cracko298/MC3DS-Development-World",
                "screenshots": [
                   {
@@ -2800,7 +2800,7 @@
                "category":["World"],
                "console":["New 3DS"],
                "description":"Traverse through the Farlands in Minecraft 3DS.",
-               "license":"none",
+               "license":"Apache-2.0",
                "releasenotes":"Traverse through the Farlands in Minecraft 3DS.",
                "screenshots": [
                   {
@@ -2859,7 +2859,7 @@
                "category":["Mod","Shader"],
                "console":["New 3DS"],
                "description":"A bunch of experimental mods from Cracko298, including Xray Shaders, Remove Clouds, Remove Skybox, and Creative Mode Block Break.",
-               "license":"none",
+               "license":"Apache-2.0",
                "releasenotes":"A bunch of experimental mods from Cracko298, including Xray Shaders, Remove Clouds, Remove Skybox, and Creative Mode Block Break.",
                "screenshots": [
                   {
@@ -3120,7 +3120,7 @@
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"Removes the mob cap in-game.",
-               "license":"none",
+               "license":"Apache-2.0",
                "releasenotes":"Removes the mob cap in-game.",
                "screenshots": [
                   {
@@ -3328,7 +3328,7 @@
                "category":["World"],
                "console":["New 3DS"],
                "description":"A clone/recreation of @DeadSkullzJr's Skyblock Port.",
-               "license":"none",
+               "license":"Apache-2.0",
                "releasenotes":"A clone/recreation of @DeadSkullzJr's Skyblock Port.\n\nFWO Loading, and yes, you can still install it like traditional Maps.",
                "screenshots": [
                   {
@@ -3544,7 +3544,7 @@
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"Adds a Brand-New and extremely rare Structure to Minecraft 3DS Edition. Fight through waves of Mobs as you try to Parkour and Mine your way to riches.",
-               "license":"unknown",
+               "license":"Apache-2.0",
                "releasenotes": "Adds a Brand-New and extremely rare Structure to Minecraft 3DS Edition. Fight through waves of Mobs as you try to Parkour and Mine your way to riches.",
                "screenshots": [
                   {
@@ -3641,7 +3641,7 @@
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"Game patches by Cracko298.",
-               "license":"unknown",
+               "license":"Apache-2.0",
                "releasenotes": "Enhanced Particles:\nFixes some partical lag, and overall enhances how the game feels for certain stuff.\n\nhttps://github.com/Cracko298/MC3DS-ROMHACKS/tree/main",
                "screenshots": [
                   {
@@ -3682,7 +3682,7 @@
                "category":["Skin Pack"],
                "console":["New 3DS"],
                "description":"Adds a 'Blocky' Character to Game. His name is Block, everyone is Block.",
-               "license":"unknown",
+               "license":"none",
                "releasenotes": "Adds a 'Blocky' Character to Game. His name is Block, everyone is Block.\n\nIt's more of a corruption/demon than anything...\nBut yeah\nblock.",
                "screenshots": [
                   {
@@ -3785,7 +3785,7 @@
                "category":["World"],
                "console":["New 3DS"],
                "description":"The dropper map on your sd card",
-               "license":"none",
+               "license":"Apache-2.0",
                "releasenotes":"The dropper map on your sd card. recommended mode creative because of spawn bug in this version, thanks to Cracko298 for help on FWO. Also thanks to STBUniverse for the panoramas.",
                "screenshots": [
                   {
