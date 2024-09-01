@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 21,
+        "revision": 22,
         "version": 3
     },
     "storeContent": [
@@ -4500,7 +4500,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/barebones.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/barebones_1.1.zip",
                      "output": "sdmc:/Minecraft 3DS/barebones.zip"
                   },
                   {
@@ -4556,7 +4556,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/barebones.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/barebones_1.1.zip",
                      "output": "sdmc:/Minecraft 3DS/barebones.zip"
                   },
                   {
@@ -4612,7 +4612,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/barebones.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/barebones_1.1.zip",
                      "output": "sdmc:/Minecraft 3DS/barebones.zip"
                   },
                   {
