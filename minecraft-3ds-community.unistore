@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 23,
+        "revision": 24,
         "version": 3
     },
     "storeContent": [
@@ -4863,6 +4863,72 @@
                   {
                      "type": "promptMessage",
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"IronBrutes",
+               "author":"Cracko298",
+               "version":"1.0.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"A Mod that adds a new Mob/Entity to Minecraft 3DS Edition. With Custom behaviors, logic, and model.",
+               "license":"Apache 2.0",
+               "releasenotes": "A Mod that adds a new Mob/Entity to Minecraft 3DS Edition. With Custom behaviors, logic, and model.",
+               "screenshots": [
+                {
+                "description": "Image #1",
+                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb1.png"
+                },
+                {
+                "description": "Image #2",
+                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb2.png"
+                },
+                {
+                "description": "Image #3",
+                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb3.png"
+                },
+                {
+                "description": "Image #4",
+                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb4.png"
+                },
+                {
+                "description": "Image #5",
+                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb5.png"
+                },
+                {
+                "description": "Image #6",
+                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb6.png"
+                }
+            ],
+            "icon_index":49,
+            "sheet_index":0,
+            "last_updated":"2024-04-09 at 12:52 (CST)"
+            },
+            "IronBrutes":{
+               "size":"112 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Cracko298/MC3DS-IronBrute/releases/download/1.0.0/UniStoreVersion.zip",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/UniStoreVersion.zip",
+                     "input": "IronBrutes/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/UniStoreVersion.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This mod is experimental, and may break mob behavior.",
                      "count": 1
                   }
                ]
