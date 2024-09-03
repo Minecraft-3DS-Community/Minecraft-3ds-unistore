@@ -1,7 +1,7 @@
 # THE MINECRAFT 3DS UNISTORE
-The NEW Minecraft 3DS Community UniStore, and the #1 place to get custom content for the game.
+The official "Minecraft 3DS Community" UniStore is here!
 
-## Our unistore is now recommended! You can install it by going into Recommended Unistores section in Universal Updater
+## Our unistore is now recommended! You can install it by going into the Recommended Unistores section in Universal Updater
 
 ## Information
 
@@ -114,7 +114,7 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
     * Barebones textures
 
 
-**ALL CONTENT HAS THE APPROVAL OF THEIR RESPECIVE CREATORS/SUBMITTERS TO BE IN THIS STORE**
+**All content has been approved by their creators to be used**
 
 ## Building Atlas *.t3x.
 - Download [DevKitPro](https://github.com/devkitPro/installer/releases/latest)
