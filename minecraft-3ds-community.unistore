@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 25,
+        "revision": 26,
         "version": 3
     },
     "storeContent": [
@@ -5085,7 +5085,7 @@
          },
          {
             "info":{
-               "title":"SkyDen",
+               "title":"g",
                "author":"GenSpace",
                "version":"1",
                "category":["World"],
@@ -7013,6 +7013,2073 @@
                   "required":false
                }
             ]
+         },
+         {
+            "info":{
+               "title":"Legacy Console Default Skins",
+               "author":"TheRustico36",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"This skin pack includes classic skins from the Legacy console versions of Minecraft. These skins replace most of the ones from the Biome Settlers 1 pack. ",
+               "license":"unknown",
+               "releasenotes": "This skin pack includes classic skins from the Legacy console versions of Minecraft. These skins replace most of the ones from the Biome Settlers 1 pack.\n\nSkins - 19\n\nPorter - TheRustico36\n\nCreator - Mojang",
+               "screenshots": [
+                  {
+                     "description": "Some of the skins (sorry for poor quality, not my fault)",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/legacy-skins.png"
+                  }
+               ],
+               "icon_index":66,
+               "sheet_index":0,
+               "last_updated":"2022-09-21 at 00:00 (UTC)"
+            },
+            "Legacy Console Skins (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+                  "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+                  "input":"PVP_Warriors/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Legacy Console Skins (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+                  "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+                  "input":"PVP_Warriors/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Legacy Console Skins (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+                  "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+                  "input":"PVP_Warriors/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"Wewelsburg",
+               "author":"ThorMode9",
+               "version":"0.0.3",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"This map is an ongoing project loosely inspired by the architecture of German Renaissance castle.",
+               "license":"unknown",
+               "releasenotes": "This map is an ongoing project loosely inspired by the architecture of German Renaissance castle, Wewelsburg, located in the village of Wewelsburg, which is a district of the town of Büren, Westphalia, in the Landkreis of Paderborn in the northeast of North Rhine-Westphalia, Germany. The castle walls bear a rich occult history filled with many mysteries and centuries old horrors portrayed throughout this build.\n\nCreator - ThorMode9\n\n-----\n\nMinecraft - New Nintendo 3DS Edition (v1.9.19)\nWewelsburg v0.003 (2016 × 2016)\n\nThis map is an ongoing project loosely inspired by the architecture of German Renaissance castle, Wewelsburg, located in the village of Wewelsburg, which is a district of the town of Büren, Westphalia, in the Landkreis of Paderborn in the northeast of North Rhine-Westphalia, Germany.\n_______________________________________________________________________________\n\nUpdates:\n\nAdded more structures. \n\nExpansion of massive caves and cliffs.\n\nRain and lightning frequency decreased.\n_______________________________________________________________________________\n\nBuild\nBy: ThorMode9",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-c.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-d.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-e.png"
+                  },
+                  {
+                     "description": "Image #6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-f.png"
+                  },
+                  {
+                     "description": "Image #7",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-g.png"
+                  },
+                  {
+                     "description": "Image #8",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-h.png"
+                  },
+                  {
+                     "description": "Image #9",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-i.png"
+                  },
+                  {
+                     "description": "Image #10",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-j.png"
+                  }
+               ],
+               "icon_index":67,
+               "sheet_index":0,
+               "last_updated":"2023-12-05 at 22:43 (UTC)"
+            },
+            "Wewelsburg":{
+               "size":"16.1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Wewelsburg_v0.003_12-5-23.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip",
+                     "input": "Wewelsburg (12-5-23)/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.3/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.3/README.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Realistic 200% Larger Sun + Moon Collection",
+               "author":"ThorMode9",
+               "version":"1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"A collection of realistic suns and moons that are 200% larger than the normal ones in-game.",
+               "license":"unknown",
+               "releasenotes":"Minecraft - New Nintendo 3DS Edition (v1.9.19)\nRealistic/200% Larger Sun + Moon Texture\n\nThis texture pack increases the sun and moon size by 200% as well as provides\nrealistic textures and moon phase cycles for higher resolution worlds. This will\nbe applied to the sun and moon on all texture packs with the exception of Vanilla.\n(this will be included in a future update).\n_______________________________________________________________________________\n\nOriginal Textures:\nThorMode9\n_______________________________________________________________________________\n\nContents:\nRealistic 200% Larger Sun + Blood Moon (Every Full Moon)\nMoon behavior: Blood moon will spawn every eighth night, or every full moon.\n\nRealistic 200% Larger Sun + Blood Moon (Every Night - Full Moon)\nBlood Moon behavior: Every night will be a full blood moon.\n\nRealistic 200% Larger Sun + Blood Moon (Every Night - Phases)\nBlood Moon behavior: Every night will be a blood moon with default phases.\n\nRealistic 200% Larger Sun + Moon\n\n_______________________________________________________________________________\n\nInstructions:\nPlace the appropriate contents provided based on your region into the titles\nfolder on your New Nintendo 3DS/2DS micro SD card as shown below:\n\nSD:/luma/titles/00040000001B8700 (USA)\nSD:/luma/titles/000400000017CA00 (Europe)\nSD:/luma/titles/000400000017FD00 (Japan)\n\nInsert the micro SD into your New Nintendo 3DS/2DS.\n\nTo enable game patching, power on the system on while holding 'Select' to access the\nLuma3DS configuration menu. Highlight Enable Game Patching and press 'A' to enable.\nPress 'Start' to save the configuration settings.\n\nOpen Minecraft - New Nintendo 3DS Edition to access the updated content.",
+               "screenshots": [
+                  {
+                     "description": "200% larger sun",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-a.png"
+                  },
+                  {
+                     "description": "200% larger moon",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-b.png"
+                  },
+                  {
+                     "description": "Blood moon",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-c.png"
+                  },
+                  {
+                     "description": "Full moon",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-d.png"
+                  }
+               ],
+               "icon_index":68,
+               "sheet_index":0,
+               "last_updated":"2023-06-19 at 13:09 (CDT)"
+            },
+            "Realistic 200% Larger Sun and Moon (USA)":{
+               "size":"1.62 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                     "input": "200-larger-sun-moon/00040000001B8700/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                     "input": "200-larger-sun-moon/00040000001B8700/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun and Moon (EUR)":{
+               "size":"1.62 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                     "input": "200-larger-sun-moon/000400000017CA00/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                     "input": "200-larger-sun-moon/000400000017CA00/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun and Moon (JPN)":{
+               "size":"1.62 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                     "input": "200-larger-sun-moon/000400000017FD00/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                     "input": "200-larger-sun-moon/000400000017FD00/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun + Blood Moon Every Night + Phases (USA)":{
+               "size":"1.27 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-phases/00040000001B8700/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-phases/00040000001B8700/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun + Blood Moon Every Night + Phases (EUR)":{
+               "size":"1.27 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-phases/000400000017CA00/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-phases/000400000017CA00/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun + Blood Moon Every Night + Phases (JPN)":{
+               "size":"1.27 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-phases/000400000017FD00/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-phases/000400000017FD00/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun + Full Blood Moon Every Night (USA)":{
+               "size":"772 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-full-moon/00040000001B8700/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-full-moon/00040000001B8700/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun + Full Blood Moon Every Night (EUR)":{
+               "size":"772 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017CA00/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017CA00/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun + Full Blood Moon Every Night (JPN)":{
+               "size":"772 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017FD00/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017FD00/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun + Every Full Blood Moon (USA)":{
+               "size":"1.6 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-full-moon/00040000001B8700/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-full-moon/00040000001B8700/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun + Every Full Blood Moon (EUR)":{
+               "size":"1.6 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-full-moon/000400000017CA00/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-full-moon/000400000017CA00/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            },
+            "Realistic 200% Larger Sun + Every Full Blood Moon (JPN)":{
+               "size":"1.6 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                     "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-full-moon/000400000017FD00/romfs/resourcepacks/natural/images/environment/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/images/environment/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                     "input": "200-larger-sun-blood-moon-every-full-moon/000400000017FD00/romfs/resourcepacks/natural/textures/environment/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/textures/environment/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This will only work when the\nnatural textures are enabled.",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Superflat Survival",
+               "author":"ThorMode9",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"Superflat survival is particularly challenging because there are no structures and no materials to start with.",
+               "license":"unknown",
+               "releasenotes": "Superflat survival is particularly challenging because there are no structures and no materials to start with except for unlimited dirt three layers deep with bedrock underneath. This edition includes the infamous Bonus Chest accompanied by four torches and contains two (2) apples and one (1) sapling.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/superflat-survival.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/superflatsurvival1.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/superflatsurvival2.png"
+                  }
+               ],
+               "icon_index":69,
+               "sheet_index":0,
+               "last_updated":"2023-07-04 at 09:38 (UTC)"
+            },
+            "Superflat Survival":{
+               "size":"352 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/superflat-survival.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/superflat-survival.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/superflat-survival.zip",
+                     "input": "Minecraft 3DS Superflat Survival (Bonus Chest)/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Superflat Survival/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/superflat-survival.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Better Clouds",
+               "author":"ThorMode9",
+               "version":"1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Port of Niebieski250's Better Clouds textures.",
+               "license":"none",
+               "releasenotes":"Minecraft - New Nintendo 3DS Edition (v1.9.19)\nBetter Clouds (for Bedrock Edition)\n\nCreates more realistic clouds with color depth and better shape\nvariations for all texture packs.\n_______________________________________________________________\n\nOriginal textures by:\nNiebieski250\nhttps://www.planetminecraft.com/texture-pack/\nbetter-clouds-for-bedrock-edition/\n\nPorted by:\nThorMode9\n_______________________________________________________________\n\nContents:\nBetter Clouds (for Bedrock Edition)\n32x Minecraft 1.16.5 Realistic Clouds Texture Pack\n_______________________________________________________________\n\nInstructions:\nPlace the appropriate contents provided based on your region\ninto the 'titles' folder on your New Nintendo 3DS/2DS micro SD\ncard as shown below:\n\nSD:/luma/titles/00040000001B8700 (USA)\nSD:/luma/titles/000400000017CA00 (Europe)\nSD:/luma/titles/000400000017FD00 (Japan)\n\nInsert the micro SD into your New Nintendo 3DS/2DS.\n\nTo enable game patching, power the system on while holding\n'Select' to access the Luma3DS configuration menu. Highlight\n'Enable Game Patching' and press 'A' to enable. Press 'Start'\nto save the configuration settings.\n\nOpen Minecraft - New Nintendo 3DS Edition to access the updated\ncontent.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/better-clouds-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/better-clouds-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/better-clouds-c.png"
+                  }
+               ],
+               "icon_index":70,
+               "sheet_index":0,
+               "last_updated":"2023-08-09 at 16:14 (CST)"
+            },
+            "Better Clouds (USA)":{
+               "size":"21 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/better-clouds.7z",
+                     "output": "sdmc:/Minecraft 3DS/better-clouds.7z"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/better-clouds.7z",
+                     "input": "Minecraft 3DS Better Clouds (Vanilla)/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/environment/clouds.3dst",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/environment/clouds.3dst"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/better-clouds.7z"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Better Clouds (EUR)":{
+               "size":"21 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/better-clouds.7z",
+                     "output": "sdmc:/Minecraft 3DS/better-clouds.7z"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/better-clouds.7z",
+                     "input": "Minecraft 3DS Better Clouds (Vanilla)/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/environment/clouds.3dst",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/environment/clouds.3dst"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/better-clouds.7z"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Better Clouds (JPN)":{
+               "size":"21 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/better-clouds.7z",
+                     "output": "sdmc:/Minecraft 3DS/better-clouds.7z"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/better-clouds.7z",
+                     "input": "Minecraft 3DS Better Clouds (Vanilla)/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/environment/clouds.3dst",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/environment/clouds.3dst"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/better-clouds.7z"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Norse Mythology Mash Up",
+               "author":"ThorMode9",
+               "version":"0.3",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Minecraft 3DS' very first full-fledged texture pack!",
+               "license":"none",
+               "releasenotes": "Minecraft - New Nintendo 3DS Edition (v1.9.19)\nNorse Mythology Mash-up (32x) (v0.1)\n\nAre you heroic enough to enter the Great Hall, Valhalla? Find\nout in the Norse Mythology Mash-up! Compose your own grand\nsaga as you voyage through the 9 realms, from the treetops of\nYggdrasil, down into the mines of Svartalfheim and the depths\nof Hel!\n\n(This early release version of this port may be missing certain\nelements or may not appear as intended.)\n________________________________________________________________\n\nOriginal textures by:\n4J Studios\n\nPorted by:\nThorMode9\n\nSpecial thanks to:\nCracko, DeadSkullzJr, susbaconhairman, TheRustico,\nVanceForPresident, WeegeeFan1\n________________________________________________________________\n\nContents:\nNorse Mythology Mash-up (32x) (v0.1)\n________________________________________________________________\n\nInstructions:\nPlace the appropriate contents provided based on your region\ninto the 'titles' folder on your New Nintendo 3DS/2DS MicroSD\ncard as shown below:\n\nSD:/luma/titles/00040000001B8700 (USA)\nSD:/luma/titles/000400000017CA00 (Europe)\nSD:/luma/titles/000400000017FD00 (Japan)\n\nInsert the micro SD into your New Nintendo 3DS/2DS.\n\nTo enable game patching, power the system on while holding\n'Select' to access the Luma3DS configuration menu. Highlight\n'Enable Game Patching' and press 'A' to enable. Press 'Start'\nto save the configuration settings.\n\nOpen Minecraft - New Nintendo 3DS Edition to access the\nupdated content.\n\n* Minecraft - New Nintendo 3DS Edition DLC is required to play\nNorse Mythology Mash-up.\npack.\nContact skribbler#1095 on Discord if you ever need it ;)",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack4.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack5.png"
+                  },
+                  {
+                     "description": "Image #6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack6.png"
+                  },
+                  {
+                     "description": "Image #7",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack7.png"
+                  },
+                  {
+                     "description": "Image #8",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack8.png"
+                  },
+                  {
+                     "description": "Norse panorama",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack9.png"
+                  },
+                  {
+                     "description": "Norse panorama 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack10.png"
+                  },
+                  {
+                     "description": "Norse Particles 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart1.png"
+                  },
+                  {
+                     "description": "Norse Particles 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart2.png"
+                  },
+                  {
+                     "description": "Norse Particles 3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart3.png"
+                  },
+                  {
+                     "description": "Norse Particles 4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart4.png"
+                  },
+                  {
+                     "description": "Norse Particles 5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart5.png"
+                  },  
+                  {
+                     "description": "Norse Particles 6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart6.png"
+                  }
+               ],
+               "icon_index":71,
+               "sheet_index":0,
+               "last_updated":"2024-03-16 at 18:40 (CST)"
+            },
+            "Norse Mythology Textures (USA)":{
+               "size":"5.30 MB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
+                     "output":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "input":"resourcepacks/natural/",
+                     "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "input":"loc/",
+                     "output":"sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "input":"atlas/",
+                     "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"You will need to select this pack in the textures\nselection in your world's edit menu for this to work.",
+                     "count":1
+                  }
+               ]
+            },
+            "Norse Mythology Textures (EUR)":{
+               "size":"5.30 MB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
+                     "output":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "input":"resourcepacks/natural/",
+                     "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "input":"loc/",
+                     "output":"sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "input":"atlas/",
+                     "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"You will need to select this pack in the textures\nselection in your world's edit menu for this to work.",
+                     "count":1
+                  }
+               ]
+            },
+            "Norse Mythology Textures (JPN)":{
+               "size":"5.30 MB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
+                     "output":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "input":"resourcepacks/natural/",
+                     "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "input":"loc/",
+                     "output":"sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                     "input":"atlas/",
+                     "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/norse03.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"You will need to select this pack in the textures\nselection in your world's edit menu for this to work.",
+                     "count":1
+                  }
+               ]
+            },
+            "Norse Mythology Panorama (USA)":{
+               "size":"578 KB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
+                     "output":"sdmc:/Minecraft 3DS/norsepans.zip",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norsepans.zip",
+                     "input":"background/",
+                     "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/norsepans.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Norse Mythology Panorama (EUR)":{
+               "size":"578 KB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
+                     "output":"sdmc:/Minecraft 3DS/norsepans.zip",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norsepans.zip",
+                     "input":"background/",
+                     "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/norsepans.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Norse Mythology Panorama (JPN)":{
+               "size":"578 KB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
+                     "output":"sdmc:/Minecraft 3DS/norsepans.zip",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/norsepans.zip",
+                     "input":"background/",
+                     "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/norsepans.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Norse Mythology Rune Particles (USA)":{
+               "size":"1.26 MB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                     "output":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                     "input":"Minecraft 3DS Norse Mythology Mash-Up Rune Particle Add-On (Release)/00040000001B8700/romfs/resourcepacks/natural/textures/particle/",
+                     "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/client/textures/particle/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Norse Mythology Rune Particles (EUR)":{
+               "size":"1.26 MB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                     "output":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                     "input":"Minecraft 3DS Norse Mythology Mash-Up Rune Particle Add-On (Release)/000400000017CA00/romfs/resourcepacks/natural/textures/particle/",
+                     "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/client/textures/particle/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Norse Mythology Rune Particles (JPN)":{
+               "size":"1.26 MB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                     "output":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                     "input":"Minecraft 3DS Norse Mythology Mash-Up Rune Particle Add-On (Release)/000400000017FD00/romfs/resourcepacks/natural/textures/particle/",
+                     "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/client/textures/particle/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"DualFlow",
+               "author":"UnknownLoser",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"Dual Flow is a fairly simple parkour map mainly using two colors: white and black.",
+               "license":"unknown",
+               "releasenotes": "Dual Flow is a fairly simple parkour map mainly using two colors: white and black. You'll need to be quick to beat each level, as once you start, you'll have to keep moving as the platforms behind you disappear.\n\nCreator - UnknownLoser",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dualflow.png"
+                  }
+               ],
+               "icon_index":72,
+               "sheet_index":0,
+               "last_updated":"2022-08-06 at 12:06 (UTC)"
+            },
+            "DualFlow Demo":{
+               "size":"2.14 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/dualflow-demo.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/dualflow-demo.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/dualflow-demo.zip",
+                     "input": "DualFlowDemo/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/DualFlow Demo/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/dualflow-demo.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"LavaCity PVP",
+               "author":"Virtual Overtime",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"A small PVP map taking place in a flooded building.",
+               "license":"unknown",
+               "releasenotes": "A small PVP map taking place in a flooded building.\n\nCreator - Virtual Overtime",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/lavacity-pvp-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/lavacity-pvp-b.png"
+                  }
+               ],
+               "icon_index":73,
+               "sheet_index":0,
+               "last_updated":"2022-01-24 at 09:12 (UTC)"
+            },
+            "LavaCity PVP":{
+               "size":"173 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/lavacity-pvp.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/lavacity-pvp.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lavacity-pvp.zip",
+                     "input": "LavaCityPVP/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/LavaCity PVP/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lavacity-pvp.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"FNaF Hide and Seek",
+               "author":"Virtual Overtime",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"This is a hide and seek map themed around the popular Five Nights at Freddy's game.",
+               "license":"unknown",
+               "releasenotes": "This is a hide and seek map themed around the popular Five Nights at Freddy's game.\n\nCreator - Virtual Overtime",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf-hide-seek-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf-hide-seek-b.png"
+                  }
+               ],
+               "icon_index":74,
+               "sheet_index":0,
+               "last_updated":"2022-01-27 at 12:05 (UTC)"
+            },
+            "FNaF Hide and Seek":{
+               "size":"277 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/fnaf-hide-seek.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/fnaf-hide-seek.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/fnaf-hide-seek.zip",
+                     "input": "FNAFhideseek/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/FNaF Hide and Seek/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/fnaf-hide-seek.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"The Dropper - WaterMelon's Submission",
+               "author":"WaterMelon",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"WaterMelon's submission for The Dropper collaboration.",
+               "license":"none",
+               "releasenotes":"WaterMelon's submission for The Dropper collaboration.",
+               "screenshots": [
+                  {
+                     "description": "Image",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dropperw1.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dropperw2.png"
+                  }
+               ],
+               "icon_index":75,
+               "sheet_index":0,
+               "last_updated":"2022-11-03 at 13:33 (CST)"
+            },
+            "The Dropper Submission":{
+               "size":"1.36 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Dropper_Submission.zip",
+                     "output": "sdmc:/Minecraft 3DS/Dropper_Submission.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Dropper_Submission.zip",
+                     "input": "cy4AAGNCTQY=/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/WaterMelon's The Dropper Submission/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Dropper_Submission.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Debug Mode 3D",
+               "author":"WaterMelon",
+               "version":"1.0.1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"Helps people make textures.",
+               "license":"none",
+               "releasenotes":"Easy display of all blocks in game. Tool for making texture packs.",
+               "screenshots": [
+                  {
+                     "description": "Image 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/debugw.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/debugw1.png"
+                  },
+                  {
+                     "description": "Image 3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/debugw2.png"
+                  }
+               ],
+               "icon_index":76,
+               "sheet_index":0,
+               "last_updated":"2024-02-18 at 21:54 (CST)"
+            },
+            "v1.0.0":{
+               "size":"276 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Debug_Mode_3D.zip",
+                     "output": "sdmc:/Minecraft 3DS/Debug_Mode_3D.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D.zip",
+                     "input": "Debug Mode 3D/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Debug Mode 3D v1.0.0/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count":1
+                  }
+               ]
+            },
+            "v1.0.1":{
+               "size":"261 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Debug_Mode_3D1.0.1.zip",
+                     "output": "sdmc:/Minecraft 3DS/Debug_Mode_3D1.0.1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D1.0.1.zip",
+                     "input": "Debug Mode 3D/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Debug Mode 3D v1.0.1/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D1.0.1.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Blind Mazes",
+               "author":"WaterMelon",
+               "version":"1.0.4",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"Play the first ever maze map for Minecraft 3DS!",
+               "license":"unknown",
+               "releasenotes": "Play the first ever maze map for Minecraft 3DS!",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Blind1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Blind2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/blind3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/blind4.png"
+                  }
+               ],
+               "icon_index":77,
+               "sheet_index":0,
+               "last_updated":"2024-02-18 at 22:57 (CST)"
+            },
+            "Prerelease":{
+               "size":"3.59 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/BlindMazesPrerelease.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/BlindMazesPrerelease.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesPrerelease.zip",
+                     "input": "BlindMazePre/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes Prerelease/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesPrerelease.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "v1.0.0":{
+               "size":"3.35 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes.zip",
+                     "input": "Blind Mazes/MazeBlind/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.0/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "v1.0.0.5":{
+               "size":"4.60 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/BlindMazesfix.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/BlindMazesfix.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesfix.zip",
+                     "input": "BlindMazes1.0.1/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.0.5/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesfix.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "v1.0.1":{
+               "size":"4.60 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes1.0.1.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.1.zip",
+                     "input": "Blind Mazes/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.1/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.1.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "v1.0.2":{
+               "size":"5.22 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/BlindMazes1.0.2.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/BlindMazes1.0.2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/BlindMazes1.0.2.zip",
+                     "input": "BlindMazes1.0.2/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.2/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/BlindMazes1.0.2.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "v1.0.3":{
+               "size":"8.43 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes1.0.3.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.3.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.3.zip",
+                     "input": "Blind Mazes/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.3/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9a.7z"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "v1.0.4":{
+               "size":"5.85 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes1.0.4.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.zip",
+                     "input": "Blind Mazes/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.4/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "v1.0.4.1":{
+               "size":"5.85 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes1.0.4.1.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.1.zip",
+                     "input": "Blind Mazes/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.4.1/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.1.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"PC Gamer Cow",
+               "author":"WaterMelon",
+               "version":"1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Makes all cows look like the ones from the PC Gamer Demo version of Java Edition.",
+               "license":"none",
+               "releasenotes":"Makes all cows look like the ones from the PC Gamer Demo version of Java Edition.",
+               "screenshots": [
+                  {
+                     "description": "Image",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pcgcow.png"
+                  }
+               ],
+               "icon_index":78,
+               "sheet_index":0,
+               "last_updated":"2022-11-03 at 13:33 (CST)"
+            },
+            "PC Gamer Cow (USA)":{
+               "size":"1.51 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/PC_Gamer_Cow.zip",
+                     "output": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip",
+                     "input": "PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "PC Gamer Cow (EUR)":{
+               "size":"1.51 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/PC_Gamer_Cow.zip",
+                     "output": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip",
+                     "input": "PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "PC Gamer Cow (JPN)":{
+               "size":"1.51 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/PC_Gamer_Cow.zip",
+                     "output": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip",
+                     "input": "PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"GenSpace Textures",
+               "author":"Watermelon",
+               "version":"0.2",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Replaces every texture with GenSpace's head.",
+               "license":"none",
+               "releasenotes":"Did you not read the description?",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen4.png"
+                  }
+               ],
+               "icon_index":79,
+               "sheet_index":0,
+               "last_updated":"2024-06-03 at 20:31 (CST)"
+            },
+            "GenSpace Textures (USA)":{
+               "size":"51 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/whyamigamingdev.zip",
+                     "output": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                     "input": "genspace/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                     "input": "genspace/blocks.txt",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks/blocks.txt"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                     "input": "genspace/items.txt",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks/items.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+                  }
+               ]
+            },
+            "GenSpace Textures (EUR)":{
+               "size":"51 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/whyamigamingdev.zip",
+                     "output": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                     "input": "genspace/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                     "input": "genspace/blocks.txt",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/blocks/blocks.txt"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                     "input": "genspace/items.txt",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/blocks/items.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+                  }
+               ]
+            },
+            "GenSpace Textures (JPN)":{
+               "size":"51 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/whyamigamingdev.zip",
+                     "output": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                     "input": "genspace/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                     "input": "genspace/blocks.txt",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/blocks/blocks.txt"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                     "input": "genspace/items.txt",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/blocks/items.txt"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"1.20 Lava",
+               "author":"Zexlo",
+               "version":"1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Changes the in-game lava texture to 1.20's.",
+               "license":"unknown",
+               "releasenotes": "Changes the in-game lava texture to 1.20's.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/120lava.png"
+                  }
+               ],
+               "icon_index":80,
+               "sheet_index":0,
+               "last_updated":"2024-08-13 at 18:34 (CST)"
+            },
+            "1.20 Lava (USA)":{
+               "size":"98 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120lava.zip",
+                     "output": "sdmc:/Minecraft 3DS/120lava.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120lava.zip",
+                     "input": "1.20 lava/romfs/resourcepacks/vanilla/client/textures/blocks/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120lava.zip"
+                  }
+               ]
+            },
+            "1.20 Lava (EUR)":{
+               "size":"98 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120lava.zip",
+                     "output": "sdmc:/Minecraft 3DS/120lava.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120lava.zip",
+                     "input": "1.20 lava/romfs/resourcepacks/vanilla/client/textures/blocks/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/blocks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120lava.zip"
+                  }
+               ]
+            },
+            "1.20 Lava (JPN)":{
+               "size":"98 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120lava.zip",
+                     "output": "sdmc:/Minecraft 3DS/120lava.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120lava.zip",
+                     "input": "1.20 lava/romfs/resourcepacks/vanilla/client/textures/blocks/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/blocks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120lava.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"1.20 Mob Textures",
+               "author":"Zexlo",
+               "version":"1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Ports (most) mobs textures from 1.20 to MC3DS",
+               "license":"unknown",
+               "releasenotes": "1.20 Mob texture port\n\nPorts (most) mobs textures from 1.20 to MC3DS including:\n\n-villagers\n\n-pig\n\n-cows\n\n-chickens\n\n-illagers\n\n-spiders\n\n-guardians\n\n- blazes\n\n-zombie pigmen\n\n-zombie villagers\n\nas well as a few others.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mobtx1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mobtx2.png"
+                  }
+               ],
+               "icon_index":81,
+               "sheet_index":0,
+               "last_updated":"2024-08-13 at 18:34 (CST)"
+            },
+            "1.20 Mob Textures (USA)":{
+               "size":"609 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120mobtx.zip",
+                     "output": "sdmc:/Minecraft 3DS/120mobtx.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120mobtx.zip",
+                     "input": "1.20 mob textures/romfs/resourcepacks/vanilla/client/textures/entity/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120mobtx.zip"
+                  }
+               ]
+            },
+            "1.20 Mob Textures (EUR)":{
+               "size":"609 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120mobtx.zip",
+                     "output": "sdmc:/Minecraft 3DS/120mobtx.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120mobtx.zip",
+                     "input": "1.20 mob textures/romfs/resourcepacks/vanilla/client/textures/entity/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120mobtx.zip"
+                  }
+               ]
+            },
+            "1.20 Mob Textures (JPN)":{
+               "size":"609 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120mobtx.zip",
+                     "output": "sdmc:/Minecraft 3DS/120mobtx.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120mobtx.zip",
+                     "input": "1.20 mob textures/romfs/resourcepacks/vanilla/client/textures/entity/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120mobtx.zip"
+                  }
+               ]
+            }
          }
       ]
    }
