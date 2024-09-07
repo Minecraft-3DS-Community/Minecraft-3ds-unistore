@@ -1,6 +1,6 @@
 {
     "storeInfo": {
-        "title": "Minecraft 3DS Community",
+        "title": "Minecraft 3DS Community Unistore",
         "author": "Nawrek, Vance, and Cracko298",
         "description": "An online database of mods, textures, skins, and worlds for Minecraft: New Nintendo 3DS Edition",
         "file": "minecraft-3ds-community.unistore",
@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 24,
+        "revision": 25,
         "version": 3
     },
     "storeContent": [
@@ -4513,7 +4513,7 @@
             "info":{
                "title":"Barebones Texture Pack",
                "author":"Zexlo",
-               "version":"1",
+               "version":"1.1",
                "category":["Texture Pack"],
                "console":["New 3DS"],
                "description":"Ports every texture from the Bare Bones 1.20 texture pack, replaces the Plastic textures.",
@@ -4933,6 +4933,2086 @@
                   }
                ]
             }
+         },
+         {
+            "info":{
+               "title":"Minecraft 3DS Modernization",
+               "author":"GenSpace",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"This map includes a small sample of what was included in each update following Minecraft 3DS's discontinuation",
+               "license":"unknown",
+               "releasenotes": "This revolutionary map by GenSpace Gaming includes a small sample of what was included in each update following Minecraft 3DS's discontinuation, from the 1.13 all the way to the 1.18 updates!\n\nCreator: GenSpace",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-c.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-d.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-e.png"
+                  }
+               ],
+               "icon_index":50,
+               "sheet_index":0,
+               "last_updated":"2022-09-29 at 17:15 (UTC)"
+            },
+            "Modernization Survival":{
+               "size":"12.35 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/modernization-survival.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/modernization-survival.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/modernization-survival.zip",
+                     "input": "MC Modern S/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Minecraft 3DS Modernization - Survival/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/modernization-survival.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "Modernization Creative":{
+               "size":"12.37 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/modernization-creative.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/modernization-creative.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/modernization-creative.zip",
+                     "input": "MC Modern C/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Minecraft 3DS Modernization - Creative/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/modernization-creative.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"GenSpace's Skyblock",
+               "author":"GenSpace",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"A custom Skyblock map with 16 different islands.",
+               "license":"unknown",
+               "releasenotes": "Embark on an adventure through a familiar Minecraft map concept, but expanded upon! Explore 16 unique islands as you go about surviving in GenSpace's Skyblock. Some islands include boss fights, special structures, and hidden items!\n\nCreator - GenSpace",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-c.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-d.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-e.png"
+                  }
+               ],
+               "icon_index":51,
+               "sheet_index":0,
+               "last_updated":"2022-10-28 at 00:16 (UTC)"
+            },
+            "GenSpace's Skyblock":{
+               "size":"354 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/gen-skyblock.7z",
+                     "output": "sdmc:/Minecraft 3DS/worlds/gen-skyblock.7z"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/gen-skyblock.7z",
+                     "input": "Gen's Skyblock/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/GenSpace's Skyblock/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/gen-skyblock.7z"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"SkyDen",
+               "author":"GenSpace",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"SkyDen, just like the classic Stampy's/GoodTimesWithScar's map.",
+               "license":"unknown",
+               "releasenotes": "SkyDen, just like the classic Stampy's/GoodTimesWithScar's map, but now for the 3DS! Enjoy the islands you might remember fondly.\n\nCreator - Vicrtl345",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyden-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyden-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyden-c.png"
+                  }
+               ],
+               "icon_index":52,
+               "sheet_index":0,
+               "last_updated":"2022-10-07 at 10:46 (UTC)"
+            },
+            "SkyDen":{
+               "size":"519 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/skyden.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/skyden.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/skyden.zip",
+                     "input": "SkyDen/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/SkyDen/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/skyden.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Hide and go Seek",
+               "author":"JakerBricksYT",
+               "version":"1.3",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"In this map you can hide have the seeker find you and have fun you can play single player or multiplayer",
+               "license":"none",
+               "releasenotes":"Welcome to Hide and Seek In this map you can hide have the seeker find you and have fun you can play single player or multiplayer Take this game to the limits by playing every Map.\nMultiplayer reccomended.\n\nShowcasing video: https://www.youtube.com/watch?v=6kGaVU7icnk\n\nhttps://sites.google.com/view/3ds-maps/hide-and-seek",
+               "screenshots": [
+                  {
+                     "description": "Image 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek1.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek2.png"
+                  },
+                  {
+                     "description": "Image 3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek3.png"
+                  },
+                  {
+                     "description": "Image 4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek4.png"
+                  },
+                  {
+                     "description": "Image 5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek5.png"
+                  },
+                  {
+                     "description": "Image 6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek6.png"
+                  }
+               ],
+               "icon_index":53,
+               "sheet_index":0,
+               "last_updated":"2024-03-26 at 20:55 (CST)"
+            },
+            "Hide and go Seek Map":{
+               "size":"147 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3ds_Hide_and_seek_ver._1.3.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_and_seek_ver._1.3.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_and_seek_ver._1.3.zip",
+                     "input": "qQQAAKQEBQA=/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Hide and go Seek v1.3/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_and_seek_ver._1.3.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Random Loot",
+               "author":"KrftRV249",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Random Loot makes all the mob drops swapped.",
+               "license":"none",
+               "releasenotes":"Random Loot makes all the mob drops swapped.\n\nDISCLAIMER! Your 3ds must be modded for this to work. For more info, vist 3ds.hacks.guide .\n\nInfo:\n\nBaby varaiants of each mob will not drop anything except xp.\n\nMobs who normally drop nothing are not affected.\n\nIt might seem like multiple mobs drop zombie drops, but these are just the drops of the other zombie variants.\n\nIt does not randomize it everytime you start a world.\n\nInstructions: Extract the folder. Then, the files from the entities folder go in luma/titles/titleIDgoeshere/romfs/resourcepacks/vanilla/server/entities.\n\nPlease let me know of any bugs. You can contact me at @KrftRV249 on discord.",
+               "screenshots": [
+                  {
+                     "description": "Image 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/randomloot1.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/randomloot2.png"
+                  }
+               ],
+               "icon_index":54,
+               "sheet_index":0,
+               "last_updated":"2024-02-26 at 20:07 (CST)"
+            },
+            "Random Loot (USA)":{
+               "size":"214 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/random_loot.zip",
+                     "output": "sdmc:/Minecraft 3DS/random_loot.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/random_loot.zip",
+                     "input": "entities/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/random_loot.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "Random Loot (EUR)":{
+               "size":"214 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/random_loot.zip",
+                     "output": "sdmc:/Minecraft 3DS/random_loot.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/random_loot.zip",
+                     "input": "entities/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/random_loot.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "Random Loot (JPN)":{
+               "size":"214 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/random_loot.zip",
+                     "output": "sdmc:/Minecraft 3DS/random_loot.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/random_loot.zip",
+                     "input": "entities/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/random_loot.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Gun Mod",
+               "author":"KrftRV249",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Replaces the bow with a gun.",
+               "license":"none",
+               "releasenotes":"Replaces the bow with a gun. I couldn't figure out how to edit the texture of arrows in walls, so dm if you want to help. :P",
+               "screenshots": [
+                  {
+                     "description": "Image 1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gunmod1.png"
+                  },
+                  {
+                     "description": "Image 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gunmod2.png"
+                  }
+               ],
+               "icon_index":55,
+               "sheet_index":0,
+               "last_updated":"2024-03-30 at 15:47 (CST)"
+            },
+            "Gun Mod (USA)":{
+               "size":"484 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Gun_Mod.zip",
+                     "output": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                     "input": "Gun Mod/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                     "input": "Gun Mod/server/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "Gun Mod (EUR)":{
+               "size":"484 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Gun_Mod.zip",
+                     "output": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                     "input": "Gun Mod/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                     "input": "Gun Mod/server/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "Gun Mod (JPN)":{
+               "size":"484 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Gun_Mod.zip",
+                     "output": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                     "input": "Gun Mod/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                     "input": "Gun Mod/server/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Instant Eating",
+               "author":"KrftRV249",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"A simple edit that makes eating 32x faster.",
+               "license":"none",
+               "releasenotes":"A simple edit that makes eating 32x faster.\n\n'items' goes in \nluma/titles/<title id goes here>/romfs/resourcepacks/vanilla/server\n\nCreate folders as needed.\n\nTitle IDs:\n\n00040000001B8700 (USA)\n000400000017CA00 (Europe)\n000400000017FD00 (Japan)\n\n\nCreated by KrftRV249",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":56,
+               "sheet_index":0,
+               "last_updated":"2024-05-05 at 13:17 (CST)"
+            },
+            "Instant Eating (USA)":{
+               "size":"13.31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Instant_Eating.zip",
+                     "output": "sdmc:/Minecraft 3DS/Instant_Eating.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Instant_Eating.zip",
+                     "input": "Instant Eating/items.json",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/items.json"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Instant_Eating.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "Instant Eating (EUR)":{
+               "size":"13.31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Instant_Eating.zip",
+                     "output": "sdmc:/Minecraft 3DS/Instant_Eating.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Instant_Eating.zip",
+                     "input": "Instant Eating/items.json",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/items.json"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Instant_Eating.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            },
+            "Instant Eating (JPN)":{
+               "size":"13.31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Instant_Eating.zip",
+                     "output": "sdmc:/Minecraft 3DS/Instant_Eating.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Instant_Eating.zip",
+                     "input": "Instant Eating/items.json",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/items.json"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Instant_Eating.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Mipmapping patch",
+               "author":"linuxwizard",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Patches out mipmapping from the game, which promises a performance boost.",
+               "license":"none",
+               "releasenotes":"For use only with the US base game (1.0)",
+               "screenshots": [
+                  {
+                     "description": "Image",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":57,
+               "sheet_index":0,
+               "last_updated":"2024-02-16 at 10:14 (CST)"
+            },
+            "Mipmapping patch (1.0 USA ONLY)":{
+               "size":"17 Bytes",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/mipmapping/code.ips",
+                     "output": "sdmc:/luma/titles/00040000001B8700/code.ips"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"DISCLAIMER:\n\nThis mod is a work in progress, and may not\nwork as intended.\n\nThis is also only for use with the\nUS base game (1.0).",
+                     "count":1
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"ANOTHER DISCLAIMER:\n\nAGAIN THIS MOD WORKS ONLY\nFOR 1.0 USA VERSION.\n\nIN OTHER VERSIONS ITS ONLY\nPLACEBO.",
+                     "count":1
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"THE LAST DISCLAIMER.\n\nONLY.\nFOR.\n1.0 USA VERSION.",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"LoCity",
+               "author":"oliverimcDISC",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"This is a city map! Have fun!",
+               "license":"unknown",
+               "releasenotes": "This is a city map! This map is better with the 1.17 textures, but it really doesn't matter. Have Fun!\n\nCreator - olverimcDISC",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/locity-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/locity-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/locity-c.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/locity-d.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/locity-e.png"
+                  }
+               ],
+               "icon_index":58,
+               "sheet_index":0,
+               "last_updated":"2023-07-07 at 09:12 (UTC)"
+            },
+            "Locity 1.0":{
+               "size":"3.92 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/locity.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/locity.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/locity.zip",
+                     "input": "LoCity 1.0/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/LoCity 1.0/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/locity.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"PanGames",
+               "author":"PanguinBoi",
+               "version":"1",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"PanGames is a collection of games and attractions made to play with friends or alone.",
+               "license":"unknown",
+               "releasenotes": "PanGames is a collection of games and attractions made to play with friends or alone. It's basically an amusement park. This is an early release, more updates will come in the future.\n\nCreator - PanguinBoi",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-a.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-b.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-c.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-d.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-e.png"
+                  },
+                  {
+                     "description": "Image #6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-f.png"
+                  }
+               ],
+               "icon_index":59,
+               "sheet_index":0,
+               "last_updated":"2023-07-07 at 09:12 (UTC)"
+            },
+            "PanGames":{
+               "size":"1.71 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/pangames.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/pangames.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/pangames.zip",
+                     "input": "PanGames/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/PanGames/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/pangames.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"PokeTube City",
+               "author":"PokéTube",
+               "version":"1.4",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"Minecraft: New Nintendo 3DS Edition’s largest city world.",
+               "license":"unknown",
+               "releasenotes":"Minecraft: New Nintendo 3DS Edition’s largest city world. Explore multiple towns and a large city, with every single building having some sort of use.\n\nCreator: PokéTube",
+               "screenshots": [
+                  {
+                     "description": "PokeTube City v1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-a.png"
+                  },
+                  {
+                     "description": "PokeTube City v1.1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-b.png"
+                  },
+                  {
+                     "description": "PokeTube City v1.2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-c.png"
+                  },
+                  {
+                     "description": "PokeTube City v1.3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-d.png"
+                  },
+                  {
+                     "description": "PokeTube City v1.4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-14.png"
+                  },
+                  {
+                     "description": "PokeTube City: Past",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-past.png"
+                  }
+               ],
+               "icon_index":60,
+               "sheet_index":0,
+               "last_updated":"2023-07-08 at 00:00 (UTC)"
+            },
+            "PokeTube City v1":{
+               "size":"9.52 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/poketube-1.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/poketube-1.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-1.zip",
+                     "input": "PokeTube City/PokeTube City/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Poketube City/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-1.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "PokeTube City v1.1":{
+               "size":"7.27 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/poketube-11.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/poketube-11.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-11.zip",
+                     "input": "PokeTube City v1.1/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/PokeTube City v1.1/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-11.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "PokeTube City v1.2":{
+               "size":"8.55 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/poketube-12.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/poketube-12.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-12.zip",
+                     "input": "PokeTube City 1.2/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/PokeTube City v1.2/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-12.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "PokeTube City v1.3":{
+               "size":"8.50 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/poketube-13.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/poketube-13.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-13.zip",
+                     "input": "PokeTube City 1.3/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/PokeTube City v1.3/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-12.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "PokeTube City v1.4":{
+               "size":"12.36 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/poketube-14.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/poketube-14.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-14.zip",
+                     "input": "PokeTube City 1.4/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/PokeTube City v1.4/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-14.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            },
+            "PokeTube City: Past":{
+               "size":"9.27 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/poketube-past.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/poketube-past.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-past.zip",
+                     "input": "PokeTube City Past/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Poketube City: Past"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/poketube-past.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Better Creepers Mod",
+               "author":"RetroRemade",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"This mod makes creepers friendly and tameable, and it also adds baby creepers!",
+               "license":"unknown",
+               "releasenotes": "This delightful little mod changes creepers for the better. They are no longer hostile, and you can tame them with gunpowder. Once tamed, they will act like dogs and fight mobs for you in addition to teleporting to you when you are far enough away. Finally, this mod adds baby creepers, which are adorable and cannot be tamed.\n\nCreator - RetroRemade",
+               "screenshots": [
+                  {
+                     "description": "Creeper, aww... man.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/better-creepers.png"
+                  }
+               ],
+               "icon_index":61,
+               "sheet_index":0,
+               "last_updated":"2022-10-01 at 00:00 (UTC)"
+            },
+            "Better Creepers (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/better_creepers.zip",
+                  "output":"sdmc:/Minecraft 3DS/mods/better_creepers.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/better_creepers.zip",
+                  "input":"Better Creepers 3DS Mod/creeper.json",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/creeper.json"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/better_creepers.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ],
+            "Better Creepers (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/better_creepers.zip",
+                  "output":"sdmc:/Minecraft 3DS/mods/better_creepers.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/better_creepers.zip",
+                  "input":"Better Creepers 3DS Mod/creeper.json",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/creeper.json"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/better_creepers.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ],
+            "Better Creepers (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/better_creepers.zip",
+                  "output":"sdmc:/Minecraft 3DS/mods/better_creepers.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/better_creepers.zip",
+                  "input":"Better Creepers 3DS Mod/creeper.json",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/creeper.json"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/mods/better_creepers.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"STB-MC3DS UniStore",
+               "author":"STBUniverse",
+               "version":"48",
+               "category":["Miscellaneous"],
+               "console":["New 3DS"],
+               "description":"STB MC3DS - A store to find things made by STBUniverse for the MC 3DS Edition",
+               "license":"none",
+               "releasenotes":"stb-mc3ds-unistore\n\nQR Code for the UniStore:\n\nhttps://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/qr-code.png",
+               "screenshots": [
+                  {
+                     "description": "Unistore Preview",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/stb-unistore.png"
+                  },
+                  {
+                     "description": "Unistore Preview 2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/stb-unistore2.png"
+                  }
+               ],
+               "icon_index":62,
+               "sheet_index":0,
+               "last_updated":"2024-08-26 at 20:31 (CDT)"
+            },
+            "STB-MC3DS Unistore":{
+               "size":"175 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/stb-mc3ds.unistore",
+                     "output": "sdmc:/3ds/Universal-Updater/stores/stb-mc3ds.unistore"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/STBrian/stb-mc3ds-unistore/raw/main/spritesheet.t3x",
+                     "output": "sdmc:/3ds/Universal-Updater/stores/stb-mc3ds.t3x"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Cleann'slick GUI",
+               "author":"TheRustico36",
+               "version":"3.1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"This texture pack adds a new, darker look to Minecraft 3DS.",
+               "license":"unknown",
+               "releasenotes": "#Cleann'slick GUI 3.1\n\nChanges-\n- Changed map background as well as the nether one\n- little plus in the anvil GUI turns green (it was a blurry mess in 3.0)\n\nThis is a New GUI for Minecraft- New Nintendo 3ds.\n\nIf you're new to Minecraft- New Nintendo 3ds modding, then use these instructions-\n\n- You'll need a Homebrewed 3ds\n- And you'll need the game, of course\n\n1. Put the file with your corresponding game's region under- /luma/titles\n\nTitle IDs-\n\n00040000001B8700 (USA)\n000400000017CA00 (Europe)\n000400000017FD00 (Japan)\n\n2. If you don't have certain folders, create them with their corresponding name. It will not work if you mispell them.\n\n12. Safely eject the microSD card, remove the microSD card from your adapter,\nthen stick said storage card back into your New Nintendo 3DS/2DS XL. Press and\nhold Select, power the system on while still holding Select to access the\nLuma3DS configuration menu. In here you will want to make sure that 'Enable Game\nPatching' is set to enabled (indicated by an (x) to the left of the option). Press\nStart to save the configuration settings.\n\nI would really appreciate it if you left a review on the site!! -)\nThanks for downloding my pack!\n\nAnd if you need help, join the discord Minecraft 3ds Discord or Direct message me-\n\nDiscord- https-//discord.gg/6JsHyxk3    Creator- therustico (TheRustico36#8987)",
+               "screenshots": [
+                  {
+                     "description": "3.1, A",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui31a.png"
+                  },
+                  {
+                     "description": "3.1, B",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui31b.png"
+                  },
+                  {
+                     "description": "3.1, C",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui31c.png"
+                  },
+                  {
+                     "description": "3.0, A",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-a.png"
+                  },
+                  {
+                     "description": "3.0, B",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-b.png"
+                  },
+                  {
+                     "description": "3.0, C",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-c.png"
+                  },
+                  {
+                     "description": "3.0, D",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-d.png"
+                  },
+                  {
+                     "description": "3.0, E",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-e.png"
+                  },
+                  {
+                     "description": "2.0, A",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-a.png"
+                  },
+                  {
+                     "description": "2.0, B",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-b.png"
+                  },
+                  {
+                     "description": "2.0, C",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-c.png"
+                  },
+                  {
+                     "description": "2.0, D",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-d.png"
+                  },
+                  {
+                     "description": "2.0, E",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-e.png"
+                  },
+                  {
+                     "description": "1.0, A",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-a.png"
+                  },
+                  {
+                     "description": "1.0, B",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-b.png"
+                  },
+                  {
+                     "description": "1.0, C",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-c.png"
+                  },
+                  {
+                     "description": "1.0, D",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-d.png"
+                  },
+                  {
+                     "description": "1.0, E",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-e.png"
+                  }
+               ],
+               "icon_index":63,
+               "sheet_index":0,
+               "last_updated":"2024-01-13 at 11:12 (CST)"
+            },
+            "New GUI 3.1 (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
+                  "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+                  "input":"Cleann'slickGUI/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/map/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/map/"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+                  "input":"Cleann'slickGUI/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI 3.1 (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
+                  "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+                  "input":"Cleann'slickGUI/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/map/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/map/"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+                  "input":"Cleann'slickGUI/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI 3.1 (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
+                  "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+                  "input":"Cleann'slickGUI/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/map/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/map/"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+                  "input":"Cleann'slickGUI/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI 3.0 (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
+                  "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+                  "input":"Cleann'slick_GUI_3.0/map/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/map/"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+                  "input":"Cleann'slick_GUI_3.0/gui/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI 3.0 (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
+                  "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+                  "input":"Cleann'slick_GUI_3.0/map/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/map/"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+                  "input":"Cleann'slick_GUI_3.0/gui/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI 3.0 (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
+                  "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+                  "input":"Cleann'slick_GUI_3.0/map/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/map/"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+                  "input":"Cleann'slick_GUI_3.0/gui/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI 2.0 (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+                  "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+                  "input":"Cleann'slick_GUI_2.0/gui/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI 2.0 (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+                  "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+                  "input":"Cleann'slick_GUI_2.0/gui/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI 2.0 (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+                  "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+                  "input":"Cleann'slick_GUI_2.0/gui/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
+                  "output":"sdmc:/Minecraft 3DS/new-gui.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/new-gui.zip",
+                  "input":"MC3DS_NEW_GUI/gui/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/new-gui.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
+                  "output":"sdmc:/Minecraft 3DS/new-gui.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/new-gui.zip",
+                  "input":"MC3DS_NEW_GUI/gui/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/new-gui.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New GUI (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+                  "count":1
+               },
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
+                  "output":"sdmc:/Minecraft 3DS/new-gui.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/new-gui.zip",
+                  "input":"MC3DS_NEW_GUI/gui/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/new-gui.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"New Base Skins",
+               "author":"TheRustico36",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"The newest versions of Steve and Alex from the Minecraft Java Edition launcher.",
+               "license":"unknown",
+               "releasenotes": "The newest versions of Steve and Alex from the Minecraft launcher.\n\nSkins - 2\n\nPorter - TheRustico36\n\nCreator - Mojang",
+               "screenshots": [
+                  {
+                     "description": "Steve",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-a.png"
+                  },
+                  {
+                     "description": "Alex",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-b.png"
+                  }
+               ],
+               "icon_index":64,
+               "sheet_index":0,
+               "last_updated":"2022-11-26 at 00:00 (UTC)"
+            },
+            "New Base Skins (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+                  "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+                  "input":"New Base Skins/Base/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/new-base-skins.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New Base Skins (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+                  "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+                  "input":"New Base Skins/Base/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/new-base-skins.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "New Base Skins (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+                  "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+                  "input":"New Base Skins/Base/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/new-base-skins.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"Customization Removal",
+               "author":"Minecraft 3DS Community",
+               "version":"1",
+               "category":["Miscellaneous"],
+               "console":["New 3DS"],
+               "description":"Easily remove content installed from our unistore.",
+               "license":"none",
+               "releasenotes": "Easily remove content installed from our unistore.\n\nWARNING: DELETED DATA CANNOT BE RECOVERED! MAKE SURE TO THINK TWICE BEFORE CLICKING ANY OPTION!", 
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":65,
+               "sheet_index":0,
+               "last_updated":"2024-09-07 at 10:23 (CST)"
+            },
+            "Remove ALL content (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL installed\ncustom content for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700",
+                  "required":false
+               }
+            ],
+            "Remove ALL content (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL installed\ncustom content for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00",
+                  "required":false
+               }
+            ],
+            "Remove ALL content (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL installed\ncustom content for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00",
+                  "required":false
+               }
+            ],
+            "Remove textures (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL installed\ncustom textures for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
+                  "required":false
+               }
+            ],
+            "Remove textures (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL installed\ncustom textures for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
+                  "required":false
+               }
+            ],
+            "Remove textures (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL installed\ncustom textures for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
+                  "required":false
+               }
+            ],
+            "Remove skins (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL installed\ncustom skins for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks",
+                  "required":false
+               }
+            ],
+            "Remove skins (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL installed\ncustom skins for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks",
+                  "required":false
+               }
+            ],
+            "Remove skins (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL installed\ncustom skins for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks",
+                  "required":false
+               }
+            ],
+            "Remove mods (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL\ninstalled mods for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server",
+                  "required":false
+               }
+            ],
+            "Remove mods (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL\ninstalled mods for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server",
+                  "required":false
+               }
+            ],
+            "Remove mods (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL\ninstalled mods for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server",
+                  "required":false
+               }
+            ],
+            "Remove World Injections (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL injected\nworlds from the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/templates",
+                  "required":false
+               }
+            ],
+            "Remove World Injections (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL injected\nworlds from the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/templates",
+                  "required":false
+               }
+            ],
+            "Remove World Injections (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL injected\nworlds from the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/templates",
+                  "required":false
+               }
+            ],
+            "Remove language edits (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\nlanguage edits from the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/loc",
+                  "required":false
+               }
+            ],
+            "Remove language edits (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\nlanguage edits from the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/loc",
+                  "required":false
+               }
+            ],
+            "Remove language edits (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\nlanguage edits from the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/loc",
+                  "required":false
+               }
+            ],
+            "Remove Downloaded Worlds":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL downloaded\nworlds for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/Minecraft 3DS/worlds",
+                  "required":false
+               }
+            ],
+            "Remove audios (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\ncustom audios from the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/sounds/",
+                  "required":false
+               }
+            ],
+            "Remove audios (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\ncustom audios from the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/sounds/",
+                  "required":false
+               }
+            ],
+            "Remove audios (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\ncustom audios from the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/sounds/",
+                  "required":false
+               }
+            ],
+            "Remove SFX (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\ncustom sound effects from the game\n(CombinedAudio.bin)",
+                  "count":1
+               },
+               {
+                  "type":"deleteFile",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/sounds/CombinedAudio.bin"
+               }
+            ],
+            "Remove SFX (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\ncustom sound effects from the game\n(CombinedAudio.bin)",
+                  "count":1
+               },
+               {
+                  "type":"deleteFile",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/sounds/CombinedAudio.bin"
+               }
+            ],
+            "Remove SFX (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\ncustom sound effects from the game\n(CombinedAudio.bin)",
+                  "count":1
+               },
+               {
+                  "type":"deleteFile",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/sounds/CombinedAudio.bin"
+               }
+            ],
+            "Remove shaders (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\nshaders from the game!",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/shaders/",
+                  "required":false
+               }
+            ],
+            "Remove shaders (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\nshaders from the game!",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/shaders/",
+                  "required":false
+               }
+            ],
+            "Remove shaders (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\nshaders from the game!",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/shaders/",
+                  "required":false
+               }
+            ],
+            "Remove IPS patches (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\nIPS patches from the game!",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/code.ips",
+                  "required":false
+               }
+            ],
+            "Remove IPS patches (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete installed\nIPS patches from the game!",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/code.ips",
+                  "required":false
+               }
+            ],
+            "Remove IPS patches (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL downloaded\nworlds for the game",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/code.ips",
+                  "required":false
+               }
+            ]
          }
       ]
    }
