@@ -9080,6 +9080,155 @@
                   }
                ]
             }
+         },
+         {
+            "info":{
+               "title":"1.20 Seamless Varied Textures",
+               "author":"Zexlo",
+               "version":"1",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Ports and-or reacreates various tweaks from vanilla tweaks to MC3DS.",
+               "license":"unknown",
+               "releasenotes": "Seemless-Varied texture tweaks 1.20\n\nPorts and/or reacreates various tweaks from vanilla tweaks to MC3D\n\nThis pack includes:\n\n- Seemless polished stone blocks\n\n- seemless and more varied bookshelf\n\n- more varied brick block\n\n- brighter and more saturated netherrack and bricks for easier visibility\n\n- borderless glass and glass panes\n\nOPTIONAL VERSION which includes the above as well as the doors with glass windows from vanilla tweaks.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/slglass1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/slglass2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/slglass3.png"
+                  }
+               ],
+               "icon_index":82,
+               "sheet_index":0,
+               "last_updated":"2024-08-13 at 18:34 (CST)"
+            },
+            "1.20 Seamless Varied Textures (USA)":{
+               "size":"1.31 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvt.zip",
+                     "output": "sdmc:/Minecraft 3DS/120slvt.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvt.zip",
+                     "input": "1.20 seamless_varied textures/romfs/atlas/atlas.terrain.meta_79954554_0.3dst",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/atlas.terrain.meta_79954554_0.3dst"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvt.zip"
+                  }
+               ]
+            },
+            "1.20 Seamless Varied Textures (EUR)":{
+               "size":"1.31 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvt.zip",
+                     "output": "sdmc:/Minecraft 3DS/120slvt.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvt.zip",
+                     "input": "1.20 seamless_varied textures/romfs/atlas/atlas.terrain.meta_79954554_0.3dst",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/atlas.terrain.meta_79954554_0.3dst"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvt.zip"
+                  }
+               ]
+            },
+            "1.20 Seamless Varied Textures (JPN)":{
+               "size":"1.31 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvt.zip",
+                     "output": "sdmc:/Minecraft 3DS/120slvt.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvt.zip",
+                     "input": "1.20 seamless_varied textures/romfs/atlas/atlas.terrain.meta_79954554_0.3dst",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/atlas.terrain.meta_79954554_0.3dst"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvt.zip"
+                  }
+               ]
+            },
+            "1.20 Seamless Varied Textures + Glass Doors (USA)":{
+               "size":"1.81 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvtgd.zip",
+                     "output": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvtgd.zip",
+                     "input": "1.20 seamless_varied textures + glass doors/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+                  }
+               ]
+            },
+            "1.20 Seamless Varied Textures + Glass Doors (EUR)":{
+               "size":"1.81 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvtgd.zip",
+                     "output": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvtgd.zip",
+                     "input": "1.20 seamless_varied textures + glass doors/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+                  }
+               ]
+            },
+            "1.20 Seamless Varied Textures + Glass Doors (JPN)":{
+               "size":"1.81 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvtgd.zip",
+                     "output": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvtgd.zip",
+                     "input": "1.20 seamless_varied textures + glass doors/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+                  }
+               ]
+            }
          }
       ]
    }
