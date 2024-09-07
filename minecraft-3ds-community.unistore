@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 26,
+        "revision": 27,
         "version": 3
     },
     "storeContent": [
@@ -5085,7 +5085,7 @@
          },
          {
             "info":{
-               "title":"g",
+               "title":"SkyDen",
                "author":"GenSpace",
                "version":"1",
                "category":["World"],
