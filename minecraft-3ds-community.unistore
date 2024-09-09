@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 29,
+        "revision": 30,
         "version": 3
     },
     "storeContent": [
@@ -4069,7 +4069,7 @@
                "sheet_index":0,
                "last_updated":"2024-08-31 at 12:18 (CST)"
             },
-            "Modernization MegaPak (USA)":{
+            "Modernization MegaPack (USA)":{
                "size":"2.22 MB",
                "script":[
                   {
@@ -4171,7 +4171,7 @@
                   }
                ]
             },
-            "Modernization MegaPak (EUR)":{
+            "Modernization MegaPack (EUR)":{
                "size":"2.22 MB",
                "script":[
                   {
@@ -4267,7 +4267,7 @@
                   }
                ]
             },
-            "Modernization MegaPak (JPN)":{
+            "Modernization MegaPack (JPN)":{
                "size":"2.22 MB",
                "script":[
                   {
