@@ -1,7 +1,7 @@
 {
     "storeInfo": {
-        "title": "MC3DS Community Unistore",
-        "author": "Nawrek, Vance, STBUniverse and Cracko298",
+        "title": "Minecraft 3DS Community Unistore",
+        "author": "Nawrek, Vance, and Cracko298",
         "description": "An online database of mods, textures, skins, and worlds for Minecraft: New Nintendo 3DS Edition",
         "file": "minecraft-3ds-community.unistore",
         "url": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/minecraft-3ds-community.unistore",
@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 32,
+        "revision": 28,
         "version": 3
     },
     "storeContent": [
@@ -4015,9 +4015,9 @@
          },
          {
             "info":{
-               "title":"Modernization MegaPack",
+               "title":"Modernization MegaPak",
                "author":"Dale, various others",
-               "version":"1.4.0",
+               "version":"1.3.0",
                "category":["Modpack"],
                "console":["New 3DS"],
                "description":"An all-in-one modpack containing modernization mods for MC3DS compiled from community work and my own contributions.",
@@ -4026,65 +4026,55 @@
                "screenshots": [
                   {
                      "description": "Image #1",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak11.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak1.png"
                   },
                   {
                      "description": "Image #2",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak12.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak2.png"
                   },
                   {
                      "description": "Image #3",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak13.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak3.png"
                   },
                   {
                      "description": "Image #4",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak14.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak4.png"
                   },
                   {
                      "description": "Image #5",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak15.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak5.png"
                   },
                   {
                      "description": "Image #6",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak16.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak6.png"
                   },
                   {
                      "description": "Image #7",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak17.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak7.png"
                   },
                   {
                      "description": "Image #8",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak18.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak8.png"
                   },
                   {
                      "description": "Image #9",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak19.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak9.png"
                   },
                   {
                      "description": "Image #10",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak20.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak10.png"
                   }
                ],
                "icon_index":42,
                "sheet_index":0,
-               "last_updated":"2024-09-09 at 10:02 (CST)"
+               "last_updated":"2024-08-31 at 12:18 (CST)"
             },
-            "Modernization MegaPack (USA)":{
+            "Modernization MegaPak (USA)":{
                "size":"2.22 MB",
                "script":[
                   {
-                     "type":"promptMessage",
-                     "message":"If you want to update this pack, uninstall previous version first using our Customization Remover tool.",
-                     "count":1
-                  },
-                  {
-                     "type":"promptMessage",
-                     "message":"MegaPack will replace most of your other mods. Install MegaPack before any other mods to use them.",
-                     "count":1
-                  },
-                  {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.4.0.USA.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/modernmegapak.v1.3.0.USA.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   },
                   {
@@ -4171,22 +4161,12 @@
                   }
                ]
             },
-            "Modernization MegaPack (EUR)":{
+            "Modernization MegaPak (EUR)":{
                "size":"2.22 MB",
                "script":[
                   {
-                     "type":"promptMessage",
-                     "message":"If you want to update this pack, uninstall previous version first using our Customization Remover tool.",
-                     "count":1
-                  },
-                  {
-                     "type":"promptMessage",
-                     "message":"MegaPack will replace most of your other mods. Install MegaPack before any other mods to use them.",
-                     "count":1
-                  },
-                  {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.4.0.EUR.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/modernmegapak.v1.3.0.EUR.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   },
                   {
@@ -4267,22 +4247,12 @@
                   }
                ]
             },
-            "Modernization MegaPack (JPN)":{
+            "Modernization MegaPak (JPN)":{
                "size":"2.22 MB",
                "script":[
                   {
-                     "type":"promptMessage",
-                     "message":"If you want to update this pack, uninstall previous version first using our Customization Remover tool.",
-                     "count":1
-                  },
-                  {
-                     "type":"promptMessage",
-                     "message":"MegaPack will replace most of your other mods. Install MegaPack before any other mods to use them.",
-                     "count":1
-                  },
-                  {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.4.0.JPN.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/modernmegapak.v1.3.0.JPN.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   },
                   {
