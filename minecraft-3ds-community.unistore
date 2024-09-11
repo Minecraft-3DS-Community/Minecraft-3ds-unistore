@@ -4171,6 +4171,102 @@
                   }
                ]
             },
+            "Modernization MegaPack - No Mojangles Version (USA)":{
+               "size":"2.22 MB",
+               "script":[
+                  {
+                     "type": "promptMessage",
+                     "message": "Before updating Megapack, delete\nprevious version using Customization Remover tool.",
+                     "count": 1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "Megapack replaces most of other mods,\nmake sure to install it first!",
+                     "count": 1
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/modernmegapak.v1.4.0.USA.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/code.ips",
+                     "output": "sdmc:/luma/titles/00040000001B8700/code.ips"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/credits/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/credits/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/loc/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/notes/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/notes/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/mario/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/mario/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/mojang_logo.3dst",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/mojang_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/models/mobs.bjson",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/models/mobs.bjson"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/textures/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  }
+               ]
+            },
             "Modernization MegaPack (EUR)":{
                "size":"2.22 MB",
                "script":[
@@ -4267,7 +4363,193 @@
                   }
                ]
             },
+            "Modernization MegaPack - No Mojangles Version (EUR)":{
+               "size":"2.22 MB",
+               "script":[
+                  {
+                     "type": "promptMessage",
+                     "message": "Before updating Megapack, delete\nprevious version using Customization Remover tool.",
+                     "count": 1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "Megapack replaces most of other mods,\nmake sure to install it first!",
+                     "count": 1
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/modernmegapak.v1.4.0.EUR.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/credits/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/credits/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/loc/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/notes/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/notes/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/mario/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/mario/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/mojang_logo.3dst",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/mojang_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/models/mobs.bjson",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/models/mobs.bjson"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/textures/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  }
+               ]
+            },
             "Modernization MegaPack (JPN)":{
+               "size":"2.22 MB",
+               "script":[
+                  {
+                     "type": "promptMessage",
+                     "message": "Before updating Megapack, delete\nprevious version using Customization Remover tool.",
+                     "count": 1
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "Megapack replaces most of other mods,\nmake sure to install it first!",
+                     "count": 1
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/modernmegapak.v1.4.0.JPN.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/3ds/font/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/3ds/font/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/credits/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/credits/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/loc/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/notes/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/notes/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/mario/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/mario/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/vanilla/client/mojang_logo.3dst",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/mojang_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/other_ocean_logo.3dst"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/vanilla/client/models/mobs.bjson",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/models/mobs.bjson"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/vanilla/client/textures/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                  }
+               ]
+            },
+            "Modernization MegaPack - No Mojangles Version (JPN)":{
                "size":"2.22 MB",
                "script":[
                   {
