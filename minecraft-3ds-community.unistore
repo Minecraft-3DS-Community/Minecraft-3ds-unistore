@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 36,
+        "revision": 37,
         "version": 3
     },
     "storeContent": [
@@ -2421,14 +2421,14 @@
          },
          {
             "info":{
-               "title":"April Fools Mod",
+               "title":"Game Crashing Mod (April Fools 2024)",
                "author":"Cracko298",
                "version":"1",
                "category":["Mod"],
                "console":["New 3DS"],
-               "description":"April Fools mod that is very special.",
+               "description":"April Fools mod that is very special (has a 1% of corrupting your world files and crashes your game).",
                "license":"none",
-               "releasenotes":"April Fools mod that is very special.",
+               "releasenotes":"April Fools mod that is very special (has a 1% of corrupting your world files and crashes your game).",
                "screenshots": [
                   {
                      "description": "No image is available. Sorry.",
@@ -2442,6 +2442,11 @@
             "April Fools Mod (USA)":{
                "size":"21 KB",
                "script":[
+                  {
+                     "type":"promptMessage",
+                     "message":"This mod is a joke! It may corrupt your world files!",
+                     "count":1
+                  },
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AprilFoolsMod_CC3D_FTW.zip",
@@ -2468,6 +2473,11 @@
                "size":"21 KB",
                "script":[
                   {
+                     "type":"promptMessage",
+                     "message":"This mod is a joke! It may corrupt your world files!",
+                     "count":1
+                  },
+                  {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AprilFoolsMod_CC3D_FTW.zip",
                      "output": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
@@ -2492,6 +2502,11 @@
             "April Fools Mod (JPN)":{
                "size":"21 KB",
                "script":[
+                  {
+                     "type":"promptMessage",
+                     "message":"This mod is a joke! It may corrupt your world files!",
+                     "count":1
+                  },
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AprilFoolsMod_CC3D_FTW.zip",
@@ -4067,7 +4082,7 @@
                ],
                "icon_index":42,
                "sheet_index":0,
-               "last_updated":"2024-09-15 at 06:14 (CST)"
+               "last_updated":"2024-09-23 at 09:46 (CST)"
             },
             "Modernization MegaPack (USA)":{
                "size":"4.26 MB",
@@ -9229,6 +9244,303 @@
                   }
                ]
             }
+         },
+         {
+            "info":{
+               "title":"Pink Floyd Painting Pack",
+               "author":"wyndchyme",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Replaces the paintings in Minecraft: New Nintendo 3DS Edition's default texture pack with Pink Floyd album covers.",
+               "license":"unknown",
+               "releasenotes": "https://github.com/wyndchyme/mc3ds-pinkfloyd",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":84,
+               "sheet_index":0,
+               "last_updated":"2024-09-23 at 09:46 (CST)"
+            },
+            "Pink Floyd Painting Pack (USA)":{
+               "size":"100 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Pink.Floyd.Painting.Pack.v1.0.0.USA.zip",
+                     "output": "sdmc:/Minecraft 3DS/PFPP.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/PFPP.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/PFPP.zip"
+                  }
+               ]
+            },
+            "Pink Floyd Painting Pack (EUR)":{
+               "size":"100 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Pink.Floyd.Painting.Pack.v1.0.0.EUR.zip",
+                     "output": "sdmc:/Minecraft 3DS/PFPP.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/PFPP.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/PFPP.zip"
+                  }
+               ]
+            },
+            "Pink Floyd Painting Pack (JPN)":{
+               "size":"100 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Pink.Floyd.Painting.Pack.v1.0.0.JPN.zip",
+                     "output": "sdmc:/Minecraft 3DS/PFPP.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/PFPP.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/PFPP.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"MegaPack Standalone: Classic Textures",
+               "author":"wyndchyme",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"This is the Classic texture pack originally included as part of Modernization MegaPack, now also avaliable as a standlone mod!",
+               "license":"unknown",
+               "releasenotes": "It replaces candy texture pack!!!\n\nhttps://github.com/wyndchyme/mc3ds-classic-textures",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":85,
+               "sheet_index":0,
+               "last_updated":"2024-09-23 at 09:56 (CST)"
+            },
+            "MegaPack Standalone: Classic Textures (USA)":{
+               "size":"1.46 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.0.USA.zip",
+                     "output": "sdmc:/Minecraft 3DS/CTS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip",
+                     "input": "00040000001B8700/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip"
+                  }
+               ]
+            },
+            "MegaPack Standalone: Classic Textures (EUR)":{
+               "size":"1.46 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.0.EUR.zip",
+                     "output": "sdmc:/Minecraft 3DS/CTS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip",
+                     "input": "000400000017CA00/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip"
+                  }
+               ]
+            },
+            "MegaPack Standalone: Classic Textures (JPN)":{
+               "size":"1.46 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.0.JPN.zip",
+                     "output": "sdmc:/Minecraft 3DS/CTS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip",
+                     "input": "000400000017FD00/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"JJBA Skin Pack",
+               "author":"nawrek",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"This skin pack includes 25 of fan favorite skins from JoJo's Bizzare Adventure manga/anime.",
+               "license":"unknown",
+               "releasenotes": "This skin pack includes 25 of fan favorite skins from JoJo's Bizzare Adventure manga/anime. These skins replace all of the ones from the Biome Settlers 1 pack (and Steve is now Speedwagon The Goat;)).\n\nSkin List:\nPart 1 - Phantom Blood\n- Jonathan Joestar\n- Robert E. O. Speedwagon\n\nPart 2 - Battle Tendency\n- Joseph Joestar (Young)\n- Ceasar Zeppeli\n\nPart 3 - Stardust Crusaders\n- Jotaro Kujo (Part 3)\n- Star Platinum\n- Mohammed Avdol\n- Joseph Joestar (Old)\n- Noriaki Kakyoin\n- Jean Pierre Polnareff\n- DIO\n- The World\n\nPart 4 - Diamond is Unbreakable\n- Josuke Higashikata\n- Jotaro Kujo (Part 4)\n- Koichi Hirose\n- Okuyasu Nijimura\n- Yoshikage Kira\n- Killer Queen\n\nPart 5 - Golden Wind\n- Giorno Giovanna\n- Golden Experience Requiem\n- Bruno Buciaratti\n- Diavolo\n\nPart 6 - Stone Ocean\n- Jolyne Cujoh\n- Jotaro Kujo (Part 6)\n- Enrico Pucci\n\nPorter - nawrek\n\nCreator - Various Creators, skins grabbed from NameMC, so they are in public domain.",
+               "screenshots": [
+                  {
+                     "description": "Images coming soon",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":86,
+               "sheet_index":0,
+               "last_updated":"2024-09-23 at 12:43 (UTC)"
+            },
+            "JJBA Skin Pack (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/JJBA.zip",
+                  "output":"sdmc:/Minecraft 3DS/JJBA.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/base/",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/JJBA.zip",
+                  "input":"JJBA Skin Pack/skinpacks/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/JJBA.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "JJBA Skin Pack (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/JJBA.zip",
+                  "output":"sdmc:/Minecraft 3DS/JJBA.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/base/",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/JJBA.zip",
+                  "input":"JJBA Skin Pack/skinpacks/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/JJBA.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "JJBA Skin Pack (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/JJBA.zip",
+                  "output":"sdmc:/Minecraft 3DS/JJBA.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/base/",
+                  "required":false
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/JJBA.zip",
+                  "input":"JJBA Skin Pack/skinpacks/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/JJBA.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
          }
       ]
    }
