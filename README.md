@@ -63,6 +63,8 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
     * Instant Eating mod
 * linuxwizard
     * Mipmapping patch
+* Nawrek
+    * JoJo's Bizarre Adventure skins
 * PanguinBoi
     * PanGames
 * PokéTube
