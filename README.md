@@ -48,8 +48,6 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
-* Dale
-    * Modernization MegaPak (includes content from various other people)
 * ENDERMANYK
     * Shaders
 * Genspace
@@ -107,6 +105,10 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
     * Blind Mazes
     * PC Gamer Cow
     * GenSpace Textures
+* wyndchyme
+    * Modernization MegaPack (includes content from various other people)
+    * MegaPack Standalone: Classic Textures
+    * Pink Floyd Painting Pack
 * Zexlo
     * 1.20 Lava textures
     * 1.20 Mob textures
