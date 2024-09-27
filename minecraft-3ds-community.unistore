@@ -4041,43 +4041,39 @@
                "screenshots": [
                   {
                      "description": "Image #1",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak11.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-modern-1.png"
                   },
                   {
                      "description": "Image #2",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak12.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-modern-2.png"
                   },
                   {
                      "description": "Image #3",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak13.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-modern-3.png"
                   },
                   {
                      "description": "Image #4",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak14.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-modern-4.png"
                   },
                   {
                      "description": "Image #5",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak15.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-modern-5.png"
                   },
                   {
                      "description": "Image #6",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak16.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-modern-6.png"
                   },
                   {
                      "description": "Image #7",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak17.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-classic-textures-1.png"
                   },
                   {
                      "description": "Image #8",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak18.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-classic-textures-2.png"
                   },
                   {
                      "description": "Image #9",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak19.png"
-                  },
-                  {
-                     "description": "Image #10",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernmegapak20.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-classic-textures-3.png"
                   }
                ],
                "icon_index":42,
@@ -9258,7 +9254,11 @@
                "screenshots": [
                   {
                      "description": "Image #1",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-pinkfloyd-1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-pinkfloyd-2.png"
                   }
                ],
                "icon_index":84,
@@ -9339,7 +9339,15 @@
                "screenshots": [
                   {
                      "description": "Image #1",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-classic-textures-1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-classic-textures-2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-classic-textures-3.png"
                   }
                ],
                "icon_index":85,
