@@ -9543,6 +9543,172 @@
                   "count":1
                }
             ]
+         },
+         {
+            "info":{
+               "title":"Simple Suits",
+               "author":"nawrek, CandiedCat",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"Port of the CandiedCat's skinpack - Simple Suits! Replaces Battle and Beasts skins.",
+               "license":"none",
+               "releasenotes":"Port of the CandiedCat's skinpack - Simple Suits! Replaces Battle and Beasts skins.\n\n'Stylish outfits for the simplest of people.'\nThis skinpack includes 12 unique designs for you to choose from, enjoy!\n\nhttps://candiedcat.itch.io/simple-suits",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/simplesuits.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/simplesuitsb.png"
+                  }
+               ],
+               "icon_index":87,
+               "sheet_index":0,
+               "last_updated":"2024-09-30 at 10:30 (CST)"
+            },
+            "Simple Suits (USA)":{
+               "size":"281 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
+                     "output": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
+                     "input": "suits/BattleAndBeasts/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/BattleAndBeasts/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+                  }
+               ]
+            },
+            "Simple Suits (EUR)":{
+               "size":"281 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
+                     "output": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
+                     "input": "suits/BattleAndBeasts/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/BattleAndBeasts/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+                  }
+               ]
+            },
+            "Simple Suits (JPN)":{
+               "size":"281 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
+                     "output": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
+                     "input": "suits/BattleAndBeasts/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/BattleAndBeasts/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Simple Suits",
+               "author":"axojeff",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"This pack turnes normal Luigi skin into the Ice Luigi!",
+               "license":"none",
+               "releasenotes":"This pack will replace normal Luigi skin, with it's Ice variant! I hand made this texture in paint so I hope you like it :3 ",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":88,
+               "sheet_index":0,
+               "last_updated":"2024-09-30 at 10:30 (CST)"
+            },
+            "Simple Suits (USA)":{
+               "size":"4 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Ice_Luigi.zip",
+                     "output": "sdmc:/Minecraft 3DS/Ice_Luigi.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Ice_Luigi.zip",
+                     "input": "suits/MarioBrothers/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/MarioBrothers/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Ice_Luigi.zip"
+                  }
+               ]
+            },
+            "Simple Suits (EUR)":{
+               "size":"4 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Ice_Luigi.zip",
+                     "output": "sdmc:/Minecraft 3DS/Ice_Luigi.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Ice_Luigi.zip",
+                     "input": "suits/MarioBrothers/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/MarioBrothers/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Ice_Luigi.zip"
+                  }
+               ]
+            },
+            "Simple Suits (JPN)":{
+               "size":"4 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Ice_Luigi.zip",
+                     "output": "sdmc:/Minecraft 3DS/Ice_Luigi.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/Ice_Luigi.zip",
+                     "input": "suits/MarioBrothers/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/MarioBrothers/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/Ice_Luigi.zip"
+                  }
+               ]
+            }
          }
       ]
    }
