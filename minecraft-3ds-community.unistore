@@ -9631,7 +9631,7 @@
          },
          {
             "info":{
-               "title":"Simple Suits",
+               "title":"Ice Luigi Skin",
                "author":"axojeff",
                "version":"1",
                "category":["Skin Pack"],
@@ -9649,7 +9649,7 @@
                "sheet_index":0,
                "last_updated":"2024-09-30 at 10:30 (CST)"
             },
-            "Simple Suits (USA)":{
+            "Ice Luigi (USA)":{
                "size":"4 KB",
                "script":[
                   {
@@ -9669,7 +9669,7 @@
                   }
                ]
             },
-            "Simple Suits (EUR)":{
+            "Ice Luigi (EUR)":{
                "size":"4 KB",
                "script":[
                   {
@@ -9689,7 +9689,7 @@
                   }
                ]
             },
-            "Simple Suits (JPN)":{
+            "Ice Luigi (JPN)":{
                "size":"4 KB",
                "script":[
                   {
