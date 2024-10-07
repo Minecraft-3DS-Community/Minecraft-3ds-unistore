@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 38,
+        "revision": 39,
         "version": 3
     },
     "storeContent": [
@@ -9324,7 +9324,7 @@
             "info":{
                "title":"MegaPack Standalone: Classic Textures",
                "author":"wyndchyme",
-               "version":"1.0",
+               "version":"1.0.2",
                "category":["Texture Pack"],
                "console":["New 3DS"],
                "description":"This is the Classic texture pack originally included as part of Modernization MegaPack, now also avaliable as a standlone mod!",
@@ -9346,14 +9346,14 @@
                ],
                "icon_index":85,
                "sheet_index":0,
-               "last_updated":"2024-09-23 at 09:56 (CST)"
+               "last_updated":"2024-10-07 at 07:30 (CST)"
             },
             "MegaPack Standalone: Classic Textures (USA)":{
                "size":"1.46 MB",
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.0.USA.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.2.USA.zip",
                      "output": "sdmc:/Minecraft 3DS/CTS.zip"
                   },
                   {
@@ -9379,7 +9379,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.0.EUR.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.2.EUR.zip",
                      "output": "sdmc:/Minecraft 3DS/CTS.zip"
                   },
                   {
@@ -9405,7 +9405,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.0.JPN.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.2.JPN.zip",
                      "output": "sdmc:/Minecraft 3DS/CTS.zip"
                   },
                   {
@@ -9706,6 +9706,87 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/Ice_Luigi.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"MegaPack Standalone: Achievement Textures",
+               "author":"wyndchyme",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"These are the new achievement textures originally included as part of Modernization MegaPack, now also avaliable as a standalone mod!",
+               "license":"Apache",
+               "releasenotes": "https://github.com/wyndchyme/mc3ds-achievements",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-modern-2.png"
+                  }
+               ],
+               "icon_index":89,
+               "sheet_index":0,
+               "last_updated":"2024-10-07 at 07:56 (CST)"
+            },
+            "MegaPack Standalone: Achievement Textures (USA)":{
+               "size":"60 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Achievements.Standalone.v.1.0.0.USA.zip",
+                     "output": "sdmc:/Minecraft 3DS/CTS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip"
+                  }
+               ]
+            },
+            "MegaPack Standalone: Achievement Textures (EUR)":{
+               "size":"60 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Achievements.Standalone.v.1.0.0.EUR.zip",
+                     "output": "sdmc:/Minecraft 3DS/CTS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip"
+                  }
+               ]
+            },
+            "MegaPack Standalone: Achievement Textures (JPN)":{
+               "size":"60 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Achievements.Standalone.v.1.0.0.JPN.zip",
+                     "output": "sdmc:/Minecraft 3DS/CTS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/CTS.zip"
                   }
                ]
             }
