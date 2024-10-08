@@ -110,6 +110,7 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
 * wyndchyme
     * Modernization MegaPack (includes content from various other people)
     * MegaPack Standalone: Classic Textures
+    * MegaPack Standalone: Achievement Textures
     * Pink Floyd Painting Pack
 * Zexlo
     * 1.20 Lava textures
