@@ -41,7 +41,7 @@ This is a repository for a Universal-Updater UniStore that hosts mods for Minecr
 | Vicrtl345 | <ul><li>SkyDen</li></ul> |
 | Virtual Overtime | <ul><li>LavaCity PVP Map</li><li>FNAF Hide and Seek Map</li></ul> |
 | WaterMelon | <ul><li>The Dropper: 3DS Remaster</li><li>The Dropper Submission</li><li>Debug Mode 3D</li><li>Blind Mazes</li><li>PC Gamer Cow</li><li>GenSpace Textures</li></ul> |
-| wyndchyme | <ul><li>Modernization MegaPack (inckudes content from various other people)</li><li>MegaPack Standalone: Classic Textures</li><li>MegaPack Standalone: Achievement Textures</li><li>Pink Floyd Painting Pack</li></ul> |
+| wyndchyme | <ul><li>Modernization MegaPack (includes content from various other people)</li><li>MegaPack Standalone: Classic Textures</li><li>MegaPack Standalone: Achievement Textures</li><li>Pink Floyd Painting Pack</li></ul> |
 | Zexlo | <ul><li>1.20 Lava Textures</li><li>1.20 Mob Textures</li><li>1.20 Seamless Varied Textures</li><li>Bare Bones Textures</li></ul> | 
 
 _All content has been approved by their creators to be hosted on this UniStore._
