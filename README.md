@@ -1,133 +1,90 @@
-# THE MINECRAFT 3DS UNISTORE
-The official "Minecraft 3DS Community" UniStore is here!
+![mc](https://github.com/user-attachments/assets/3f99d4aa-1205-4e24-801c-ad95e92ccb0b)
 
-## Our unistore is now recommended! You can install it by going into the Recommended Unistores section in Universal Updater
+<div align="center">
+   
+__THE OFFICIAL MINECRAFT 3DS COMMUNITY UNISTORE__
 
-## Information
+![GitHub last commit](https://img.shields.io/github/last-commit/Minecraft-3DS-Community/Minecraft-3ds-unistore?color=blue)
 
-**If you want to know how to use this store, read the manual on our discord: https://discord.gg/xSrN6k965F**
+</div>
+
+## About
+
+This is a repository for a Universal-Updater UniStore that hosts mods for Minecraft: New Nintendo 3DS Edition. It can be installed on your console from the 'Recommended UniStores' menu in Universal-Updater.
+
+**For more information, read the manual on our Discord server: https://discord.gg/xSrN6k965F** 
+
+<br>
+
+## Contents
+| Creator | Mod(s) |
+| --- | --- |
+| ArcModzzz | <ul><li>World in a Jar 3DS</li><li>Find the Button</li></ul> | 
+| Babylion122 | <ul><li>Ender Dragon Elytra</li><li>Lapiz's Funland Map</li><li>Stampy's Lovely World Port</li></ul> |
+| CleetusMcfarln | <ul><li>DanTDM's Lab</li></ul>
+| Cracko298 | <ul><li>MC3DS-MAC</li><li>MC3DS-Options</li><li>Nuclear Creeper</li><li>Bat Bombs</li><li>Mojangles Font</li><li>Festive World Override</li><li>Amplified World Generation</li><li>Zombie Apocalypse</li><li>DevWorld v2</li><li>Rare Bones</li><li>April Fools Mod</li><li>Festive as Default Textures</li><li>TNT Mimic</li><li>Farlandia World</li><li>X-Ray Shader, Remove Clouds, Remove Skybox and Creative Mode Block Break</li><li>Remove Mob Cap</li><li>Tricky Trials OST 320kHz</li><li>SkyBlock Plus World</li><li>Mob Tower</li><li>Enhanced Particles</li><li>Block Skin</li><li>SD Card Dropper Map</li><li>IronBrutes</li></ul> |
+| CZX | <ul><li>The Dropper: 3DS Remaster</li><li>GenSpace Mod</li></ul> |
+| ENDERMANYK | <ul><li>ENDERMANYK's Shaders</li></ul>
+| GenSpace | <ul><li>Minecraft 3DS Modernization Map</li><li>The Dropper: 3DS Remaster</li><li>GenSpace's SkyBlock</li><li>SkyDen</li></ul> |
+| Glonk | <ul><li>Broken Stronghold Chest Fix</li></ul> |
+| KrftRV249 | <ul><li>Random Loot Mod</li><li>Guns Mod</li><li>Instant Eating Mod</li></ul> |
+| linuxwizard | <ul><li>Mipmapping Patch (1.0 Only)</li></ul> |
+| Nawrek | <ul><li>JoJo's Bizarre Adventure Skins</li></ul> | 
+| PanguinBoi | <ul><li>PanGames</li></ul> |
+| PokéTube | <ul><li>PokéTube City Map</li></ul> |
+| RetroRemade | <ul><li>Better Creepers Mod</li></ul> |
+| Ruff64 | <ul><li>The Dropper: 3DS Remaster</li></ul> |
+| STBUniverse | <ul><li>STB-MC3DS UniStore</li><li>Vanilla 1.20 Textures Port</li></ul> |
+| TheRustico36 | <ul><li>Cleann'slick GUI</li><li>New Base Skins Port</li><li>Legacy Console Default Skin Pack Port</li></ul> |
+| UnknownLoser | <ul><li>DualFlow</li></ul> |
+| VanceForPresident | <ul><li>Technoblade Skin</li><li>Technoblade's Crown</li><li>SkyBlock Map Port</li><li>Breaking Bad Skins</li><li>Sheeptastic Mod Port</li><li>Giant Baby Zombie Mod</li><li>3DSpleef</li><li>Building Time Map</li><li>Randoms Map Demo</li><li>Frequently Asked Questions</li><li>GenSpace Mod</li><li>Mega Dropper</li></ul> |
+| Vicrtl345 | <ul><li>SkyDen</li></ul> |
+| Virtual Overtime | <ul><li>LavaCity PVP Map</li><li>FNAF Hide and Seek Map</li></ul> |
+| WaterMelon | <ul><li>The Dropper: 3DS Remaster</li><li>The Dropper Submission</li><li>Debug Mode 3D</li><li>Blind Mazes</li><li>PC Gamer Cow</li><li>GenSpace Textures</li></ul> |
+| wyndchyme | <ul><li>Modernization MegaPack (includes content from various other people)</li><li>MegaPack Standalone: Classic Textures</li><li>MegaPack Standalone: Achievement Textures</li><li>Pink Floyd Painting Pack</li></ul> |
+| Zexlo | <ul><li>1.20 Lava Textures</li><li>1.20 Mob Textures</li><li>1.20 Seamless Varied Textures</li><li>Bare Bones Textures</li></ul> | 
+
+_All content has been approved by their creators to be hosted on this UniStore._
+
+<br>
+
 ## Credits
-### Support
-Minecraft 3DS Community and Universal-Server Discord servers
+### Development
+- Cracko298
+- Nawrek
+- STBUniverse
+- VanceForPresident
+### Maintenence
+- Cracko298
+- Nawrek
+- wyndchyme
 ### Testing
-Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Minecraft 3DS Community Discord server. Thanks Susbaconhairman for the idea of unistore.
-## Item creators
-* ArcModzzz
-    * World in Jar 3DS
-    * Find the Button
-* Babylion122
-    * Ender Dragon Elytra
-    * Lapiz's Funland map
-    * Stampy's Lovely World map port
-* CleetusMcfarln
-    * DanTDM's Lab
-* Cracko298
-    * MC3DS-MAC
-    * MC3DS-Options
-    * Nuclear Creeper
-    * Bat Bombs
-    * Mojangles Font
-    * Festive World Override
-    * Amplified World Generation
-    * Zombie Apocalypse
-    * DevWorld v2
-    * Rare Bones
-    * April Fools mod
-    * Festive as Default Textures
-    * TNT Mimic
-    * Farlandia world
-    * Xray Shader, Remove Clouds, Remove Skybox, and Creative Mode Block Break
-    * Remove Mob Cap mod
-    * Tricky Trials OST 320kHz
-    * Skyblock Plus world
-    * Mob Tower structure
-    * Enhanced Particles
-    * Block skin
-    * SD Card Dropper Map
-    * IronBrute
-* CZX
-    * The Dropper: 3DS Remaster
-    * GenSpace Mod
-* ENDERMANYK
-    * Shaders
-* Genspace
-    * Minecraft 3DS Modernization Map
-    * The Dropper: 3DS Remaster
-    * GenSpace's Skyblock
-    * SkyDen
-* Glonk
-    * Broken Stronghold Chest Fix
-* KrftRV249
-    * Random Loot mod
-    * Guns mod
-    * Instant Eating mod
-* linuxwizard
-    * Mipmapping patch
-* Nawrek
-    * JoJo's Bizarre Adventure skins
-* PanguinBoi
-    * PanGames
-* PokéTube
-    * PokéTube City map
-* RetroRemade
-    * Better Creepers mod
-* Ruff64
-    * The Dropper: 3DS Remaster
-* STBUniverse
-    * STB-MC3DS Unistore
-    * Vanilla 1.20 textures port
-* TheRustico36
-    * Cleann'slick GUI
-    * New Base Skins port
-    * Legacy Console Default skin pack port
-* UnknownLoser
-    * DualFlow
-* Vance
-    * Technoblade Skin
-    * Technoblade's Crown
-    * Skyblock map port
-    * Breaking Bad skins
-    * Sheeptastic mod port
-    * Giant Baby Zombie mod
-    * 3DSpleef
-    * Building Time map
-    * Randoms map demo
-    * Frequently Asked Questions
-    * GenSpace Mod
-    * Mega Dropper
-* Vicrtl345
-    * SkyDen map port
-* Virtual Overtime
-    * LavaCity PVP map
-    * FNAF Hide and Seek map
-* WaterMelon
-    * The Dropper: 3DS Remaster
-    * The Dropper Submission
-    * Debug Mode 3D
-    * Blind Mazes
-    * PC Gamer Cow
-    * GenSpace Textures
-* wyndchyme
-    * Modernization MegaPack (includes content from various other people)
-    * MegaPack Standalone: Classic Textures
-    * MegaPack Standalone: Achievement Textures
-    * Pink Floyd Painting Pack
-* Zexlo
-    * 1.20 Lava textures
-    * 1.20 Mob textures
-    * 1.20 Seamless varied textures
-    * Barebones textures
+- Cracko298
+- Nawrek
+- Pizzaleader
+- VanceForPresident
+- _Various others from the Minecraft 3DS Community Discord server_
+### Support
+- Minecraft 3DS Community and Universal-Server Discord servers
 
+<br>
 
-**All content has been approved by their creators to be used**
+_Thanks to Susbaconhairman for the idea of the UniStore._
+
+<br>
 
 ## Building Atlas *.t3x.
+
+<details><summary> Click to show/hide build instructions </summary>
+
+<br>
+
 - Download [DevKitPro](https://github.com/devkitPro/installer/releases/latest)
-- Add Directories: `.\devkitPro\tools\bin`, and `.\devkitPro\msys2\usr\bin` to your Account PATH.
-- You may also need to add the Directories: `.\devkitPro\devkitARM\bin`, and `.\devkitPro\libctru\include` to your Account PATH.
-- Start powershell, and run the command: `pacman -S tex3ds`.
-- Create a new Directory, and get Textures you may need (48x48 size for Icons).
-- Create a File inside of your 'new' Directory, called `.\file.t3s`, then open it in notepad, and write the following strings to it.
+- Add directories `.\devkitPro\tools\bin`, and `.\devkitPro\msys2\usr\bin` to your Account PATH.
+- You may also need to add the following directories to your Account PATH: `.\devkitPro\devkitARM\bin` and `.\devkitPro\libctru\include` 
+- Start Powershell, and run the command `pacman -S tex3ds`.
+- Create a new directory, and get textures you may need (48x48 size for icons).
+- Create a file inside of your 'new' directory called `.\file.t3s`, then open it in a text editor and write the following strings to it:
 ```
 --atlas -f rgba -z auto
 
@@ -138,7 +95,9 @@ Nawrek, VanceForPresident, Pizzaleader, Cracko298 and various people from the Mi
 ```
 `{yourIconFileX.png} is your PNG Icons in the Current Directory with the 'file.t3s' file`.
 
-- After getting the icon Images, you can now execute the Command in the Same Directory using PowerShell.
-- Type: `tex3ds -i file.t3s -o mc3ds.t3x`
-- It should generate a File with the Extension `*.t3x` not `*.t3s`.
-- That is your Icon Atlas
+- After getting the icon images, you can now execute the command in the same directory using PowerShell.
+- Type `tex3ds -i file.t3s -o mc3ds.t3x`
+- It should generate a file with the Extension `*.t3x`, not `*.t3s`.
+- That is your icon atlas.
+
+</details>
