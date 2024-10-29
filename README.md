@@ -34,7 +34,7 @@ This is a repository for a Universal-Updater UniStore that hosts mods for Minecr
 | PokéTube | <ul><li>PokéTube City Map</li></ul> |
 | RetroRemade | <ul><li>Better Creepers Mod</li></ul> |
 | Ruff64 | <ul><li>The Dropper: 3DS Remaster</li></ul> |
-| STBUniverse | <ul><li>STB-MC3DS UniStore</li><li<Vanilla 1.20 Textures Port</li></ul> |
+| STBUniverse | <ul><li>STB-MC3DS UniStore</li><li>Vanilla 1.20 Textures Port</li></ul> |
 | TheRustico36 | <ul><li>Cleann'slick GUI</li><li>New Base Skins Port</li><li>Legacy Console Default Skin Pack Port</li></ul> |
 | UnknownLoser | <ul><li>DualFlow</li></ul> |
 | VanceForPresident | <ul><li>Technoblade Skin</li><li>Technoblade's Crown</li><li>SkyBlock Map Port</li><li>Breaking Bad Skins</li><li>Sheeptastic Mod Port</li><li>Giant Baby Zombie Mod</li><li>3DSpleef</li><li>Building Time Map</li><li>Randoms Map Demo</li><li>Frequently Asked Questions</li><li>GenSpace Mod</li><li>Mega Dropper</li></ul> |
