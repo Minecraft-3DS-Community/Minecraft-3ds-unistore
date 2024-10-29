@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 40,
+        "revision": 41,
         "version": 3
     },
     "storeContent": [
@@ -9324,12 +9324,12 @@
             "info":{
                "title":"MegaPack Standalone: Classic Textures",
                "author":"wyndchyme",
-               "version":"1.0.3",
+               "version":"1.0.4",
                "category":["Texture Pack"],
                "console":["New 3DS"],
                "description":"This is the Classic texture pack originally included as part of Modernization MegaPack, now also avaliable as a standlone mod!",
                "license":"Apache",
-               "releasenotes": "It replaces candy texture pack!!!\n\nhttps://github.com/wyndchyme/mc3ds-classic-textures",
+               "releasenotes": "Replaces Candy texture pack.\n\nhttps://github.com/wyndchyme/mc3ds-classic-textures",
                "screenshots": [
                   {
                      "description": "Image #1",
@@ -9346,14 +9346,14 @@
                ],
                "icon_index":85,
                "sheet_index":0,
-               "last_updated":"2024-10-28 at 08:48 (CST)"
+               "last_updated":"2024-10-29 at 16:26 (CST)"
             },
             "MegaPack Standalone: Classic Textures (USA)":{
                "size":"1.46 MB",
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.3.USA.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.4.USA.zip",
                      "output": "sdmc:/Minecraft 3DS/CTS.zip"
                   },
                   {
@@ -9379,7 +9379,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.3.EUR.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.4.EUR.zip",
                      "output": "sdmc:/Minecraft 3DS/CTS.zip"
                   },
                   {
@@ -9405,7 +9405,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.3.JPN.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.4.JPN.zip",
                      "output": "sdmc:/Minecraft 3DS/CTS.zip"
                   },
                   {
