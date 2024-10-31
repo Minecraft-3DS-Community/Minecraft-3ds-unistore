@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 41,
+        "revision": 42,
         "version": 3
     },
     "storeContent": [
@@ -9787,6 +9787,151 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/CTS.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Halloween Mash-Up Pack",
+               "author":"nawrek",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"This is a Halloween Mash-Up pack port for Minecraft: New Nintendo 3DS Edition.",
+               "license":"All Rights Reserved",
+               "releasenotes": "This is a Halloween Mash-Up pack port for Minecraft: New Nintendo 3DS Edition. It was meant to recreate most of features available in Legacy Console Editions of Minecraft. \n\nhttps://github.com/nawrek/mc3ds-halloween-port",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hmup1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hmup2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hmup3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hmup4.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hmup5.png"
+                  },
+                  {
+                     "description": "Image #6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hmup6.png"
+                  },
+                  {
+                     "description": "Image #7",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hmup7.png"
+                  },
+                  {
+                     "description": "Image #8",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/hmup8.png"
+                  }
+               ],
+               "icon_index":90,
+               "sheet_index":0,
+               "last_updated":"2024-10-31 at 16:06 (CST)"
+            },
+            "Halloween Mash-Up Pack (USA)":{
+               "size":"1.1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/Halloween.MashUpPack.v1.0.USA.zip",
+                     "output": "sdmc:/Minecraft 3DS/hmup.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip",
+                     "input": "00040000001B8700/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip",
+                     "input": "00040000001B8700/romfs/shaders/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip"
+                  }
+               ]
+            },
+            "Halloween Mash-Up Pack (EUR)":{
+               "size":"1.1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/Halloween.MashUpPack.v1.0.EUR.zip",
+                     "output": "sdmc:/Minecraft 3DS/hmup.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip",
+                     "input": "000400000017CA00/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip",
+                     "input": "000400000017CA00/romfs/shaders/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip"
+                  }
+               ]
+            },
+            "Halloween Mash-Up Pack (JPN)":{
+               "size":"1.1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/Halloween.MashUpPack.v1.0.JPN.zip",
+                     "output": "sdmc:/Minecraft 3DS/hmup.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip",
+                     "input": "000400000017FD00/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip",
+                     "input": "000400000017FD00/romfs/shaders/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/hmup.zip"
                   }
                ]
             }
