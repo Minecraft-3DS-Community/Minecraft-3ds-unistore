@@ -29,7 +29,7 @@ This is a repository for a Universal-Updater UniStore that hosts mods for Minecr
 | Glonk | <ul><li>Broken Stronghold Chest Fix</li></ul> |
 | KrftRV249 | <ul><li>Random Loot Mod</li><li>Guns Mod</li><li>Instant Eating Mod</li></ul> |
 | linuxwizard | <ul><li>Mipmapping Patch (1.0 Only)</li></ul> |
-| Nawrek | <ul><li>JoJo's Bizarre Adventure Skins</li></ul> | 
+| Nawrek | <ul><li>JoJo's Bizarre Adventure Skins</li><li>Halloween Mash-Up Pack Port</li></ul> | 
 | PanguinBoi | <ul><li>PanGames</li></ul> |
 | PokéTube | <ul><li>PokéTube City Map</li></ul> |
 | RetroRemade | <ul><li>Better Creepers Mod</li></ul> |
