@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 44,
+        "revision": 45,
         "version": 3
     },
     "storeContent": [
@@ -4032,12 +4032,12 @@
             "info":{
                "title":"Modernization MegaPack",
                "author":"wyndchyme, various others",
-               "version":"1.5.6",
+               "version":"1.6.0",
                "category":["Modpack"],
                "console":["New 3DS"],
                "description":"A LayeredFS modpack for Minecraft: New Nintendo 3DS Edition 1.9.19 that aims to modernize the game and much, much more.",
                "license":"All Rights Reserved",
-               "releasenotes": "Overview\nThis is a modpack for Minecraft: New Nintendo 3DS Edition\nthat aims to modernize the game. This pack adds new texture packs\n(including a 100% conversion of the post-1.14 textures), a new look for\nthe game's user interface and icons, the original Minecraft font,\npatches to improve the game's performance and the ability to \nswap between fonts at will in the Language menu.\nThis pack only officially supports English (US) and English (UK).\nOther languages can be used but will have lesser compatibility with Modernization MegaPack.\n\nMods\nThis pack contains the following community-made mods from talented modders:\n1.14 Textures - wyndchyme\nThe new textures introduced starting in Java Edition 1.14. Overwrites default texture pack.\n\nClassic Textures - wyndchyme\nEmulates the look of Classic Minecraft. Overwrites Candy texture pack.\n\nCleann'slick GUI - TheRustico36\nAdds a darker, cleaner UI and new icons.\n\nNew Water Colors - wyndchyme\nAdjusts the water color in the default texture pack to appear more similar to the post-Update Aquatic water.\n\nNew Base Skins - TheRustico36\nAdds the new looks of Steve and Alex introduced in Java Edition 1.19.3.\n\nNew Achievement Art - wyndchyme\nPorts the new Bedrock Edition Achievement art, with adjustments made manually for best results.\n\nNew Comparison Art - wyndchyme\nAdds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.\n\nMojangles Font - Cracko298\nThe original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.\n\nSwappable Fonts - wyndchyme\nAllows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.\n\nNew Background and Loading Animation - wyndchyme\nMakes the dirt background completely black and replaces the stone breaking\nloading animation with a new animation inspired by Legacy Console Edition.\n\n1.20 Mob Textures - Zexlo\nPorts (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.\n\nNew Panoramas - STBUniverse\nAdds new panoramas from Caves and Cliffs Part II and the Nether Update.\n\nBat 1.20.3 Model - STBUniverse\nReplaces the original bat model with the new model and textures introduced in Java Edition 1.20.3.\n\nFont-friendly Credits - wyndchyme\nAdjusts the credits and End Poem text files for better compatibility with replacement fonts.\n\nName Parity - wyndchyme\nReplaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks)\n\nFont-compatible language files - wyndchyme\nReplaces certain text strings in-game for better compatibility with replacement fonts.\n\n\nPack compiled and maintained by wyndchyme.\n\nMore information here: https://github.com/wyndchyme/mc3ds-modern/blob/main/README.md",
+               "releasenotes": "Overview\nThis is a modpack for Minecraft: New Nintendo 3DS Edition\nthat aims to modernize the game. This pack adds new texture packs\n(including a 100% conversion of the post-1.14 textures), a new look for\nthe game's user interface and icons, the original Minecraft font,\npatches to improve the game's performance and the ability to \nswap between fonts at will in the Language menu.\nThis pack only officially supports English (US) and English (UK).\nOther languages can be used but will have lesser compatibility with Modernization MegaPack.\n\nMods\nThis pack contains the following community-made mods from talented modders:\n1.14 Textures - wyndchyme\nThe new textures introduced starting in Java Edition 1.14. Overwrites default texture pack.\n\nClassic Textures - wyndchyme\nEmulates the look of Classic Minecraft. Overwrites Candy texture pack.\n\nCleann'slick GUI - TheRustico36\nAdds a darker, cleaner UI and new icons.\n\nNew Water Colors - wyndchyme\nAdjusts the water color in the default texture pack to appear more similar to the post-Update Aquatic water.\n\nNew Base Skins - TheRustico36\nAdds the new looks of Steve and Alex introduced in Java Edition 1.19.3.\n\nNew Achievement Art - wyndchyme\nPorts the new Bedrock Edition Achievement art, with adjustments made manually for best results.\n\nNew Comparison Art - wyndchyme\nAdds new comparison art for all texture packs indicating which packs are part of the vanilla game and which are added by Modernization MegaPack.\n\nMojangles Font - Cracko298\nThe original Minecraft font, ported to Minecraft: New Nintendo 3DS Edition.\n\nSwappable Fonts - wyndchyme\nAllows the font to be swapped to the Unicode font in the Language menu. Overwrites Russian language file.\n\nNew Background and Loading Animation - wyndchyme\nMakes the dirt background completely black and replaces the stone breaking\nloading animation with a new animation inspired by Legacy Console Edition.\n\n1.20 Mob Textures - Zexlo\nPorts (most) mob textures from 1.20 to Minecraft: New Nintendo 3DS Edition.\n\nNew Panoramas - STBUniverse\nAdds new panoramas from Caves and Cliffs Part II and the Nether Update.\n\nBat 1.20.3 Model - STBUniverse\nReplaces the original bat model with the new model and textures introduced in Java Edition 1.20.3.\n\nFont-friendly Credits - wyndchyme\nAdjusts the credits and End Poem text files for better compatibility with replacement fonts.\n\nName Parity - wyndchyme\nReplaces certain block and item names for parity with newer versions of Minecraft (example: Stone Brick Monster Egg → Infested Stone Bricks)\n\nFont-compatible language files - wyndchyme\nReplaces certain text strings in-game for better compatibility with replacement fonts.\n\nBedrock Wither - Zexlo\nReplicates the Bedrock Edition Wither, complete with spawning Wither Skeletons.\n\nJava Zombies and Husks - Zexlo\nAllows Zombies and Husks to summon 'backup,' similar to Java Edition.\n\n\nPack compiled and maintained by wyndchyme.\n\nMore information here: https://github.com/wyndchyme/mc3ds-modern/blob/main/README.md",
                "screenshots": [
                   {
                      "description": "Image #1",
@@ -4078,24 +4078,24 @@
                ],
                "icon_index":42,
                "sheet_index":0,
-               "last_updated":"2024-10-29 at 16:39 (CST)"
+               "last_updated":"2024-12-25 at 19:40 (CST)"
             },
             "Modernization MegaPack (USA)":{
                "size":"4.26 MB",
                "script":[
                   {
                      "type": "promptMessage",
-                     "message": "Before updating Megapack, delete\nprevious version using Customization Remover tool.",
+                     "message": "Before updating MegaPack, delete\nprevious version using Customization Remover tool.",
                      "count": 1
                   },
                   {
                      "type": "promptMessage",
-                     "message": "Megapack replaces most of other mods,\nmake sure to install it first!",
+                     "message": "MegaPack replaces most of other mods,\nmake sure to install it first!",
                      "count": 1
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.5.6.USA.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.6.0.USA.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   },
                   {
@@ -4155,7 +4155,7 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.5.6.EUR.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.6.0.EUR.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   },
                   {
@@ -4215,7 +4215,7 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.5.6.JPN.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.6.0.JPN.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   },
                   {
@@ -9324,7 +9324,7 @@
             "info":{
                "title":"MegaPack Standalone: Classic Textures",
                "author":"wyndchyme",
-               "version":"1.0.4",
+               "version":"1.0.5",
                "category":["Texture Pack"],
                "console":["New 3DS"],
                "description":"This is the Classic texture pack originally included as part of Modernization MegaPack, now also avaliable as a standlone mod!",
@@ -9346,14 +9346,14 @@
                ],
                "icon_index":85,
                "sheet_index":0,
-               "last_updated":"2024-10-29 at 16:26 (CST)"
+               "last_updated":"2024-12-25 at 19:45 (CST)"
             },
             "MegaPack Standalone: Classic Textures (USA)":{
                "size":"1.46 MB",
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.4.USA.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.5.USA.zip",
                      "output": "sdmc:/Minecraft 3DS/CTS.zip"
                   },
                   {
@@ -9379,7 +9379,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.4.EUR.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.5.EUR.zip",
                      "output": "sdmc:/Minecraft 3DS/CTS.zip"
                   },
                   {
@@ -9405,7 +9405,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.4.JPN.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Classic.Textures.Standalone.v1.0.5.JPN.zip",
                      "output": "sdmc:/Minecraft 3DS/CTS.zip"
                   },
                   {
