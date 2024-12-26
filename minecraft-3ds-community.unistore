@@ -4078,24 +4078,24 @@
                ],
                "icon_index":42,
                "sheet_index":0,
-               "last_updated":"2024-10-29 at 16:39 (CST)"
+               "last_updated":"2024-12-25 at 19:40 (CST)"
             },
             "Modernization MegaPack (USA)":{
                "size":"4.26 MB",
                "script":[
                   {
                      "type": "promptMessage",
-                     "message": "Before updating Megapack, delete\nprevious version using Customization Remover tool.",
+                     "message": "Before updating MegaPack, delete\nprevious version using Customization Remover tool.",
                      "count": 1
                   },
                   {
                      "type": "promptMessage",
-                     "message": "Megapack replaces most of other mods,\nmake sure to install it first!",
+                     "message": "MegaPack replaces most of other mods,\nmake sure to install it first!",
                      "count": 1
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.5.6.USA.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.6.0.USA.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   },
                   {
@@ -4155,7 +4155,7 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.5.6.EUR.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.6.0.EUR.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   },
                   {
@@ -4215,7 +4215,7 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.5.6.JPN.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v1.6.0.JPN.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   },
                   {
