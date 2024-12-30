@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 45,
+        "revision": 46,
         "version": 3
     },
     "storeContent": [
@@ -9932,6 +9932,117 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/hmup.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Modern Mobs - 1.20 Mob Update",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"A simple mod which alters, fixes and extends various mob data to match modern Minecraft versions.",
+               "license":"unknown",
+               "releasenotes": "A simple mod which alters, fixes and extends various mob data to match modern Minecraft versions.\nThis mod includes the following changes:\n\n- Zombies can rarely spawn with the ability to attack doors on Hard difficulty only (parity).\n\n- Zombies can rarely be 'leaders' and summon backup (Java Edition parity).\n\n- Baby zombies can now piggy back adult zombies (BE parity).\n\n- Baby zombies and baby zombie villagers now burn in daylight (BE and Java parity).\n\n- The Wither can now summon wither skeletons during the fight (BE parity).\n\n- Vexes now rarely drop their sword (uses endermite table, BE parity).\n\n- Witches and vindicators now have modern drops (BE parity).\n\n- Villagers now run away from husks (bugfix).\n\n- Villagers now run away from evokers at a greater distance compared to other mobs (BE and Java parity).\n\n- Added the new nitwit and stone mason professions, complete with modern trades (near- parity).\n\n- Made vex 2 times bigger for less frustration during combat (QOL).",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modern_mobs1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modern_mobs2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modern_mobs3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modern_mobs4.png"
+                  }
+               ],
+               "icon_index":91,
+               "sheet_index":0,
+               "last_updated":"2024-12-29 at 13:34 (CST)"
+            },
+            "Modern Mobs - 1.20 Mob Update (USA)":{
+               "size":"3.13 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/modern_mobs.zip",
+                     "output": "sdmc:/Minecraft 3DS/modern_mobs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modern_mobs.zip",
+                     "input": "modern mobs/resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modern_mobs.zip",
+                     "input": "modern mobs/resourcepacks/vanilla/server/loot_tables/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modern_mobs.zip"
+                  }
+               ]
+            },
+            "Modern Mobs - 1.20 Mob Update (EUR)":{
+               "size":"3.13 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/modern_mobs.zip",
+                     "output": "sdmc:/Minecraft 3DS/modern_mobs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modern_mobs.zip",
+                     "input": "modern mobs/resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modern_mobs.zip",
+                     "input": "modern mobs/resourcepacks/vanilla/server/loot_tables/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modern_mobs.zip"
+                  }
+               ]
+            },
+            "Modern Mobs - 1.20 Mob Update (JPN)":{
+               "size":"3.13 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/modern_mobs.zip",
+                     "output": "sdmc:/Minecraft 3DS/modern_mobs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modern_mobs.zip",
+                     "input": "modern mobs/resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modern_mobs.zip",
+                     "input": "modern mobs/resourcepacks/vanilla/server/loot_tables/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modern_mobs.zip"
                   }
                ]
             }
