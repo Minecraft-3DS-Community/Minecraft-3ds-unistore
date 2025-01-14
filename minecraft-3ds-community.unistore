@@ -10046,6 +10046,87 @@
                   }
                ]
             }
+         },
+         {
+            "info":{
+               "title":"Autumnal",
+               "author":"wyndchyme",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Give Minecraft: New Nintendo 3DS Edition a touch of autumn!",
+               "license":"Apache",
+               "releasenotes": "Give Minecraft: New Nintendo 3DS Edition a touch of autumn!\n\nhttps://github.com/wyndchyme/mc3ds-autumnal",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mc3ds-autumnal.png"
+                  }
+               ],
+               "icon_index":92,
+               "sheet_index":0,
+               "last_updated":"2025-01-14 at 13:34 (CST)"
+            },
+            "Autumnal (USA)":{
+               "size":"44 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Autumnal.v1.0.0.zip",
+                     "output": "sdmc:/Minecraft 3DS/autumnal.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/autumnal.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/textures/colormap/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/colormap/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/autumnal.zip"
+                  }
+               ]
+            },
+            "Autumnal (EUR)":{
+               "size":"44 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Autumnal.v1.0.0.zip",
+                     "output": "sdmc:/Minecraft 3DS/autumnal.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/autumnal.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/textures/colormap/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/colormap/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/autumnal.zip"
+                  }
+               ]
+            },
+            "Autumnal (JPN)":{
+               "size":"44 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Autumnal.v1.0.0.zip",
+                     "output": "sdmc:/Minecraft 3DS/autumnal.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/autumnal.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/textures/colormap/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/colormap/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/autumnal.zip"
+                  }
+               ]
+            }
          }
       ]
    }
