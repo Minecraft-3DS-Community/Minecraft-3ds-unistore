@@ -10078,7 +10078,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/autumnal.zip",
-                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/textures/colormap/",
+                     "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/textures/colormap/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/colormap/"
                   },
                   {
@@ -10098,7 +10098,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/autumnal.zip",
-                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/textures/colormap/",
+                     "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/textures/colormap/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/colormap/"
                   },
                   {
@@ -10118,7 +10118,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/autumnal.zip",
-                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/textures/colormap/",
+                     "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/textures/colormap/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/colormap/"
                   },
                   {
