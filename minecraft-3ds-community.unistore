@@ -10127,6 +10127,374 @@
                   }
                ]
             }
+         },
+                  {
+            "info":{
+               "title":"Bow charge indicator",
+               "author":"Pizzaleader",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Texture pack that changes the charge textures of a bow.",
+               "license":"none",
+               "releasenotes": "Texture pack that changes the charge animations of the bow to show what stage your at.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pizza1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pizza2.png"
+                  }
+               ],
+               "icon_index":93,
+               "sheet_index":0,
+               "last_updated":"2025-01-20 at 13:34 (CST)"
+            },
+            "Bow charge indicator (USA)":{
+               "size":"56 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/bow_indicator.zip",
+                     "output": "sdmc:/Minecraft 3DS/bow.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/bow.zip",
+                     "input": "romfs/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/bow.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/textures/items/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/items/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/bow.zip"
+                  }
+               ]
+            },
+            "Bow charge indicator (EUR)":{
+               "size":"56 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/bow_indicator.zip",
+                     "output": "sdmc:/Minecraft 3DS/bow.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/bow.zip",
+                     "input": "romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/bow.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/textures/items/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/items/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/bow.zip"
+                  }
+               ]
+            },
+            "Bow charge indicator (JPN)":{
+               "size":"56 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/bow_indicator.zip",
+                     "output": "sdmc:/Minecraft 3DS/bow.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/bow.zip",
+                     "input": "romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/bow.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/textures/items/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/items/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/bow.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Attract Villagers",
+               "author":"Pizzaleader",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Makes villagers follow an emerald. Useful for moving them.",
+               "license":"none",
+               "releasenotes": "A simple mod that makes villagers follow an emerald. Useful for moving them.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pizza3.png"
+                  }
+               ],
+               "icon_index":94,
+               "sheet_index":0,
+               "last_updated":"2025-01-20 at 13:34 (CST)"
+            },
+            "Attract Villagers (USA)":{
+               "size":"4 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/attract_villagers.zip",
+                     "output": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                  }
+               ]
+            },
+            "Attract Villagers (EUR)":{
+               "size":"4 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/attract_villagers.zip",
+                     "output": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                  }
+               ]
+            },
+            "Attract Villagers (JPN)":{
+               "size":"4 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/attract_villagers.zip",
+                     "output": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Sandy husks",
+               "author":"Pizzaleader",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Makes husks drop sand.",
+               "license":"none",
+               "releasenotes": "A simple mod that makes husks drop sand.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pizza4.png"
+                  }
+               ],
+               "icon_index":95,
+               "sheet_index":0,
+               "last_updated":"2025-01-20 at 13:34 (CST)"
+            },
+            "Sandy husks (USA)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sandy_husks.zip",
+                     "output": "sdmc:/Minecraft 3DS/sandy_husks.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/sandy_husks.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/loot_tables/entities/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/sandy_husks.zip"
+                  }
+               ]
+            },
+            "Sandy husks (EUR)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sandy_husks.zip",
+                     "output": "sdmc:/Minecraft 3DS/sandy_husks.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/sandy_husks.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/loot_tables/entities/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/sandy_husks.zip"
+                  }
+               ]
+            },
+            "Sandy husks (JPN)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sandy_husks.zip",
+                     "output": "sdmc:/Minecraft 3DS/sandy_husks.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/sandy_husks.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/loot_tables/entities/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/sandy_husks.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Moon end",
+               "author":"Pizzaleader",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Texture pack that makes the end look like the moon.",
+               "license":"none",
+               "releasenotes": "Simple texture pack that makes the end look like the moon, ported from Keeg's Moon End with permission.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pizza5.png"
+                  },
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pizza6.png"
+                  }
+               ],
+               "icon_index":96,
+               "sheet_index":0,
+               "last_updated":"2025-01-20 at 13:34 (CST)"
+            },
+            "Moon end (USA)":{
+               "size":"390 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/moon_end.zip",
+                     "output": "sdmc:/Minecraft 3DS/moon_end.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/moon_end.zip",
+                     "input": "romfs/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/moon_end.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/textures/blocks/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/moon_end.zip"
+                  }
+               ]
+            },
+            "Moon end (EUR)":{
+               "size":"390 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/moon_end.zip",
+                     "output": "sdmc:/Minecraft 3DS/moon_end.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/moon_end.zip",
+                     "input": "romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/moon_end.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/textures/blocks/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/blocks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/moon_end.zip"
+                  }
+               ]
+            },
+            "Moon end (JPN)":{
+               "size":"390 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/moon_end.zip",
+                     "output": "sdmc:/Minecraft 3DS/moon_end.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/moon_end.zip",
+                     "input": "romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/moon_end.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/textures/blocks/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/blocks/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/moon_end.zip"
+                  }
+               ]
+            }
          }
       ]
    }
