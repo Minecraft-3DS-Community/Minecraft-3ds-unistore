@@ -10314,9 +10314,9 @@
          },
          {
             "info":{
-               "title":"Sandy husks",
+               "title":"Sandy husks (INCOMPLETE, GAMEBREAKING)",
                "author":"Pizzaleader",
-               "version":"1.0",
+               "version":"0.1",
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"Makes husks drop sand.",
