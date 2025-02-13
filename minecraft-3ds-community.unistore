@@ -10321,7 +10321,7 @@
                "console":["New 3DS"],
                "description":"Makes husks drop sand.",
                "license":"none",
-               "releasenotes": "A simple mod that makes husks drop sand. For use in latest version of Minecraft 3ds. Do not use with any mod that replaces cow drops.",
+               "releasenotes": "A simple mod that makes husks drop sand. For use in latest version of Minecraft 3ds. Do not use with any mod that replaces bat drops.",
                "screenshots": [
                   {
                      "description": "Image #1",
@@ -10337,7 +10337,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sandy_husks.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sandy-husks.zip",
                      "output": "sdmc:/Minecraft 3DS/sandy_husks.zip"
                   },
                   {
@@ -10357,7 +10357,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sandy_husks.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sandy-husks.zip",
                      "output": "sdmc:/Minecraft 3DS/sandy_husks.zip"
                   },
                   {
@@ -10377,7 +10377,7 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sandy_husks.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sandy-husks.zip",
                      "output": "sdmc:/Minecraft 3DS/sandy_husks.zip"
                   },
                   {
