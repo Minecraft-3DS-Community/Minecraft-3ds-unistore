@@ -10314,14 +10314,14 @@
          },
          {
             "info":{
-               "title":"Sandy husks (INCOMPLETE, GAMEBREAKING)",
+               "title":"Sandy husks",
                "author":"Pizzaleader",
-               "version":"0.1",
+               "version":"1.0",
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"Makes husks drop sand.",
                "license":"none",
-               "releasenotes": "A simple mod that makes husks drop sand.",
+               "releasenotes": "A simple mod that makes husks drop sand. For use in latest version of Minecraft 3ds. Do not use with any mod that replaces cow drops.",
                "screenshots": [
                   {
                      "description": "Image #1",
