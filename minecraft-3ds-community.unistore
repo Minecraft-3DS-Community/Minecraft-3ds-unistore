@@ -10311,6 +10311,66 @@
                   }
                ]
             }
+                        "Attract Villagers Megapack(USA)":{
+               "size":"4 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/attract_villagers_mega.zip",
+                     "output": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip"
+                  }
+               ]
+            },
+                        "Attract Villagers Megapack(EUR)":{
+               "size":"4 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/attract_villagers_mega.zip",
+                     "output": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip"
+                  }
+               ]
+            },
+                        "Attract Villagers (JPN)":{
+               "size":"4 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/attract_villagers_mega.zip",
+                     "output": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/entities/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip"
+                  }
+               ]
+            },
          },
          {
             "info":{
