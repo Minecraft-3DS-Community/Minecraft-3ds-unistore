@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 51,
+        "revision": 52,
         "version": 3
     },
     "storeContent": [
@@ -4031,7 +4031,7 @@
          {
             "info":{
                "title":"Modernization MegaPack",
-               "author":"Wyndchyme, Zexlo, Cracko298, STBUniverse, and various others",
+               "author":"wyndchyme, Zexlo, Cracko298, STBUniverse, and various others",
                "version":"2.0.0",
                "category":["Modpack"],
                "console":["New 3DS"],
