@@ -10310,18 +10310,18 @@
                      "file": "sdmc:/Minecraft 3DS/attract_villagers.zip"
                   }
                ]
-            }
-                        "Attract Villagers Megapack(USA)":{
+            },
+            "Attract Villagers Megapack (USA)":{
                "size":"4 KB",
                "script":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/attract_villagers_mega.zip",
-                     "output": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                     "output": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/attract_villagers.zip",
+                     "file": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip",
                      "input": "romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
                   },
@@ -10331,13 +10331,13 @@
                   }
                ]
             },
-                        "Attract Villagers Megapack(EUR)":{
+            "Attract Villagers Megapack (EUR)":{
                "size":"4 KB",
                "script":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/attract_villagers_mega.zip",
-                     "output": "sdmc:/Minecraft 3DS/attract_villagers.zip"
+                     "output": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip"
                   },
                   {
                      "type": "extractFile",
@@ -10351,7 +10351,7 @@
                   }
                ]
             },
-                        "Attract Villagers (JPN)":{
+            "Attract Villagers Megapack (JPN)":{
                "size":"4 KB",
                "script":[
                   {
@@ -10370,8 +10370,8 @@
                      "file": "sdmc:/Minecraft 3DS/attract_villagers_mega.zip"
                   }
                ]
-            },
-         },
+            }
+         }
          {
             "info":{
                "title":"Sandy husks",
