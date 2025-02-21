@@ -1,4 +1,4 @@
-![mc](https://github.com/user-attachments/assets/3f99d4aa-1205-4e24-801c-ad95e92ccb0b)
+![mc](https://raw.githubusercontent.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/refs/heads/main/img/logo.png)
 
 <div align="center">
    
