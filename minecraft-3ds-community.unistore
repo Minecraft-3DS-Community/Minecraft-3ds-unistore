@@ -4835,23 +4835,73 @@
             "sheet_index":0,
             "last_updated":"2024-04-09 at 12:52 (CST)"
             },
-            "IronBrutes":{
+            "IronBrutes (USA)":{
                "size":"112 KB",
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Cracko298/MC3DS-IronBrute/releases/download/1.0.0/UniStoreVersion.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/IronBrutes.zip",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/UniStoreVersion.zip",
+                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/IronBrutes.zip",
                      "input": "IronBrutes/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/UniStoreVersion.zip"
+                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/IronBrutes.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This mod is experimental, and may break mob behavior.",
+                     "count": 1
+                  }
+               ]
+            },
+            "IronBrutes (EUR)":{
+               "size":"112 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/IronBrutes.zip",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/IronBrutes.zip",
+                     "input": "IronBrutes/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/IronBrutes.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This mod is experimental, and may break mob behavior.",
+                     "count": 1
+                  }
+               ]
+            },
+            "IronBrutes (JPN)":{
+               "size":"112 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/IronBrutes.zip",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/luma/titles/000400000017FD00/romfs/IronBrutes.zip",
+                     "input": "IronBrutes/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/luma/titles/000400000017FD00/romfs/IronBrutes.zip"
                   },
                   {
                      "type": "promptMessage",
@@ -7047,7 +7097,7 @@
             "info":{
                "title":"Wewelsburg",
                "author":"ThorMode9",
-               "version":"0.0.3",
+               "version":"0.0.4",
                "category":["World"],
                "console":["New 3DS"],
                "description":"This map is an ongoing project loosely inspired by the architecture of German Renaissance castle.",
@@ -7056,70 +7106,98 @@
                "screenshots": [
                   {
                      "description": "Image #1",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-a.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_1.png"
                   },
                   {
                      "description": "Image #2",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-b.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_2.png"
                   },
                   {
                      "description": "Image #3",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-c.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_3.png"
                   },
                   {
                      "description": "Image #4",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-d.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_4.png"
                   },
                   {
                      "description": "Image #5",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-e.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_5.png"
                   },
                   {
                      "description": "Image #6",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-f.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_6.png"
                   },
                   {
                      "description": "Image #7",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-g.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_7.png"
                   },
                   {
                      "description": "Image #8",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-h.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_8.png"
                   },
                   {
                      "description": "Image #9",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-i.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_9.png"
                   },
                   {
                      "description": "Image #10",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-j.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_10.png"
+                  },
+                  {
+                     "description": "Image #11",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_11.png"
+                  },
+                  {
+                     "description": "Image #12",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_12.png"
+                  },
+                  {
+                     "description": "Image #13",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_13.png"
+                  },
+                  {
+                     "description": "Image #14",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_14.png"
+                  },
+                  {
+                     "description": "Image #15",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_15.png"
+                  },
+                  {
+                     "description": "Image #16",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_16.png"
+                  },
+                  {
+                     "description": "Image #17",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_17.png"
                   }
                ],
                "icon_index":67,
                "sheet_index":0,
-               "last_updated":"2023-12-05 at 22:43 (UTC)"
+               "last_updated":"2025-03-07 at 11:43 (UTC)"
             },
             "Wewelsburg":{
                "size":"16.1 MB",
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Wewelsburg_v0.003_12-5-23.zip",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip"
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Wewelsburg_v0.0.4_2-20-2025.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.0.4_2-20-2025.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip",
-                     "input": "Wewelsburg (12-5-23)/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.3/"
+                     "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.0.4_2-20-2025.zip",
+                     "input": "Wewelsburg (Creative) (v0.0.4) (2-20-2025)/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.4/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.3/README.txt"
+                     "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.4/README.txt"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip"
+                     "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.0.4_2-20-2025.zip"
                   },
                   {
                      "type": "promptMessage",
@@ -10552,6 +10630,936 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/moon_end.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Mini Mode",
+               "author":"Cracko298",
+               "version":"v1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"A challenge mod for that makes you insanely small.",
+               "license":"none",
+               "releasenotes": "Full description:\nhttps://github.com/Cracko298/MC3DS-SmallMode/",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":97,
+               "sheet_index":0,
+               "last_updated":"2025-03-07 at 10:34 (CST)"
+            },
+            "Mini Mode (USA)":{
+               "size":"1 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/small-mode/USA_00040000001B8700.zip",
+                     "output": "sdmc:/Minecraft 3DS/small_mode.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/small_mode.zip",
+                     "input": "USA_00040000001B8700/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/small_mode.zip"
+                  }
+               ]
+            },
+            "Mini Mode (EUR)":{
+               "size":"1 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/small-mode/EUR_000400000017CA00.zip",
+                     "output": "sdmc:/Minecraft 3DS/small_mode.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/small_mode.zip",
+                     "input": "EUR_000400000017CA00/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/small_mode.zip"
+                  }
+               ]
+            },
+            "Mini Mode (JPN)":{
+               "size":"1 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/small-mode/JPN_000400000017FD00.zip",
+                     "output": "sdmc:/Minecraft 3DS/small_mode.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/small_mode.zip",
+                     "input": "JPN_000400000017FD00/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/small_mode.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Easier Ender Pearls",
+               "author":"Pizzaleader",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Get more enderpearls from chests and endermen.",
+               "license":"none",
+               "releasenotes": "Get enderpearls from strongholds and dungeons. Compatable with the Megapack.",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":98,
+               "sheet_index":0,
+               "last_updated":"2025-03-07 at 13:20 (CST)"
+            },
+            "Easier Ender Pearls (USA)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/EEP.zip",
+                     "output": "sdmc:/Minecraft 3DS/EEP.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/EEP.zip",
+                     "input": "00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/EEP.zip"
+                  }
+               ]
+            },
+            "Easier Ender Pearls (EUR)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/EEP.zip",
+                     "output": "sdmc:/Minecraft 3DS/EEP.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/EEP.zip",
+                     "input": "000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/EEP.zip"
+                  }
+               ]
+            },
+            "Easier Ender Pearls (JPN)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/EEP.zip",
+                     "output": "sdmc:/Minecraft 3DS/EEP.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/EEP.zip",
+                     "input": "000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/EEP.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Origins Reimagined - Phase 1",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Famous origins mod now ported to MC3DS.",
+               "license":"none",
+               "releasenotes": "The famous Origins mod has been reimagined for Minecraft: New Nintendo 3DS edition!\n\nThis small scale modpack includes 3 origins to pick from in the downloads section:\n\nMermaid:\n- You can only travel on land for 1 minute before needing to submerge in water.\n- Enderman do not get angry at you unless you attack them.\n- You have better luck getting treasure from fishing.\n\nEnderman:\n- You are weak to water, contact with it causes physical pain.\n- By interacting with an Enderman using diamonds you can trade them for ender pearls.\n- You deal more damage.\n- Your ender pearl throws are more powerful.\n\nIron Golem:\n- You are too heavy to swim and sink when in water.\n- You control like a tank (forwards& backwards using left stick, turn using right)\n- You are larger than usual at 3 blocks tall.\n- You deal more damage.\n- You have additional health.\n- You take reduced fall damage and knockback.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/origins1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/origins2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/origins3.png"
+                  }
+               ],
+               "icon_index":99,
+               "sheet_index":0,
+               "last_updated":"2025-03-07 at 13:20 (CST)"
+            },
+            "Enderman Origin (USA)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip",
+                     "input": "Enderman/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip"
+                  }
+               ]
+            },
+            "Enderman Origin (EUR)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip",
+                     "input": "Enderman/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip"
+                  }
+               ]
+            },
+            "Enderman Origin (JPN)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip",
+                     "input": "Enderman/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip"
+                  }
+               ]
+            },
+            "Mermaid Origin (USA)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip",
+                     "input": "Fish/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip"
+                  }
+               ]
+            },
+            "Mermaid Origin (EUR)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip",
+                     "input": "Fish/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip"
+                  }
+               ]
+            },
+            "Mermaid Origin (JPN)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip",
+                     "input": "Fish/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip"
+                  }
+               ]
+            },
+            "Iron Golem Origin (USA)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip",
+                     "input": "Golem/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip"
+                  }
+               ]
+            },
+            "Iron Golem Origin (EUR)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip",
+                     "input": "Golem/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip"
+                  }
+               ]
+            },
+            "Iron Golem Origin (JPN)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip",
+                     "input": "Golem/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Origins Reimagined - Phase 2",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"The 2nd edition of my re-imagined origins mod for 3DS!",
+               "license":"none",
+               "releasenotes": "This small scale modpack includes 3 origins to pick from in the downloads section:\n\nCursed Human:\nYou messed with powers beyond your control in search of power, now you have been cursed.\n\n- You are capped to level 20.\n- You walk slightly faster.\n- You have a lower default and max saturation.\n- You take slightly less fall damage\n\nElf:\nAn elf who exceeds with bows and foraging.\n\n- Red and Brown mushrooms can be eaten for 2 hunger points, at a faster rate than normal food (16 tick)\n- Your arrows deal more damage, travel further and have a larger hitbox.\n- You have a smaller stomach, this reduces your default and max saturation.\n- You are slightly faster.\n- You have smaller lungs, therefore you run out of beath underwater faster.\n\nVAMPIRE:\n- You burn in sunlight\n- Undead mobs are passive towards you.\n- You can only eat red or meat based foods.\n- You can breath underwater for longer than normal.\n- You have additional health.",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":100,
+               "sheet_index":0,
+               "last_updated":"2025-03-07 at 13:20 (CST)"
+            },
+            "Cursed Human Origin (USA)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins2.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip",
+                     "input": "CursedHuman/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip"
+                  }
+               ]
+            },
+            "Cursed Human Origin (EUR)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins2.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip",
+                     "input": "CursedHuman/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip"
+                  }
+               ]
+            },
+            "Cursed Human Origin (JPN)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins2.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip",
+                     "input": "CursedHuman/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip"
+                  }
+               ]
+            },
+            "Elf Origin (USA)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins2.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip",
+                     "input": "Elf/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip"
+                  }
+               ]
+            },
+            "Elf Origin (EUR)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins2.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip",
+                     "input": "Elf/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip"
+                  }
+               ]
+            },
+            "Elf Origin (JPN)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins2.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip",
+                     "input": "Elf/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip"
+                  }
+               ]
+            },
+            "Vampire Origin (USA)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins2.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip",
+                     "input": "Vampire/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip"
+                  }
+               ]
+            },
+            "Vampire Origin (EUR)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins2.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip",
+                     "input": "Vampire/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip"
+                  }
+               ]
+            },
+            "Vampire Origin (JPN)":{
+               "size":"9 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/origins2.zip",
+                     "output": "sdmc:/Minecraft 3DS/origins2.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip",
+                     "input": "Vampire/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/origins2.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Anti-Grief Enderman",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Prevents Endermen from picking up or putting down blocks in your world.",
+               "license":"none",
+               "releasenotes": "Prevents Endermen from picking up or putting down blocks in your world.",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":101,
+               "sheet_index":0,
+               "last_updated":"2025-03-07 at 13:20 (CST)"
+            },
+            "Anti-Grief Enderman (USA)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AGE.zip",
+                     "output": "sdmc:/Minecraft 3DS/AGE.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/AGE.zip",
+                     "input": "AGE/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/AGE.zip"
+                  }
+               ]
+            },
+            "Anti-Grief Enderman (EUR)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AGE.zip",
+                     "output": "sdmc:/Minecraft 3DS/AGE.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/AGE.zip",
+                     "input": "AGE/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/AGE.zip"
+                  }
+               ]
+            },
+            "Anti-Grief Enderman (JPN)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AGE.zip",
+                     "output": "sdmc:/Minecraft 3DS/AGE.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/AGE.zip",
+                     "input": "AGE/romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/AGE.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Elytra from Ender Dragon",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Makes the Enderdragon drop an Elytra when killed.",
+               "license":"none",
+               "releasenotes": "Makes the Enderdragon drop an Elytra when killed.",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":102,
+               "sheet_index":0,
+               "last_updated":"2025-03-07 at 13:20 (CST)"
+            },
+            "Elytra from Ender Dragon (USA)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/EDE.zip",
+                     "output": "sdmc:/Minecraft 3DS/EDE.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/EDE.zip",
+                     "input": "EDE/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/EDE.zip"
+                  }
+               ]
+            },
+            "Elytra from Ender Dragon (EUR)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/EDE.zip",
+                     "output": "sdmc:/Minecraft 3DS/EDE.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/EDE.zip",
+                     "input": "EDE/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/EDE.zip"
+                  }
+               ]
+            },
+            "Elytra from Ender Dragon (JPN)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/EDE.zip",
+                     "output": "sdmc:/Minecraft 3DS/EDE.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/EDE.zip",
+                     "input": "EDE/romfs/resourcepacks/vanilla/server",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/EDE.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Faithless",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"The Popular Faithless x16 texture pack for MC3DS!",
+               "license":"All Rights Reserved",
+               "releasenotes": "The Popular Faithless x16 texture pack has arrived for Minecraft 3DS!\nReplaces the vanilla pack with as many textures from the pack as possible including almost every mob!\n\nOriginal pack by StitchSprites, all rights reserved.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/faithless1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/faithless2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/faithless3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/faithless4.png"
+                  }
+               ],
+               "icon_index":103,
+               "sheet_index":0,
+               "last_updated":"2025-03-07 at 14:45 (CST)"
+            },
+            "Faithless (USA)":{
+               "size":"10 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/faithless.zip",
+                     "output": "sdmc:/Minecraft 3DS/faithless.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/faithless.zip",
+                     "input": "Faithless/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/faithless.zip",
+                     "input": "Faithless/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/faithless.zip"
+                  }
+               ]
+            },
+            "Faithless (EUR)":{
+               "size":"10 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/faithless.zip",
+                     "output": "sdmc:/Minecraft 3DS/faithless.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/faithless.zip",
+                     "input": "Faithless/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/faithless.zip",
+                     "input": "Faithless/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/faithless.zip"
+                  }
+               ]
+            },
+            "Faithless (JPN)":{
+               "size":"10 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/faithless.zip",
+                     "output": "sdmc:/Minecraft 3DS/faithless.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/faithless.zip",
+                     "input": "Faithless/romfs/resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/faithless.zip",
+                     "input": "Faithless/romfs/atlas/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/faithless.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Sink, Don't Swim!",
+               "author":"Nikki aka Swapdoodle",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Renders undead mobs unable to swim, for parity with modern Minecraft versions.",
+               "license":"none",
+               "releasenotes": "Renders undead mobs unable to swim, for parity with modern Minecraft versions.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sds1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sds2.png"
+                  }
+               ],
+               "icon_index":104,
+               "sheet_index":0,
+               "last_updated":"2025-03-07 at 13:20 (CST)"
+            },
+            "Sink, Don't Swim! (USA)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/SDS.zip",
+                     "output": "sdmc:/Minecraft 3DS/SDS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/SDS.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/SDS.zip"
+                  }
+               ]
+            },
+            "Sink, Don't Swim! (EUR)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/SDS.zip",
+                     "output": "sdmc:/Minecraft 3DS/SDS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/SDS.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/SDS.zip"
+                  }
+               ]
+            },
+            "Sink, Don't Swim! (JPN)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/SDS.zip",
+                     "output": "sdmc:/Minecraft 3DS/SDS.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/SDS.zip",
+                     "input": "romfs/resourcepacks/vanilla/server/entities",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/SDS.zip"
                   }
                ]
             }
