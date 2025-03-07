@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 53,
+        "revision": 54,
         "version": 3
     },
     "storeContent": [
@@ -5067,7 +5067,7 @@
          {
             "info":{
                "title":"Hide and go Seek",
-               "author":"JakerBricksYT",
+               "author":"Vionic",
                "version":"1.3",
                "category":["World"],
                "console":["New 3DS"],
