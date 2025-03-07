@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 58,
+        "revision": 59,
         "version": 3
     },
     "storeContent": [
@@ -2426,9 +2426,9 @@
                "version":"1",
                "category":["Mod"],
                "console":["New 3DS"],
-               "description":"April Fools mod that is very special (has a 1% of corrupting your world files and crashes your game).",
+               "description":"April Fools mod that is very special (has a 1% chance of corrupting your world files and crashes your game).",
                "license":"none",
-               "releasenotes":"April Fools mod that is very special (has a 1% of corrupting your world files and crashes your game).",
+               "releasenotes":"April Fools mod that is very special (has a 1% chance of corrupting your world files and crashes your game).",
                "screenshots": [
                   {
                      "description": "No image is available. Sorry.",
