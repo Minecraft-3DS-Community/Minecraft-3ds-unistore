@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 57,
+        "revision": 58,
         "version": 3
     },
     "storeContent": [
@@ -11237,7 +11237,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/AGE.zip",
-                     "input": "AGE/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "AGE/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -11257,7 +11257,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/AGE.zip",
-                     "input": "AGE/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "AGE/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -11277,7 +11277,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/AGE.zip",
-                     "input": "AGE/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "AGE/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -11318,7 +11318,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/EDE.zip",
-                     "input": "EDE/romfs/resourcepacks/vanilla/server",
+                     "input": "EDE/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -11338,7 +11338,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/EDE.zip",
-                     "input": "EDE/romfs/resourcepacks/vanilla/server",
+                     "input": "EDE/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -11358,7 +11358,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/EDE.zip",
-                     "input": "EDE/romfs/resourcepacks/vanilla/server",
+                     "input": "EDE/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
                   },
                   {
