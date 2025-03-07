@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 55,
+        "revision": 56,
         "version": 3
     },
     "storeContent": [
@@ -10835,7 +10835,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins.zip",
-                     "input": "Enderman/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "Enderman/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -10855,7 +10855,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins.zip",
-                     "input": "Enderman/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "Enderman/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -10875,7 +10875,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins.zip",
-                     "input": "Enderman/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "Enderman/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -10895,7 +10895,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins.zip",
-                     "input": "Fish/romfs/resourcepacks/vanilla/server",
+                     "input": "Fish/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -10915,7 +10915,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins.zip",
-                     "input": "Fish/romfs/resourcepacks/vanilla/server",
+                     "input": "Fish/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -10935,7 +10935,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins.zip",
-                     "input": "Fish/romfs/resourcepacks/vanilla/server",
+                     "input": "Fish/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -10955,7 +10955,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins.zip",
-                     "input": "Golem/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "Golem/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -10995,7 +10995,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins.zip",
-                     "input": "Golem/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "Golem/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -11036,7 +11036,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins2.zip",
-                     "input": "CursedHuman/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "CursedHuman/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -11056,7 +11056,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins2.zip",
-                     "input": "CursedHuman/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "CursedHuman/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -11076,7 +11076,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins2.zip",
-                     "input": "CursedHuman/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "CursedHuman/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -11096,7 +11096,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins2.zip",
-                     "input": "Elf/romfs/resourcepacks/vanilla/server",
+                     "input": "Elf/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -11116,7 +11116,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins2.zip",
-                     "input": "Elf/romfs/resourcepacks/vanilla/server",
+                     "input": "Elf/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -11136,7 +11136,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins2.zip",
-                     "input": "Elf/romfs/resourcepacks/vanilla/server",
+                     "input": "Elf/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -11156,7 +11156,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins2.zip",
-                     "input": "Vampire/romfs/resourcepacks/vanilla/server",
+                     "input": "Vampire/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -11176,7 +11176,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins2.zip",
-                     "input": "Vampire/romfs/resourcepacks/vanilla/server",
+                     "input": "Vampire/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
                   },
                   {
@@ -11196,7 +11196,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins2.zip",
-                     "input": "Vampire/romfs/resourcepacks/vanilla/server",
+                     "input": "Vampire/romfs/resourcepacks/vanilla/server/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
                   },
                   {
