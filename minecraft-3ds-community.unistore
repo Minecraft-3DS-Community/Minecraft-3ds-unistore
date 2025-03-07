@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 54,
+        "revision": 55,
         "version": 3
     },
     "storeContent": [
@@ -10975,7 +10975,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/origins.zip",
-                     "input": "Golem/romfs/resourcepacks/vanilla/server/entities",
+                     "input": "Golem/romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
