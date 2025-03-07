@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 56,
+        "revision": 57,
         "version": 3
     },
     "storeContent": [
@@ -11514,7 +11514,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/SDS.zip",
-                     "input": "romfs/resourcepacks/vanilla/server/entities",
+                     "input": "romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -11534,7 +11534,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/SDS.zip",
-                     "input": "romfs/resourcepacks/vanilla/server/entities",
+                     "input": "romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
@@ -11554,7 +11554,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/SDS.zip",
-                     "input": "romfs/resourcepacks/vanilla/server/entities",
+                     "input": "romfs/resourcepacks/vanilla/server/entities/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
                   },
                   {
