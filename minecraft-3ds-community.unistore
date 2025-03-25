@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 59,
+        "revision": 60,
         "version": 3
     },
     "storeContent": [
@@ -4078,7 +4078,7 @@
                ],
                "icon_index":42,
                "sheet_index":0,
-               "last_updated":"2025-02-20 at 21:16 (CST)"
+               "last_updated":"2100-02-20 at 21:16 (CST)"
             },
             "Modernization MegaPack (USA)":{
                "size":"4.26 MB",
@@ -4804,36 +4804,36 @@
                "console":["New 3DS"],
                "description":"A Mod that adds a new Mob/Entity to Minecraft 3DS Edition. With Custom behaviors, logic, and model.",
                "license":"Apache 2.0",
-               "releasenotes": "A Mod that adds a new Mob/Entity to Minecraft 3DS Edition. With Custom behaviors, logic, and model.",
+               "releasenotes":"A Mod that adds a new Mob/Entity to Minecraft 3DS Edition. With Custom behaviors, logic, and model.",
                "screenshots": [
-                {
-                "description": "Image #1",
-                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb1.png"
-                },
-                {
-                "description": "Image #2",
-                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb2.png"
-                },
-                {
-                "description": "Image #3",
-                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb3.png"
-                },
-                {
-                "description": "Image #4",
-                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb4.png"
-                },
-                {
-                "description": "Image #5",
-                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb5.png"
-                },
-                {
-                "description": "Image #6",
-                "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb6.png"
-                }
-            ],
-            "icon_index":49,
-            "sheet_index":0,
-            "last_updated":"2024-04-09 at 12:52 (CST)"
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb4.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb5.png"
+                  },
+                  {
+                     "description": "Image #6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ironb6.png"
+                  }
+               ],
+               "icon_index":49,
+               "sheet_index":0,
+               "last_updated":"2024-04-09 at 12:52 (CST)"
             },
             "IronBrutes (USA)":{
                "size":"112 KB",
@@ -4841,22 +4841,22 @@
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/IronBrutes.zip",
-                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                     "output": "sdmc:/Minecraft 3DS/ironbrutes.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/IronBrutes.zip",
-                     "input": "IronBrutes/",
-                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                     "file": "sdmc:/Minecraft 3DS/ironbrutes.zip",
+                     "input": "resourcepacks/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/luma/titles/00040000001B8700/romfs/IronBrutes.zip"
+                     "file": "sdmc:/Minecraft 3DS/ironbrutes.zip"
                   },
                   {
-                     "type": "promptMessage",
-                     "message": "This mod is experimental, and may break mob behavior.",
-                     "count": 1
+                     "type":"promptMessage",
+                     "message":"This mod is experimental, and may break mob behavior.",
+                     "count":1
                   }
                ]
             },
@@ -4866,22 +4866,22 @@
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/IronBrutes.zip",
-                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                     "output": "sdmc:/Minecraft 3DS/ironbrutes.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/IronBrutes.zip",
-                     "input": "IronBrutes/",
-                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                     "file": "sdmc:/Minecraft 3DS/ironbrutes.zip",
+                     "input": "resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/luma/titles/000400000017CA00/romfs/IronBrutes.zip"
+                     "file": "sdmc:/Minecraft 3DS/ironbrutes.zip"
                   },
                   {
-                     "type": "promptMessage",
-                     "message": "This mod is experimental, and may break mob behavior.",
-                     "count": 1
+                     "type":"promptMessage",
+                     "message":"This mod is experimental, and may break mob behavior.",
+                     "count":1
                   }
                ]
             },
@@ -4891,22 +4891,22 @@
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/IronBrutes.zip",
-                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                     "output": "sdmc:/Minecraft 3DS/ironbrutes.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/luma/titles/000400000017FD00/romfs/IronBrutes.zip",
-                     "input": "IronBrutes/",
-                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                     "file": "sdmc:/Minecraft 3DS/ironbrutes.zip",
+                     "input": "resourcepacks/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/luma/titles/000400000017FD00/romfs/IronBrutes.zip"
+                     "file": "sdmc:/Minecraft 3DS/ironbrutes.zip"
                   },
                   {
-                     "type": "promptMessage",
-                     "message": "This mod is experimental, and may break mob behavior.",
-                     "count": 1
+                     "type":"promptMessage",
+                     "message":"This mod is experimental, and may break mob behavior.",
+                     "count":1
                   }
                ]
             }
@@ -5192,11 +5192,11 @@
                "releasenotes":"Random Loot makes all the mob drops swapped.\n\nDISCLAIMER! Your 3ds must be modded for this to work. For more info, vist 3ds.hacks.guide .\n\nInfo:\n\nBaby varaiants of each mob will not drop anything except xp.\n\nMobs who normally drop nothing are not affected.\n\nIt might seem like multiple mobs drop zombie drops, but these are just the drops of the other zombie variants.\n\nIt does not randomize it everytime you start a world.\n\nInstructions: Extract the folder. Then, the files from the entities folder go in luma/titles/titleIDgoeshere/romfs/resourcepacks/vanilla/server/entities.\n\nPlease let me know of any bugs. You can contact me at @KrftRV249 on discord.",
                "screenshots": [
                   {
-                     "description": "Image 1",
+                     "description": "Image #1",
                      "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/randomloot1.png"
                   },
                   {
-                     "description": "Image 2",
+                     "description": "Image #2",
                      "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/randomloot2.png"
                   }
                ],
@@ -6604,7 +6604,7 @@
                ],
                "icon_index":65,
                "sheet_index":0,
-               "last_updated":"2024-09-07 at 10:23 (CST)"
+               "last_updated":"3024-09-07 at 10:23 (CST)"
             },
             "Remove ALL content (USA)":[
                {
@@ -6615,6 +6615,11 @@
                {
                   "type":"rmdir",
                   "directory":"sdmc:/luma/titles/00040000001B8700",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/plugins/00040000001B8700/",
                   "required":false
                }
             ],
@@ -6628,6 +6633,11 @@
                   "type":"rmdir",
                   "directory":"sdmc:/luma/titles/000400000017CA00",
                   "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/plugins/000400000017CA00/",
+                  "required":false
                }
             ],
             "Remove ALL content (JPN)":[
@@ -6639,6 +6649,11 @@
                {
                   "type":"rmdir",
                   "directory":"sdmc:/luma/titles/000400000017FD00",
+                  "required":false
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/plugins/000400000017FD00/",
                   "required":false
                }
             ],
@@ -6981,12 +6996,48 @@
             "Remove IPS patches (JPN)":[
                {
                   "type":"promptMessage",
-                  "message":"This will delete ALL downloaded\nworlds for the game",
+                  "message":"This will delete installed\nIPS patches from the game!",
                   "count":1
                },
                {
                   "type":"rmdir",
                   "directory":"sdmc:/luma/titles/000400000017FD00/code.ips",
+                  "required":false
+               }
+            ],
+            "Remove game plugins (USA)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL downloaded\ngame plugins.",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/plugins/00040000001B8700/",
+                  "required":false
+               }
+            ],
+            "Remove game plugins (EUR)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL downloaded\ngame plugins.",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/plugins/000400000017CA00/",
+                  "required":false
+               }
+            ],
+            "Remove game plugins (JPN)":[
+               {
+                  "type":"promptMessage",
+                  "message":"This will delete ALL downloaded\ngame plugins.",
+                  "count":1
+               },
+               {
+                  "type":"rmdir",
+                  "directory":"sdmc:/luma/plugins/000400000017FD00/",
                   "required":false
                }
             ]
@@ -7106,71 +7157,71 @@
                "screenshots": [
                   {
                      "description": "Image #1",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_1.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_1.png"
                   },
                   {
                      "description": "Image #2",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_2.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_2.png"
                   },
                   {
                      "description": "Image #3",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_3.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_3.png"
                   },
                   {
                      "description": "Image #4",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_4.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_4.png"
                   },
                   {
                      "description": "Image #5",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_5.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_5.png"
                   },
                   {
                      "description": "Image #6",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_6.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_6.png"
                   },
                   {
                      "description": "Image #7",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_7.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_7.png"
                   },
                   {
                      "description": "Image #8",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_8.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_8.png"
                   },
                   {
                      "description": "Image #9",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_9.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_9.png"
                   },
                   {
                      "description": "Image #10",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_10.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_10.png"
                   },
                   {
                      "description": "Image #11",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_11.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_11.png"
                   },
                   {
                      "description": "Image #12",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_12.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_12.png"
                   },
                   {
                      "description": "Image #13",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_13.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_13.png"
                   },
                   {
                      "description": "Image #14",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_14.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_14.png"
                   },
                   {
                      "description": "Image #15",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_15.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_15.png"
                   },
                   {
                      "description": "Image #16",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_16.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_16.png"
                   },
                   {
                      "description": "Image #17",
-                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshot/Wewelsburg/wewelsburg_17.png"
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Wewelsburg/wewelsburg_17.png"
                   }
                ],
                "icon_index":67,
@@ -10208,7 +10259,7 @@
          },
                   {
             "info":{
-               "title":"Bow charge indicator",
+               "title":"Bow Charge Indicator",
                "author":"Pizzaleader",
                "version":"1.0",
                "category":["Texture Pack"],
@@ -10230,7 +10281,7 @@
                "sheet_index":0,
                "last_updated":"2025-01-20 at 13:34 (CST)"
             },
-            "Bow charge indicator (USA)":{
+            "Bow Charge Indicator (USA)":{
                "size":"56 KB",
                "script":[
                   {
@@ -10256,7 +10307,7 @@
                   }
                ]
             },
-            "Bow charge indicator (EUR)":{
+            "Bow Charge Indicator (EUR)":{
                "size":"56 KB",
                "script":[
                   {
@@ -10282,7 +10333,7 @@
                   }
                ]
             },
-            "Bow charge indicator (JPN)":{
+            "Bow Charge Indicator (JPN)":{
                "size":"56 KB",
                "script":[
                   {
@@ -10452,7 +10503,7 @@
          },
          {
             "info":{
-               "title":"Sandy husks",
+               "title":"Sandy Husks",
                "author":"Pizzaleader",
                "version":"1.0",
                "category":["Mod"],
@@ -10470,7 +10521,7 @@
                "sheet_index":0,
                "last_updated":"2025-01-20 at 13:34 (CST)"
             },
-            "Sandy husks (USA)":{
+            "Sandy Husks (USA)":{
                "size":"8 KB",
                "script":[
                   {
@@ -10490,7 +10541,7 @@
                   }
                ]
             },
-            "Sandy husks (EUR)":{
+            "Sandy Husks (EUR)":{
                "size":"8 KB",
                "script":[
                   {
@@ -10510,7 +10561,7 @@
                   }
                ]
             },
-            "Sandy husks (JPN)":{
+            "Sandy Husks (JPN)":{
                "size":"8 KB",
                "script":[
                   {
@@ -10533,7 +10584,7 @@
          },
          {
             "info":{
-               "title":"Moon end",
+               "title":"Moon End",
                "author":"Pizzaleader",
                "version":"1.0",
                "category":["Texture Pack"],
@@ -10555,7 +10606,7 @@
                "sheet_index":0,
                "last_updated":"2025-01-20 at 13:34 (CST)"
             },
-            "Moon end (USA)":{
+            "Moon End (USA)":{
                "size":"390 KB",
                "script":[
                   {
@@ -10581,7 +10632,7 @@
                   }
                ]
             },
-            "Moon end (EUR)":{
+            "Moon End (EUR)":{
                "size":"390 KB",
                "script":[
                   {
@@ -10607,7 +10658,7 @@
                   }
                ]
             },
-            "Moon end (JPN)":{
+            "Moon End (JPN)":{
                "size":"390 KB",
                "script":[
                   {
