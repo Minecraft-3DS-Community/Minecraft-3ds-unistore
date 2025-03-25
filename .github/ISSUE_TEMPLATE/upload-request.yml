@@ -25,14 +25,12 @@ body:
   - type: dropdown
     id: region
     attributes:
-      label: Select the region that corresponds your mod to
+      label: Select the regions that corresponds your mod to
       multiple: true
       options:
         - USA
         - EUR
         - JPN
-        - All regions
-      default: 3
     validations:
       required: true
   - type: textarea
