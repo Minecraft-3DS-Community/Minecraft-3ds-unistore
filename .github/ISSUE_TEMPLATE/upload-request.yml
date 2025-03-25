@@ -22,11 +22,32 @@ body:
       placeholder: Describe your mod...
     validations:
       required: true
+  - type: dropdown
+    id: region
+    attributes:
+      label: Select the region that corresponds your mod to
+      multiple: true
+      options:
+        - USA
+        - EUR
+        - JPN
+        - All regions
+      default: 3
+    validations:
+      required: true
   - type: textarea
     id: icon
     attributes: 
       label: Icon
       description: This will be your mod icon that will show in the unistore. Only 48x48 icon are accepted.
       placeholder: Attach your icon (png, jpg, jpeg)
+    validations:
+      required: true
+  - type: textarea
+    id: mod
+    attributes: 
+      label: Your content/mod
+      description: Attach here the mod file
+      placeholder: Attach the file here (zip, 7z, rar)
     validations:
       required: true
