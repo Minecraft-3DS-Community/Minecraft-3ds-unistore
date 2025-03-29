@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 61,
+        "revision": 62,
         "version": 3
     },
     "storeContent": [
@@ -9576,102 +9576,81 @@
                "sheet_index":0,
                "last_updated":"2024-09-23 at 12:43 (UTC)"
             },
-            "JJBA Skin Pack (USA)":[
-               {
-                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/JJBA.zip",
-                  "output":"sdmc:/Minecraft 3DS/JJBA.zip",
-                  "type":"downloadFile"
-               },
-               {
-                  "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
-                  "required":false
-               },
-               {
-                  "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/base/",
-                  "required":false
-               },
-               {
-                  "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/JJBA.zip",
-                  "input":"JJBA Skin Pack/skinpacks/",
-                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/"
-               },
-               {
-                  "type":"deleteFile",
-                  "file":"sdmc:/Minecraft 3DS/JJBA.zip"
-               },
-               {
-                  "type":"promptMessage",
-                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
-                  "count":1
-               }
-            ],
-            "JJBA Skin Pack (EUR)":[
-               {
-                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/JJBA.zip",
-                  "output":"sdmc:/Minecraft 3DS/JJBA.zip",
-                  "type":"downloadFile"
-               },
-               {
-                  "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
-                  "required":false
-               },
-               {
-                  "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/base/",
-                  "required":false
-               },
-               {
-                  "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/JJBA.zip",
-                  "input":"JJBA Skin Pack/skinpacks/",
-                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/"
-               },
-               {
-                  "type":"deleteFile",
-                  "file":"sdmc:/Minecraft 3DS/JJBA.zip"
-               },
-               {
-                  "type":"promptMessage",
-                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
-                  "count":1
-               }
-            ],
-            "JJBA Skin Pack (JPN)":[
-               {
-                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/JJBA.zip",
-                  "output":"sdmc:/Minecraft 3DS/JJBA.zip",
-                  "type":"downloadFile"
-               },
-               {
-                  "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
-                  "required":false
-               },
-               {
-                  "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/base/",
-                  "required":false
-               },
-               {
-                  "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/JJBA.zip",
-                  "input":"JJBA Skin Pack/skinpacks/",
-                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/"
-               },
-               {
-                  "type":"deleteFile",
-                  "file":"sdmc:/Minecraft 3DS/JJBA.zip"
-               },
-               {
-                  "type":"promptMessage",
-                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
-                  "count":1
-               }
-            ]
+            "JJBA Skin Pack (USA)":{
+               "size":"32 KB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/JJBA.zip",
+                     "output":"sdmc:/Minecraft 3DS/JJBA.zip",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/JJBA.zip",
+                     "input":"JJBA Skin Pack/skinpacks/",
+                     "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/JJBA.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "JJBA Skin Pack (EUR)":{
+               "size":"32 KB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/JJBA.zip",
+                     "output":"sdmc:/Minecraft 3DS/JJBA.zip",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/JJBA.zip",
+                     "input":"JJBA Skin Pack/skinpacks/",
+                     "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/JJBA.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "JJBA Skin Pack (JPN)":{
+               "size":"32 KB",
+               "script":[
+                  {
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/JJBA.zip",
+                     "output":"sdmc:/Minecraft 3DS/JJBA.zip",
+                     "type":"downloadFile"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/JJBA.zip",
+                     "input":"JJBA Skin Pack/skinpacks/",
+                     "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/JJBA.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            }
          },
          {
             "info":{
@@ -11611,6 +11590,524 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/SDS.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Minecon Earth 2017 Skin Pack",
+               "author":"Zexlo",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"Relive the Minecon Earth 2017 party with these themed costumes now on 3ds!",
+               "license":"unknown",
+               "releasenotes": "Join the party, wherever you are - and get dressed for the occasion with these fancy skins, celebrating everything from cosplay to cake!\n(replaces CityFolk skinpack)\nNow includes all colours for the sheep cosplay skin. DLC required to use all skins.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/MCE1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/MCE2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/MCE3.png"
+                  }
+               ],
+               "icon_index":105,
+               "sheet_index":0,
+               "last_updated":"2025-03-29 at 5:43 (UTC)"
+            },
+            "Minecon Earth 2017 Skin Pack (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/MCEARTH2017.zip",
+                  "output":"sdmc:/Minecraft 3DS/MCEARTH2017.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/MCEARTH2017.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/MCEARTH2017.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Minecon Earth 2017 Skin Pack (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/MCEARTH2017.zip",
+                  "output":"sdmc:/Minecraft 3DS/MCEARTH2017.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/MCEARTH2017.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/MCEARTH2017.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ],
+            "Minecon Earth 2017 Skin Pack (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/MCEARTH2017.zip",
+                  "output":"sdmc:/Minecraft 3DS/MCEARTH2017.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/MCEARTH2017.zip",
+                  "input":"romfs/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/MCEARTH2017.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         {
+            "info":{
+               "title":"Minecraft: Story Mode Skin Pack",
+               "author":"Zexlo",
+               "version":"1",
+               "category":["Skin Pack"],
+               "console":["New 3DS"],
+               "description":"Dress as your favorite Story Mode character!",
+               "license":"unknown",
+               "releasenotes": "Create your own adventure with this skin pack featuring your favorite characters from Minecraft: Story Mode.\nAll the Jesse, Olivia, Axel, Petra skins and many more are included!\n(replaces journey to the west skin pack)",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/MCSM1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/MCSM2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/MCSM3.png"
+                  }
+               ],
+               "icon_index":106,
+               "sheet_index":0,
+               "last_updated":"2025-03-29 at 5:43 (UTC)"
+            },
+            "Minecraft: Story Mode Skin Pack (USA)":{
+               "size":"32 KB",
+               "script":[
+                  {
+                     "type":"downloadFile",
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/MCSM.zip",
+                     "output":"sdmc:/Minecraft 3DS/MCSM.zip"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/MCSM.zip",
+                     "input":"romfs/",
+                     "output":"sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/MCSM.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Minecraft: Story Mode Skin Pack (EUR)":{
+               "size":"32 KB",
+               "script":[
+                  {
+                     "type":"downloadFile",
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/MCSM.zip",
+                     "output":"sdmc:/Minecraft 3DS/MCSM.zip"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/MCSM.zip",
+                     "input":"romfs/",
+                     "output":"sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/MCSM.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            },
+            "Minecraft: Story Mode Skin Pack (JPN)":{
+               "size":"32 KB",
+               "script":[
+                  {
+                     "type":"downloadFile",
+                     "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/MCSM.zip",
+                     "output":"sdmc:/Minecraft 3DS/MCSM.zip"
+                  },
+                  {
+                     "type":"extractFile",
+                     "file":"sdmc:/Minecraft 3DS/MCSM.zip",
+                     "input":"romfs/",
+                     "output":"sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type":"deleteFile",
+                     "file":"sdmc:/Minecraft 3DS/MCSM.zip"
+                  },
+                  {
+                     "type":"promptMessage",
+                     "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                     "count":1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Bushy Leaves",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Texture Pack","VT port"],
+               "console":["New 3DS"],
+               "description":"Gives leaves a slightly bushier look!",
+               "license":"Apache",
+               "releasenotes": "A simple block edit that makes leaves appear slightly bushier!\nShould be compatible with any texture pack that doesn't edit blocks.json.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":107,
+               "sheet_index":0,
+               "last_updated":"2025-03-29 at 16:21 (CST)"
+            },
+            "Bushy Leaves (USA)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/bushy.zip",
+                     "output": "sdmc:/Minecraft 3DS/bushy.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/bushy.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/bushy.zip"
+                  }
+               ]
+            },
+            "Bushy Leaves (EUR)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/bushy.zip",
+                     "output": "sdmc:/Minecraft 3DS/bushy.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/bushy.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/bushy.zip"
+                  }
+               ]
+            },
+            "Bushy Leaves (JPN)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/bushy.zip",
+                     "output": "sdmc:/Minecraft 3DS/bushy.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/bushy.zip",
+                     "input": "romfs/resourcepacks/vanilla/client/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/bushy.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Windows 98 GUI Pack",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Gives MC3DS a new Windows 98 themed GUI.",
+               "license":"Apache",
+               "releasenotes": "Gives MC3DS a new Windows 98 themed GUI.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/win981.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/win982.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/win983.png"
+                  }
+               ],
+               "icon_index":108,
+               "sheet_index":0,
+               "last_updated":"2025-03-29 at 16:21 (CST)"
+            },
+            "Light Mode (USA)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/win98UI.zip",
+                     "output": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip",
+                     "input": "win98/romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  }
+               ]
+            },
+            "Light Mode (EUR)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/win98UI.zip",
+                     "output": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip",
+                     "input": "win98/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  }
+               ]
+            },
+            "Light Mode (JPN)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/win98UI.zip",
+                     "output": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip",
+                     "input": "win98/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  }
+               ]
+            },
+            "Dark Mode (USA)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/win98UI.zip",
+                     "output": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip",
+                     "input": "win98Dark/romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  }
+               ]
+            },
+            "Dark Mode (EUR)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/win98UI.zip",
+                     "output": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip",
+                     "input": "win98Dark/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  }
+               ]
+            },
+            "Dark Mode (JPN)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/win98UI.zip",
+                     "output": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip",
+                     "input": "win98Dark/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/win98UI.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"MegaPack Plugin: Aero GUI",
+               "author":"wyndchyme",
+               "version":"1.0.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Gives MC3DS a new Frutiger Aero-themed GUI.",
+               "license":"Apache",
+               "releasenotes": "This is an add-on for Modernization MegaPack that replaces the GUI with a Frutiger Aero-themed GUI.\n\nhttps://https://github.com/wyndchyme/mc3ds-aero",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/aero_1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/aero_2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/aero_3.png"
+                  }
+               ],
+               "icon_index":109,
+               "sheet_index":0,
+               "last_updated":"2025-03-29 at 16:21 (CST)"
+            },
+            "Aero GUI (USA)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/aero.zip",
+                     "output": "sdmc:/Minecraft 3DS/aero.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/aero.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/aero.zip"
+                  }
+               ]
+            },
+            "Aero GUI (EUR)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/aero.zip",
+                     "output": "sdmc:/Minecraft 3DS/aero.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/aero.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/aero.zip"
+                  }
+               ]
+            },
+            "Aero GUI (JPN)":{
+               "size":"31 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/aero.zip",
+                     "output": "sdmc:/Minecraft 3DS/aero.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/aero.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/aero.zip"
                   }
                ]
             }
