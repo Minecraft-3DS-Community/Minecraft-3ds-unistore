@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 62,
+        "revision": 63,
         "version": 3
     },
     "storeContent": [
@@ -5284,7 +5284,7 @@
             "info":{
                "title":"Gun Mod",
                "author":"KrftRV249",
-               "version":"1",
+               "version":"1.1",
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"Replaces the bow with a gun.",
