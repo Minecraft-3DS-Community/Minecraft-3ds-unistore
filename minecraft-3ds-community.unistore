@@ -4143,7 +4143,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/plugins/00040000001B8700/megapackPlugin.3gx",
+                     "input": "mmp/plugins/00040000001B8700/",
                      "output": "sdmc:/luma/plugins/00040000001B8700/"
                   },
                   {
@@ -4215,7 +4215,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/plugins/000400000017CA00/megapackPlugin.3gx",
+                     "input": "mmp/plugins/000400000017CA00/",
                      "output": "sdmc:/luma/plugins/000400000017CA00/"
                   },
                   {
@@ -4287,7 +4287,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/plugins/000400000017FD00/megapackPlugin.3gx",
+                     "input": "mmp/plugins/000400000017FD00/",
                      "output": "sdmc:/luma/plugins/000400000017FD00/"
                   },
                   {
