@@ -4101,12 +4101,6 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/plugins/00040000001B8700/megapackPlugin.3gx",
-                     "output": "sdmc:/luma/plugins/00040000001B8700/"
-                  },
-                  {
-                     "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
                      "input": "mmp/titles/0040000001B8700/romfs/3ds/font/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/3ds/font/"
                   },
@@ -4147,6 +4141,12 @@
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/structures/"
                   },
                   {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "mmp/plugins/00040000001B8700/megapackPlugin.3gx",
+                     "output": "sdmc:/luma/plugins/00040000001B8700/"
+                  },
+                  {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   }
@@ -4169,12 +4169,6 @@
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v2.2.0.EUR.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
-                  },
-                  {
-                     "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/plugins/000400000017CA00/megapackPlugin.3gx",
-                     "output": "sdmc:/luma/plugins/000400000017CA00/"
                   },
                   {
                      "type": "extractFile",
@@ -4219,6 +4213,12 @@
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/structures/"
                   },
                   {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "mmp/plugins/000400000017CA00/megapackPlugin.3gx",
+                     "output": "sdmc:/luma/plugins/000400000017CA00/"
+                  },
+                  {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
                   }
@@ -4241,12 +4241,6 @@
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v2.2.0.JPN.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
-                  },
-                  {
-                     "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/plugins/000400000017FD00/megapackPlugin.3gx",
-                     "output": "sdmc:/luma/plugins/000400000017FD00/"
                   },
                   {
                      "type": "extractFile",
@@ -4289,6 +4283,12 @@
                      "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
                      "input": "mmp/titles/000400000017FD00/romfs/structures/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/structures/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "input": "mmp/plugins/000400000017FD00/megapackPlugin.3gx",
+                     "output": "sdmc:/luma/plugins/000400000017FD00/"
                   },
                   {
                      "type": "deleteFile",
