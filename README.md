@@ -10,7 +10,7 @@ __THE OFFICIAL MINECRAFT 3DS COMMUNITY UNISTORE__
 
 ## About
 
-This is a repository for a Universal-Updater UniStore that hosts mods for Minecraft: New Nintendo 3DS Edition. It can be installed on your console from the 'Recommended UniStores' menu in Universal-Updater.
+This is a repository for a Universal-Updater Unistore that hosts mods for Minecraft: New Nintendo 3DS Edition. It can be installed on your console from the 'Recommended Unistores' menu in Universal-Updater.
 
 **For more information, read the manual on our Discord server: https://discord.gg/xSrN6k965F** 
 
@@ -35,7 +35,7 @@ This is a repository for a Universal-Updater UniStore that hosts mods for Minecr
 | PokéTube | <ul><li>PokéTube City Map</li></ul> |
 | RetroRemade | <ul><li>Better Creepers Mod</li></ul> |
 | Ruff64 | <ul><li>The Dropper: 3DS Remaster</li></ul> |
-| STBUniverse | <ul><li>STB-MC3DS UniStore</li><li>Vanilla 1.20 Textures Port</li></ul> |
+| STBUniverse | <ul><li>STB-MC3DS Unistore</li><li>Vanilla 1.20 Textures Port</li></ul> |
 | susbaconhairman | <ul><li>Adventure Time Mashup Pack</li></ul> |
 | TheRustico36 | <ul><li>Cleann'slick GUI</li><li>New Base Skins Port</li><li>Legacy Console Default Skin Pack Port</li></ul> |
 | UnknownLoser | <ul><li>DualFlow</li></ul> |
@@ -46,7 +46,7 @@ This is a repository for a Universal-Updater UniStore that hosts mods for Minecr
 | wyndchyme | <ul><li>Modernization MegaPack (includes content from various other people)</li><li>MegaPack Standalone: Classic Textures</li><li>MegaPack Standalone: Achievement Textures</li><li>Pink Floyd Painting Pack</li></ul> |
 | Zexlo | <ul><li>1.20 Lava Textures</li><li>1.20 Mob Textures</li><li>1.20 Seamless Varied Textures</li><li>Bare Bones Textures</li></ul> | 
 
-_All content has been approved by their creators to be hosted on this UniStore._
+_All content has been approved by their creators to be hosted on this Unistore._
 
 <br>
 
@@ -71,7 +71,7 @@ _All content has been approved by their creators to be hosted on this UniStore._
 
 <br>
 
-_Thanks to Susbaconhairman for the idea of the UniStore._
+_Thanks to Susbaconhairman for the idea of the Unistore._
 
 <br>
 
