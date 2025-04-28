@@ -796,7 +796,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/building-time.zip",
                      "input": "Building Time/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Building Time/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/BuildingTime/"
                   },
                   {
                      "type": "deleteFile",
@@ -931,7 +931,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/dropper.zip",
                      "input": "TheDropper3DS/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/The Dropper - 3DS Remaster/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/TheDropperRM/"
                   },
                   {
                      "type": "deleteFile",
@@ -981,7 +981,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip",
                      "input": "World in Jar 3DS by ArcModzzz/KwIAAH6MBwA=/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/World in a Jar 3DS/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/WorldInAJar/"
                   },
                   {
                      "type": "deleteFile",
@@ -1031,7 +1031,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip",
                      "input": "Find the Button 3DS/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Find the Button/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/FindtheBtn/"
                   },
                   {
                      "type": "deleteFile",
@@ -1241,7 +1241,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip",
                      "input": "Lapiz_s Funland/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Lapiz's Funland v1.0/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/Funland v1.0/"
                   },
                   {
                      "type": "deleteFile",
@@ -1266,7 +1266,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip",
                      "input": "Lapiz Funland 1_1 City and Snow/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Lapiz's Funland v1.1 - City and Snow/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/Funland v1.1/"
                   },
                   {
                      "type": "deleteFile",
@@ -1316,7 +1316,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/stampys-world.zip",
                      "input": "Stampy_s World 3DS/Stampy_s World/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Stampy's Lovely World/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/Lovely World/"
                   },
                   {
                      "type": "deleteFile",
@@ -1341,7 +1341,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/stampys-world-11-snap.zip",
                      "input": "Stampy_s World 3DS/Stampy_s World/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Stampy's Lovely World - v1.1 Snapshot/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/LovelyW-v1.1/"
                   },
                   {
                      "type": "deleteFile",
@@ -3387,7 +3387,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_World.zip",
                      "input": "Skyblock+/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Skyblock Plus/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus/"
                   },
                   {
                      "type": "deleteFile",
@@ -4817,7 +4817,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/5wsAAO8fGAA_1.zip",
                      "input": "5wsAAO8fGAA=/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Halloween Map/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/HalloweenMap/"
                   },
                   {
                      "type": "deleteFile",
@@ -4995,7 +4995,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/modernization-survival.zip",
                      "input": "MC Modern S/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Minecraft 3DS Modernization - Survival/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/MCModern-S/"
                   },
                   {
                      "type": "deleteFile",
@@ -5020,7 +5020,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/modernization-creative.zip",
                      "input": "MC Modern C/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Minecraft 3DS Modernization - Creative/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/MCModern-C/"
                   },
                   {
                      "type": "deleteFile",
@@ -5082,7 +5082,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/gen-skyblock.7z",
                      "input": "Gen's Skyblock/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/GenSpace's Skyblock/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/Gen-Skyblock/"
                   },
                   {
                      "type": "deleteFile",
@@ -5202,7 +5202,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_and_seek_ver._1.3.zip",
                      "input": "qQQAAKQEBQA=/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Hide and go Seek v1.3/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/HideSeek-1.3/"
                   },
                   {
                      "type": "deleteFile",
@@ -5756,7 +5756,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/poketube-1.zip",
                      "input": "PokeTube City/PokeTube City/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Poketube City/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/PoketubeCity/"
                   },
                   {
                      "type": "deleteFile",
@@ -5781,7 +5781,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/poketube-11.zip",
                      "input": "PokeTube City v1.1/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/PokeTube City v1.1/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/PT-City v1.1/"
                   },
                   {
                      "type": "deleteFile",
@@ -5806,7 +5806,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/poketube-12.zip",
                      "input": "PokeTube City 1.2/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/PokeTube City v1.2/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/PT-City v1.2/"
                   },
                   {
                      "type": "deleteFile",
@@ -5831,7 +5831,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/poketube-13.zip",
                      "input": "PokeTube City 1.3/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/PokeTube City v1.3/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/PT-City v1.3/"
                   },
                   {
                      "type": "deleteFile",
@@ -5856,7 +5856,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/poketube-14.zip",
                      "input": "PokeTube City 1.4/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/PokeTube City v1.4/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/PT-City v1.4/"
                   },
                   {
                      "type": "deleteFile",
@@ -5881,7 +5881,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/poketube-past.zip",
                      "input": "PokeTube City Past/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Poketube City: Past"
+                     "output": "sdmc:/Minecraft 3DS/worlds/PT-City Past"
                   },
                   {
                      "type": "deleteFile",
@@ -7276,7 +7276,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.0.4_2-20-2025.zip",
                      "input": "Wewelsburg (Creative) (v0.0.4) (2-20-2025)/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.4/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/WsburgV0.0.4/"
                   },
                   {
                      "type": "deleteFile",
@@ -7799,7 +7799,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/superflat-survival.zip",
                      "input": "Minecraft 3DS Superflat Survival (Bonus Chest)/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Superflat Survival/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/Superflat-S/"
                   },
                   {
                      "type": "deleteFile",
@@ -8306,7 +8306,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/dualflow-demo.zip",
                      "input": "DualFlowDemo/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/DualFlow Demo/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/DualFlowDemo/"
                   },
                   {
                      "type": "deleteFile",
@@ -8406,7 +8406,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/fnaf-hide-seek.zip",
                      "input": "FNAFhideseek/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/FNaF Hide and Seek/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/FNaFHideSeek/"
                   },
                   {
                      "type": "deleteFile",
@@ -8456,7 +8456,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/Dropper_Submission.zip",
                      "input": "cy4AAGNCTQY=/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/WaterMelon's The Dropper Submission/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/MelonTheDrpr/"
                   },
                   {
                      "type": "deleteFile",
@@ -8510,7 +8510,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D.zip",
                      "input": "Debug Mode 3D/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Debug Mode 3D v1.0.0/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/DbgMd v1.0.0/"
                   },
                   {
                      "type": "deleteFile",
@@ -8535,7 +8535,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D1.0.1.zip",
                      "input": "Debug Mode 3D/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Debug Mode 3D v1.0.1/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/DbgMd v1.0.1/"
                   },
                   {
                      "type": "deleteFile",
@@ -8593,7 +8593,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesPrerelease.zip",
                      "input": "BlindMazePre/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes Prerelease/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/BlindMaze-PR/"
                   },
                   {
                      "type": "deleteFile",
@@ -8618,7 +8618,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes.zip",
                      "input": "Blind Mazes/MazeBlind/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.0/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/BMaze 1.0.0/"
                   },
                   {
                      "type": "deleteFile",
@@ -8643,7 +8643,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesfix.zip",
                      "input": "BlindMazes1.0.1/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.0.5/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/BMaze 1.0.05/"
                   },
                   {
                      "type": "deleteFile",
@@ -8668,7 +8668,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.1.zip",
                      "input": "Blind Mazes/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.1/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/BMaze 1.0.1/"
                   },
                   {
                      "type": "deleteFile",
@@ -8693,7 +8693,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/BlindMazes1.0.2.zip",
                      "input": "BlindMazes1.0.2/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.2/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/BMaze 1.0.2/"
                   },
                   {
                      "type": "deleteFile",
@@ -8718,7 +8718,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.3.zip",
                      "input": "Blind Mazes/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.3/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/BMaze 1.0.3/"
                   },
                   {
                      "type": "deleteFile",
@@ -8743,7 +8743,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.zip",
                      "input": "Blind Mazes/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.4/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/BMaze 1.0.4/"
                   },
                   {
                      "type": "deleteFile",
@@ -8768,7 +8768,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.1.zip",
                      "input": "Blind Mazes/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.4.1/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/BMaze 1.0.41/"
                   },
                   {
                      "type": "deleteFile",
@@ -9386,7 +9386,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/Shadowmere.zip",
                      "input": "NQEAAFxmBAA=/",
-                     "output": "sdmc:/Minecraft 3DS/worlds/Castle of Shadowmere/"
+                     "output": "sdmc:/Minecraft 3DS/worlds/Shadowmere/"
                   },
                   {
                      "type": "deleteFile",
