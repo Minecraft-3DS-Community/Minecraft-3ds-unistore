@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 64,
+        "revision": 65,
         "version": 3
     },
     "storeContent": [
@@ -4101,7 +4101,7 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/0040000001B8700/romfs/3ds/font/",
+                     "input": "mmp/titles/00040000001B8700/romfs/3ds/font/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/3ds/font/"
                   },
                   {
