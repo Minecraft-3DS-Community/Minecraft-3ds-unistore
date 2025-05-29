@@ -1,4 +1,6 @@
-![mc](https://raw.githubusercontent.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/refs/heads/main/img/logo.png)
+<div align="center">
+   <img src="https://raw.githubusercontent.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/refs/heads/main/img/logo.png" style="width: 500px">
+</div>
 
 <div align="center">
    
