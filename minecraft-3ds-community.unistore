@@ -4032,7 +4032,7 @@
             "info":{
                "title":"Modernization MegaPack",
                "author":"wyndchyme, Zexlo, Cracko298, STBUniverse, and various others",
-               "version":"2.2.0",
+               "version":"2.3.0",
                "category":["Modpack", "Parity"],
                "console":["New 3DS"],
                "description":"A LayeredFS modpack for Minecraft: New Nintendo 3DS Edition 1.9.19 that aims to modernize the game and much, much more.",
@@ -4095,60 +4095,60 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v2.2.0.USA.zip",
-                     "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/Modernization.MegaPack.v2.3.0.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmegapack.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
                      "input": "mmp/titles/00040000001B8700/romfs/3ds/font/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/3ds/font/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
                      "input": "mmp/titles/00040000001B8700/romfs/atlas/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
                      "input": "mmp/titles/00040000001B8700/romfs/credits/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/credits/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
                      "input": "mmp/titles/00040000001B8700/romfs/loc/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
                      "input": "mmp/titles/00040000001B8700/romfs/notes/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/notes/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
                      "input": "mmp/titles/00040000001B8700/romfs/resourcepacks/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
                      "input": "mmp/titles/00040000001B8700/romfs/structures/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/structures/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
                      "input": "mmp/plugins/00040000001B8700/",
                      "output": "sdmc:/luma/plugins/00040000001B8700/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip"
                   }
                ]
             },
@@ -4167,60 +4167,60 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v2.2.0.EUR.zip",
-                     "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/Modernization.MegaPack.v2.3.0.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmegapack.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017CA00/romfs/3ds/font/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/3ds/font/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/3ds/font/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017CA00/romfs/atlas/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/atlas/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017CA00/romfs/credits/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/credits/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/credits/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017CA00/romfs/loc/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/loc/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017CA00/romfs/notes/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/notes/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/notes/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017CA00/romfs/resourcepacks/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/resourcepacks/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017CA00/romfs/structures/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B87000/romfs/structures/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/structures/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/plugins/000400000017CA00/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/plugins/00040000001B8700/",
                      "output": "sdmc:/luma/plugins/000400000017CA00/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip"
                   }
                ]
             },
@@ -4239,60 +4239,60 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/modernmegapak/Modernization.MegaPack.v2.2.0.JPN.zip",
-                     "output": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/Modernization.MegaPack.v2.3.0.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmegapack.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017FD00/romfs/3ds/font/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/3ds/font/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/3ds/font/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017FD00/romfs/atlas/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/atlas/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017FD00/romfs/credits/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/credits/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/credits/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017FD00/romfs/loc/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/loc/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017FD00/romfs/notes/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/notes/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/notes/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017FD00/romfs/resourcepacks/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/resourcepacks/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/titles/000400000017FD00/romfs/structures/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/structures/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/structures/"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip",
-                     "input": "mmp/plugins/000400000017FD00/",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/plugins/00040000001B8700/",
                      "output": "sdmc:/luma/plugins/000400000017FD00/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/Minecraft 3DS/modernmegapak.zip"
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip"
                   }
                ]
             }
