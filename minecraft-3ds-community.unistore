@@ -4143,6 +4143,12 @@
                   {
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
+                     "input": "mmp/titles/00040000001B8700/romfs/shaders/3DS",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmegapack.zip",
                      "input": "mmp/plugins/00040000001B8700/",
                      "output": "sdmc:/luma/plugins/00040000001B8700/"
                   },
