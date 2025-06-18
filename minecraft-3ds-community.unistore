@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 67,
+        "revision": 68,
         "version": 3
     },
     "storeContent": [
@@ -12150,6 +12150,268 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/aero.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Non Hostile Mobs",
+               "author":"Detective Fob",
+               "version":"1.0.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"A mod where the 4 basic MOBS, Skeletons, Zombies, Spiders, and creepers, do no damage and are friendly.",
+               "license":"unknown",
+               "releasenotes": "A mod where the 4 basic MOBS, Skeletons, Zombies, Spiders, and creepers, do no damage and are friendly.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":110,
+               "sheet_index":0,
+               "last_updated":"2025-03-29 at 16:21 (CST)"
+            },
+            "Non Hostile Mobs (USA)":{
+               "size":"7 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/NonHostileMobs.zip",
+                     "output": "sdmc:/Minecraft 3DS/NonHostileMobs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/NonHostileMobs.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/NonHostileMobs.zip"
+                  }
+               ]
+            },
+            "Non Hostile Mobs (EUR)":{
+               "size":"7 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/NonHostileMobs.zip",
+                     "output": "sdmc:/Minecraft 3DS/NonHostileMobs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/NonHostileMobs.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/NonHostileMobs.zip"
+                  }
+               ]
+            },
+            "Non Hostile Mobs (JPN)":{
+               "size":"7 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/NonHostileMobs.zip",
+                     "output": "sdmc:/Minecraft 3DS/NonHostileMobs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/NonHostileMobs.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/NonHostileMobs.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Better End Crystals",
+               "author":"Detective Fob",
+               "version":"1.0.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"This mod makes end crystals more usable and makes the old blast radius way lower.",
+               "license":"unknown",
+               "releasenotes": "This mod makes end crystals more usable and makes the old blast radius way lower.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":111,
+               "sheet_index":0,
+               "last_updated":"2025-03-29 at 16:21 (CST)"
+            },
+            "Better End Crystals (USA)":{
+               "size":"2 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/BetterEndCrystals.zip",
+                     "output": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "output": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
+                  }
+               ]
+            },
+            "Better End Crystals (EUR)":{
+               "size":"2 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/BetterEndCrystals.zip",
+                     "output": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "output": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
+                  }
+               ]
+            },
+            "Better End Crystals (JPN)":{
+               "size":"2 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/BetterEndCrystals.zip",
+                     "output": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "output": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"C-PVP 3DS",
+               "author":"Detective Fob",
+               "version":"1.0.0",
+               "category":["Map"],
+               "console":["New 3DS"],
+               "description":"A simple 3DS C-PvP map. With kits and practicing. offline, Or Local multiplayer.",
+               "license":"unknown",
+               "releasenotes": "A simple 3DS C-PvP map. With kits and practicing. offline, Or Local multiplayer.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/cpvp1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/cpvp2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/cpvp3.png"
+                  }
+               ],
+               "icon_index":112,
+               "sheet_index":0,
+               "last_updated":"2025-05-18 at 17:40 (CST)"
+            },
+            "C-PVP":{
+               "size":"497 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/C-PVP.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/C-PVP.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/C-PVP.zip",
+                     "input": "C-PVP/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/C-PVP/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/C-PVP.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Spleef Remastered",
+               "author":"Detective Fob",
+               "version":"1.0.0",
+               "category":["Map"],
+               "console":["New 3DS"],
+               "description":"This is Spleef a fun 1v1 3ds battle game where you have a shovel and must try to break snow block below others to nock them into the void! Last one standing wins!",
+               "license":"unknown",
+               "releasenotes": "This is Spleef a fun 1v1 3ds battle game where you have a shovel and must try to break snow block below others to nock them into the void! Last one standing wins!",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":113,
+               "sheet_index":0,
+               "last_updated":"2025-05-11 at 23:19 (CDT)"
+            },
+            "Spleef Remastered":{
+               "size":"5.2 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Spleef-Remastered.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Spleef-Remastered.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Spleef-Remastered.zip",
+                     "input": "Spleef-Remastered/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Spleef-RM/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Spleef-Remastered.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
                   }
                ]
             }
