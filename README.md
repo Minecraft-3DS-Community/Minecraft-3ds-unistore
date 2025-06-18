@@ -26,6 +26,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | CleetusMcfarln | <ul><li>DanTDM's Lab</li></ul>
 | Cracko298 | <ul><li>MC3DS-MAC</li><li>MC3DS-OptionsEditor</li><li>Nuclear Creeper</li><li>Bat Bombs</li><li>Mojangles Font</li><li>Festive World Override</li><li>Amplified World Generation</li><li>Zombie Apocalypse</li><li>DevWorld v2</li><li>Rare Bones</li><li>April Fools Mod</li><li>Festive as Default Textures</li><li>TNT Mimic</li><li>Farlandia World</li><li>X-Ray Shader</li><li>Remove Clouds</li><li>Remove Skybox</li><li>Creative Mode Block Break</li></li><li>Remove Mob Cap</li><li>Tricky Trials OST 320kHz</li><li>SkyBlock Plus World</li><li>Mob Tower</li><li>Enhanced Particles</li><li>Block Skin</li><li>SD Card Dropper Map</li><li>IronBrutes</li><li>The Creaking Port</li><li>MC3DS WorldManager</li></ul> |
 | CZX | <ul><li>The Dropper: 3DS Remaster</li><li>GenSpace Mod</li></ul> |
+| DetectiveFob | <ul><li>NonHostileMobs</li><li>Better End Crystals</li><li>C-PVP 3DS</li><li>Spleef 3DS Remastered</ul> |
 | ENDERMANYK | <ul><li>ENDERMANYK's Shaders</li></ul>
 | GenSpace | <ul><li>Minecraft 3DS Modernization Map</li><li>The Dropper: 3DS Remaster</li><li>GenSpace's SkyBlock</li><li>SkyDen</li></ul> |
 | Glonk | <ul><li>Broken Stronghold Chest Fix</li></ul> |
