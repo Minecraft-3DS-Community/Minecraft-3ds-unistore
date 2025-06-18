@@ -1560,7 +1560,7 @@
             "info":{
                "title":"MC3DS-MAC",
                "author":"Cracko298",
-               "version":2.0,
+               "version":"2.0",
                "category":["Tool"],
                "console":["New 3DS"],
                "description":"A 3DS Homebrew Application that converts Material Attribute Files from MC-3DS Edition to *.json",
@@ -1617,7 +1617,7 @@
             "info":{
                "title":"MC3DS-Options",
                "author":"Cracko298",
-               "version":1.2,
+               "version":"1.2",
                "category":["Tool"],
                "console":["New 3DS"],
                "description":"Enables editing of 'options.txt' from MC3DS using the Built-in Windows Notepad Application.",
