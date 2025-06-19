@@ -12271,7 +12271,7 @@
                   },
                   {
                      "type": "deleteFile",
-                     "output": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
+                     "file": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
                   }
                ]
             },
@@ -12291,7 +12291,7 @@
                   },
                   {
                      "type": "deleteFile",
-                     "output": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
+                     "file": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
                   }
                ]
             },
@@ -12311,7 +12311,7 @@
                   },
                   {
                      "type": "deleteFile",
-                     "output": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
+                     "file": "sdmc:/Minecraft 3DS/BetterEndCrystals.zip"
                   }
                ]
             }
