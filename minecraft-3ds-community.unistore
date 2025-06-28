@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 70,
+        "revision": 71,
         "version": 3
     },
     "storeContent": [
@@ -12412,6 +12412,107 @@
                      "type": "promptMessage",
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Sl-enderman: The Minecraft Arrival (16x)",
+               "author":"ThorMode9, Dread Of Mine Studios",
+               "version":"0.2",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"This texture pack changes the texture of the Enderman, to\nSlenderman. The texture pack does not change anything else\nother than the Enderman. UI elements are the same, items are\nunchanged, and other mobs are not affected.\n\nThis release is currently optimized for the vanilla\ntexture pack, support for all 16x packs is in development.",
+               "license":"unknown",
+               "releasenotes":"This texture pack changes the texture of the Enderman, to\nSlenderman. The texture pack does not change anything else\nother than the Enderman. UI elements are the same, items are\nunchanged, and other mobs are not affected.\n\nThis release is currently optimized for the vanilla\ntexture pack, support for all 16x packs is in development.",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sl-endermen1.png"
+                  },
+                  {
+                     "description": "Image #2",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sl-endermen2.png"
+                  },
+                  {
+                     "description": "Image #3",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sl-endermen3.png"
+                  },
+                  {
+                     "description": "Image #4",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sl-endermen4.png"
+                  },
+                  {
+                     "description": "Image #5",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sl-endermen5.png"
+                  },
+                  {
+                     "description": "Image #6",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sl-endermen6.png"
+                  }
+               ],
+               "icon_index":114,
+               "sheet_index":0,
+               "last_updated":"2025-06-27 at 23:18 (CDT)"
+            },
+            "Sl-enderman: The Minecraft Arrival (16x) (v0.2) (USA)":{
+               "size":"5.2 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Sl-enderman-The.MC.Arrival(v0.2).zip",
+                     "output": "sdmc:/Minecraft 3DS/sl-enderman.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/sl-enderman.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/sl-enderman.zip"
+                  }
+               ]
+            },
+            "Sl-enderman: The Minecraft Arrival (16x) (v0.2) (EUR)":{
+               "size":"5.2 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Sl-enderman-The.MC.Arrival(v0.2).zip",
+                     "output": "sdmc:/Minecraft 3DS/sl-enderman.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/sl-enderman.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/sl-enderman.zip"
+                  }
+               ]
+            },
+            "Sl-enderman: The Minecraft Arrival (16x) (v0.2) (JPN)":{
+               "size":"64 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Sl-enderman-The.MC.Arrival(v0.2).zip",
+                     "output": "sdmc:/Minecraft 3DS/sl-enderman.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/sl-enderman.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/sl-enderman.zip"
                   }
                ]
             }
