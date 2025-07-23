@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 72,
+        "revision": 73,
         "version": 3
     },
     "storeContent": [
@@ -6786,10 +6786,10 @@
                   "required":false
                }
             ],
-            "Remove mods (USA)":[
+            "Remove JSON edits (USA)":[
                {
                   "type":"promptMessage",
-                  "message":"This will delete ALL\ninstalled mods for the game",
+                  "message":"This will delete ALL\ninstalled JSON edits for the game",
                   "count":1
                },
                {
@@ -6798,10 +6798,10 @@
                   "required":false
                }
             ],
-            "Remove mods (EUR)":[
+            "Remove JSON edits (EUR)":[
                {
                   "type":"promptMessage",
-                  "message":"This will delete ALL\ninstalled mods for the game",
+                  "message":"This will delete ALL\ninstalled JSON edits for the game",
                   "count":1
                },
                {
@@ -6810,10 +6810,10 @@
                   "required":false
                }
             ],
-            "Remove mods (JPN)":[
+            "Remove JSON edits (JPN)":[
                {
                   "type":"promptMessage",
-                  "message":"This will delete ALL\ninstalled mods for the game",
+                  "message":"This will delete ALL\ninstalled JSON edits for the game",
                   "count":1
                },
                {
