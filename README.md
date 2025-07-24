@@ -41,6 +41,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | STBUniverse | <ul><li>STB-MC3DS Unistore</li><li>Vanilla 1.20 Textures Port</li></ul> |
 | susbaconhairman | <ul><li>Adventure Time Mashup Pack</li></ul> |
 | TheRustico36 | <ul><li>Cleann'slick GUI</li><li>New Base Skins Port</li><li>Legacy Console Default Skin Pack Port</li></ul> |
+| ThorMode9 | <ul><li>Wewelsburg</li><li>Realistic 200% Larger Sun + Moon Collection</li><li>Superflat Survival</li><li>Better Clouds</li><li>Norse Mythology Mash Up</li><li>Sl-enderman: The Minecraft Arrival (16x)</ul> |
 | UnknownLoser | <ul><li>DualFlow</li></ul> |
 | VanceForPresident | <ul><li>Technoblade Skin</li><li>Technoblade's Crown</li><li>SkyBlock Map Port</li><li>Breaking Bad Skins</li><li>Sheeptastic Mod Port</li><li>Giant Baby Zombie Mod</li><li>3DSpleef</li><li>Building Time Map</li><li>Randoms Map Demo</li><li>Frequently Asked Questions</li><li>GenSpace Mod</li><li>Mega Dropper</li></ul> |
 | Vicrtl345 | <ul><li>SkyDen</li></ul> |
