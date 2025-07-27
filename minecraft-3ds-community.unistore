@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 73,
+        "revision": 74,
         "version": 3
     },
     "storeContent": [
@@ -4032,7 +4032,7 @@
             "info":{
                "title":"Modernization MegaPack",
                "author":"wyndchyme, Zexlo, Cracko298, STBUniverse, and various others",
-               "version":"2.3.1",
+               "version":"2.4",
                "category":["Modpack", "Parity"],
                "console":["New 3DS"],
                "description":"A LayeredFS modpack for Minecraft: New Nintendo 3DS Edition 1.9.19 that aims to modernize the game and much, much more.",
@@ -4095,7 +4095,7 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/Modernization.MegaPack.v2.3.1.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/Modernization.MegaPack.v2.4.0.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapack.zip"
                   },
                   {
@@ -4173,7 +4173,7 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/Modernization.MegaPack.v2.3.1.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/Modernization.MegaPack.v2.4.0.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapack.zip"
                   },
                   {
@@ -4245,7 +4245,7 @@
                   },
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/Modernization.MegaPack.v2.3.1.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/modpacks/Modernization.MegaPack.v2.4.0.zip",
                      "output": "sdmc:/Minecraft 3DS/modernmegapack.zip"
                   },
                   {
