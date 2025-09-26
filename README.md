@@ -30,9 +30,11 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | ENDERMANYK | <ul><li>ENDERMANYK's Shaders</li></ul>
 | GenSpace | <ul><li>Minecraft 3DS Modernization Map</li><li>The Dropper: 3DS Remaster</li><li>GenSpace's SkyBlock</li><li>SkyDen</li></ul> |
 | Glonk | <ul><li>Broken Stronghold Chest Fix</li></ul> |
+| Hypid | <ul><li>Skinathon Winners 2025</li></ul> |
 | KrftRV249 | <ul><li>Random Loot Mod</li><li>Guns Mod</li><li>Instant Eating Mod</li></ul> |
 | linuxwizard | <ul><li>Mipmapping Patch (1.0 Only)</li></ul> |
 | Nawrek | <ul><li>JoJo's Bizarre Adventure Skins</li><li>Halloween Mash-Up Pack Port</li></ul> | 
+| Nikki Swapdoodle | <ul><li>Skinathon Winners 2025</li></ul> |
 | PanguinBoi | <ul><li>PanGames</li></ul> |
 | Pizzaleader | <ul><li>Husks drop sand</li><li>Attract Villagers</li><li>Bow charge indicator</li><li>Moon end</li></ul> |
 | PokéTube | <ul><li>PokéTube City Map</li></ul> |
@@ -40,6 +42,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | Ruff64 | <ul><li>The Dropper: 3DS Remaster</li></ul> |
 | STBUniverse | <ul><li>STB-MC3DS Unistore</li><li>Vanilla 1.20 Textures Port</li></ul> |
 | susbaconhairman | <ul><li>Adventure Time Mashup Pack</li></ul> |
+| TheBrickPublic | <ul><li>Skinathon Winners 2025</li></ul> |
 | TheRustico36 | <ul><li>Cleann'slick GUI</li><li>New Base Skins Port</li><li>Legacy Console Default Skin Pack Port</li></ul> |
 | ThorMode9 | <ul><li>Wewelsburg</li><li>Realistic 200% Larger Sun + Moon Collection</li><li>Superflat Survival</li><li>Better Clouds</li><li>Norse Mythology Mash Up</li><li>Sl-enderman: The Minecraft Arrival (16x)</ul> |
 | UnknownLoser | <ul><li>DualFlow</li></ul> |
