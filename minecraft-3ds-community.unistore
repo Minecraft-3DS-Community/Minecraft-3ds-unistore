@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 74,
+        "revision": 75,
         "version": 3
     },
     "storeContent": [
@@ -12513,6 +12513,95 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/sl-enderman.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Skinathon Winners 2025",
+               "author":"TheBrickPublic, Nikki, Hypid",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"The skins of the top 3 winners of Skinathon 2025!",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "Image #1 (TheBrickPublic)",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skinathon-winners-2025-thebrickpublic.png"
+                  },
+                  {
+                     "description": "Image #2 (Nikki)",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skinathon-winners-2025-nikki.png"
+                  },
+                  {
+                     "description": "Image #3 (Hypid)",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skinathon-winners-2025-hypid.png"
+                  }
+               ],
+               "icon_index":115,
+               "sheet_index":0,
+               "last_updated":"2025-09-25 at 22:30 (CDT)"
+            },
+            "Skinathon Winners 2025 (USA)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/skinathon_winners_2025.zip",
+                     "output": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip"
+                  }
+               ]
+            },
+            "Skinathon Winners 2025 (EUR)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/skinathon_winners_2025.zip",
+                     "output": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip"
+                  }
+               ]
+            },
+            "Skinathon Winners 2025 (JPN)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/skinathon_winners_2025.zip",
+                     "output": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip"
                   }
                ]
             }
