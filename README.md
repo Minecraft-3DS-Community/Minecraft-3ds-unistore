@@ -28,6 +28,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | CZX | <ul><li>The Dropper: 3DS Remaster</li><li>GenSpace Mod</li></ul> |
 | DetectiveFob | <ul><li>NonHostileMobs</li><li>Better End Crystals</li><li>C-PVP 3DS</li><li>Spleef 3DS Remastered</ul> |
 | ENDERMANYK | <ul><li>ENDERMANYK's Shaders</li></ul>
+| Evocated | <ul><li>Better Ender Dragon: 3DS</li></ul>
 | GenSpace | <ul><li>Minecraft 3DS Modernization Map</li><li>The Dropper: 3DS Remaster</li><li>GenSpace's SkyBlock</li><li>SkyDen</li></ul> |
 | Glonk | <ul><li>Broken Stronghold Chest Fix</li></ul> |
 | Hypid | <ul><li>Skinathon Winners 2025</li></ul> |

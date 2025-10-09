@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 75,
+        "revision": 76,
         "version": 3
     },
     "storeContent": [
@@ -12602,6 +12602,87 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/skinathon_winners_2025.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Better Ender Dragon: 3DS",
+               "author":"Evocated",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"A ported texture pack that aims to improve the Ender Dragon with both\na better model and better textures\n(by the way its better).",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/better-end-dragon-3ds.png"
+                  }
+               ],
+               "icon_index":116,
+               "sheet_index":0,
+               "last_updated":"2025-10-9 at 11:00 (CDT)"
+            },
+            "Better End Dragon: 3DS (USA)":{
+               "size":"87 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/better-end-dragon-3ds.zip",
+                     "output": "sdmc:/Minecraft 3DS/better-end-dragon-3ds.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/better-end-dragon-3ds.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/better-end-dragon-3ds.zip"
+                  }
+               ]
+            },
+            "Better End Dragon: 3DS (EUR)":{
+               "size":"87 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/better-end-dragon-3ds.zip",
+                     "output": "sdmc:/Minecraft 3DS/better-end-dragon-3ds.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/better-end-dragon-3ds.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/better-end-dragon-3ds.zip"
+                  }
+               ]
+            },
+            "Better End Dragon: 3DS (JPN)":{
+               "size":"87 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/better-end-dragon-3ds.zip",
+                     "output": "sdmc:/Minecraft 3DS/better-end-dragon-3ds.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/better-end-dragon-3ds.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/better-end-dragon-3ds.zip"
                   }
                ]
             }
