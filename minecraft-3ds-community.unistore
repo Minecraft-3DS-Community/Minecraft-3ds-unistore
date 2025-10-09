@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 76,
+        "revision": 77,
         "version": 3
     },
     "storeContent": [
@@ -12626,7 +12626,7 @@
                "sheet_index":0,
                "last_updated":"2025-10-9 at 11:00 (CDT)"
             },
-            "Better End Dragon: 3DS (USA)":{
+            "Better Ender Dragon: 3DS (USA)":{
                "size":"87 KB",
                "script":[
                   {
@@ -12646,7 +12646,7 @@
                   }
                ]
             },
-            "Better End Dragon: 3DS (EUR)":{
+            "Better Ender Dragon: 3DS (EUR)":{
                "size":"87 KB",
                "script":[
                   {
@@ -12666,7 +12666,7 @@
                   }
                ]
             },
-            "Better End Dragon: 3DS (JPN)":{
+            "Better Ender Dragon: 3DS (JPN)":{
                "size":"87 KB",
                "script":[
                   {
