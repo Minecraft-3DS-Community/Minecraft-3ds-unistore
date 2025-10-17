@@ -6894,18 +6894,6 @@
                   "required":false
                }
             ],
-            "Remove Downloaded Worlds":[
-               {
-                  "type":"promptMessage",
-                  "message":"This will delete ALL downloaded\nworlds for the game",
-                  "count":1
-               },
-               {
-                  "type":"rmdir",
-                  "directory":"sdmc:/Minecraft 3DS/worlds",
-                  "required":false
-               }
-            ],
             "Remove audios (USA)":[
                {
                   "type":"promptMessage",
