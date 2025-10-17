@@ -6661,7 +6661,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/plugins/00040000001B8700/",
+                  "directory":"sdmc:/luma/plugins/00040000001B8700",
                   "required":false
                }
             ],
@@ -6678,7 +6678,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/plugins/000400000017CA00/",
+                  "directory":"sdmc:/luma/plugins/000400000017CA00",
                   "required":false
                }
             ],
@@ -6695,7 +6695,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/plugins/000400000017FD00/",
+                  "directory":"sdmc:/luma/plugins/000400000017FD00",
                   "required":false
                }
             ],
@@ -6914,7 +6914,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/00040000001B8700/sounds/",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/sounds",
                   "required":false
                }
             ],
@@ -6926,7 +6926,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017CA00/sounds/",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/sounds",
                   "required":false
                }
             ],
@@ -6938,7 +6938,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017FD00/sounds/",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/sounds",
                   "required":false
                }
             ],
@@ -6983,7 +6983,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/00040000001B8700/shaders/",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/shaders",
                   "required":false
                }
             ],
@@ -6995,7 +6995,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017CA00/shaders/",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/shaders",
                   "required":false
                }
             ],
@@ -7007,7 +7007,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017FD00/shaders/",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/shaders",
                   "required":false
                }
             ],
@@ -7055,7 +7055,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/plugins/00040000001B8700/",
+                  "directory":"sdmc:/luma/plugins/00040000001B8700",
                   "required":false
                }
             ],
@@ -7067,7 +7067,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/plugins/000400000017CA00/",
+                  "directory":"sdmc:/luma/plugins/000400000017CA00",
                   "required":false
                }
             ],
@@ -7079,7 +7079,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/plugins/000400000017FD00/",
+                  "directory":"sdmc:/luma/plugins/000400000017FD00",
                   "required":false
                }
             ]
@@ -7112,7 +7112,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+                  "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors",
                   "required":false
                },
                {
@@ -7139,7 +7139,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+                  "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors",
                   "required":false
                },
                {
@@ -7166,7 +7166,7 @@
                },
                {
                   "type":"rmdir",
-                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+                  "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors",
                   "required":false
                },
                {
