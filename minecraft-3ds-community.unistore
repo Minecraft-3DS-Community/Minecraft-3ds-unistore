@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 79,
+        "revision": 80,
         "version": 3
     },
     "storeContent": [
@@ -12708,18 +12708,18 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Stay.True.Plus.1.0.-.Minecraft.3DS.US.zip",
-                     "output": "sdmc:/Minecraft 3DS/Stay.True.Plus.1.0.-.Minecraft.3DS.US.zip"
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/StayTruePlus1-0-Minecraft-3DS.zip",
+                     "output": "sdmc:/Minecraft 3DS/StayTruePlus1-0-Minecraft-3DS.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/Stay.True.Plus.1.0.-.Minecraft.3DS.US.zip",
-                     "input": "Stay True Plus 1.0 - Minecraft 3DS (US)/luma/titles/00040000001B8700/romfs/",
+                     "file": "sdmc:/Minecraft 3DS/StayTruePlus1-0-Minecraft-3DS.zip",
+                     "input": "romfs/",
                      "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/Minecraft 3DS/Stay.True.Plus.1.0.-.Minecraft.3DS.US.zip"
+                     "file": "sdmc:/Minecraft 3DS/StayTruePlus1-0-Minecraft-3DS.zip"
                   }
                ]
             },
@@ -12728,13 +12728,13 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Stay.True.Plus.1.0.-.Minecraft.3DS.EU.zip",
-                     "output": "sdmc:/Minecraft 3DS/Stay.True.Plus.1.0.-.Minecraft.3DS.EU.zip"
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/StayTruePlus1-0-Minecraft-3DS.zip",
+                     "output": "sdmc:/Minecraft 3DS/StayTruePlus1-0-Minecraft-3DS.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/Stay.True.Plus.1.0.-.Minecraft.3DS.EU.zip",
-                     "input": "Stay True Plus 1.0 - Minecraft 3DS (EU)/luma/titles/0004000E0017CA00/romfs/",
+                     "file": "sdmc:/Minecraft 3DS/StayTruePlus1-0-Minecraft-3DS.zip",
+                     "input": "romfs/",
                      "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
                   },
                   {
@@ -12748,18 +12748,18 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Stay.True.Plus.1.0.-.Minecraft.3DS.JP.zip",
-                     "output": "sdmc:/Minecraft 3DS/Stay.True.Plus.1.0.-.Minecraft.3DS.JP.zip"
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/StayTruePlus1-0-Minecraft-3DS.zip",
+                     "output": "sdmc:/Minecraft 3DS/StayTruePlus1-0-Minecraft-3DS.zip"
                   },
                   {
                      "type": "extractFile",
-                     "file": "sdmc:/Minecraft 3DS/Stay.True.Plus.1.0.-.Minecraft.3DS.JP.zip",
-                     "input": "Stay True Plus 1.0 - Minecraft 3DS (JP)/luma/titles/0004000E0017FD00/romfs/",
+                     "file": "sdmc:/Minecraft 3DS/StayTruePlus1-0-Minecraft-3DS.zip",
+                     "input": "romfs/",
                      "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
                   },
                   {
                      "type": "deleteFile",
-                     "file": "sdmc:/Minecraft 3DS/Stay.True.Plus.1.0.-.Minecraft.3DS.JP.zip"
+                     "file": "sdmc:/Minecraft 3DS/StayTruePlus1-0-Minecraft-3DS.zip"
                   }
                ]
             }
