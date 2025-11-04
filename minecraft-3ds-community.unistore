@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 82,
+        "revision": 83,
         "version": 3
     },
     "storeContent": [
@@ -12780,6 +12780,87 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/StayTruePlus1-2-Minecraft-3DS.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"No Pumpkin Blur",
+               "author":"Aspect_X",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Removes the blur when you wear a carved pumpkin.",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":118,
+               "sheet_index":0,
+               "last_updated":"2025-11-03 at 20:57 (CST)"
+            },
+            "No Pumpkin Blur (USA)":{
+               "size":"2 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/NoPumpkinBlur.zip",
+                     "output": "sdmc:/Minecraft 3DS/NoPumpkinBlur.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/NoPumpkinBlur.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/NoPumpkinBlur.zip"
+                  }
+               ]
+            },
+            "No Pumpkin Blur (EUR)":{
+               "size":"2 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/NoPumpkinBlur.zip",
+                     "output": "sdmc:/Minecraft 3DS/NoPumpkinBlur.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/NoPumpkinBlur.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/NoPumpkinBlur.zip"
+                  }
+               ]
+            },
+            "No Pumpkin Blur (JPN)":{
+               "size":"2 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/NoPumpkinBlur.zip",
+                     "output": "sdmc:/Minecraft 3DS/NoPumpkinBlur.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/NoPumpkinBlur.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/NoPumpkinBlur.zip"
                   }
                ]
             }
