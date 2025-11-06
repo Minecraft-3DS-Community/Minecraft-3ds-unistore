@@ -22,7 +22,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | Creator | Mod(s) |
 | --- | --- |
 | ArcModzzz | <ul><li>World in a Jar 3DS</li><li>Find the Button</li></ul> |
-| Aspect_X | <ul><li>Stay True Plus</li></ul> | 
+| Aspect_X | <ul><li>No Pumpkin Blur</li><li>Stay True Plus</li></ul> | 
 | Babylion122 | <ul><li>Ender Dragon Elytra</li><li>Lapiz's Funland Map</li><li>Stampy's Lovely World Port</li></ul> |
 | CleetusMcfarln | <ul><li>DanTDM's Lab</li></ul>
 | Cracko298 | <ul><li>MC3DS-MAC</li><li>MC3DS-OptionsEditor</li><li>Nuclear Creeper</li><li>Bat Bombs</li><li>Mojangles Font</li><li>Festive World Override</li><li>Amplified World Generation</li><li>Zombie Apocalypse</li><li>DevWorld v2</li><li>Rare Bones</li><li>April Fools Mod</li><li>Festive as Default Textures</li><li>TNT Mimic</li><li>Farlandia World</li><li>X-Ray Shader</li><li>Remove Clouds</li><li>Remove Skybox</li><li>Creative Mode Block Break</li></li><li>Remove Mob Cap</li><li>Tricky Trials OST 320kHz</li><li>SkyBlock Plus World</li><li>Mob Tower</li><li>Enhanced Particles</li><li>Block Skin</li><li>SD Card Dropper Map</li><li>IronBrutes</li><li>The Creaking Port</li><li>MC3DS WorldManager</li></ul> |
