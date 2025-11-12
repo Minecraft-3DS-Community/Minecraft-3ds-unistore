@@ -13184,7 +13184,7 @@
                ],
                "icon_index":120,
                "sheet_index":0,
-               "last_updated":"2025-11-03 at 11:39 (CST)"
+               "last_updated":"2025-11-11 at 11:39 (CST)"
             },
             "More Ender Pearls (USA)":{
                "size":"8 KB",
@@ -13243,6 +13243,87 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/more-enderpearls.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Randomizer",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Properly randomizes all mob drops so they can drop another mob's loot-table or random items/blocks.",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":121,
+               "sheet_index":0,
+               "last_updated":"2025-11-11 at 11:57 (CST)"
+            },
+            "Randomizer (USA)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/randomizer.zip",
+                     "output": "sdmc:/Minecraft 3DS/randomizer.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/randomizer.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/randomizer.zip"
+                  }
+               ]
+            },
+            "Randomizer (EUR)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/randomizer.zip",
+                     "output": "sdmc:/Minecraft 3DS/randomizer.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/randomizer.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/randomizer.zip"
+                  }
+               ]
+            },
+            "Randomizer (JPN)":{
+               "size":"8 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/randomizer.zip",
+                     "output": "sdmc:/Minecraft 3DS/randomizer.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/randomizer.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/randomizer.zip"
                   }
                ]
             }
