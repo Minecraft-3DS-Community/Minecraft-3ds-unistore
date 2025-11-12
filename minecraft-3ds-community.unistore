@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 86,
+        "revision": 87,
         "version": 3
     },
     "storeContent": [
@@ -12721,7 +12721,7 @@
                ],
                "icon_index":117,
                "sheet_index":0,
-               "last_updated":"2025-11-10 at 04:26 (CST)"
+               "last_updated":"2025-11-11 at 22:08 (CST)"
             },
             "Stay True Plus (USA)":{
                "size":"3 MB",
