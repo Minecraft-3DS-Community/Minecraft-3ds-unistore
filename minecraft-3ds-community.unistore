@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 87,
+        "revision": 88,
         "version": 3
     },
     "storeContent": [
@@ -12883,7 +12883,7 @@
                ],
                "icon_index":119,
                "sheet_index":0,
-               "last_updated":"2025-11-12 at 11:43 (CST)"
+               "last_updated":"2025-11-11 at 11:43 (CST)"
             },
             "Rainbow EXP Bar (USA)":{
                "size":"256 KB",
