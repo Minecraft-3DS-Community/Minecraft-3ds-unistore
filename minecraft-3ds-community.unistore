@@ -12864,6 +12864,307 @@
                   }
                ]
             }
+         },
+         {
+            "info":{
+               "title":"Rainbow EXP Bar & Crosshairs",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"A Rainbow EXP Bar with optional variations for different crosshairs",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":119,
+               "sheet_index":0,
+               "last_updated":"2025-11-12 at 11:43 (CST)"
+            },
+            "Rainbow EXP Bar (USA)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "gayexpbar1/romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Rainbow EXP Bar w/ Crosshair 1 (USA)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "gayexpbar2/romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Rainbow EXP Bar w/ Crosshair 2 (USA)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "gayexpbar3/romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Rainbow EXP Bar w/ Crosshair 3 (USA)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "gayexpbar4/romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Crosshair 1 (USA)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "crosshair1/romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Crosshair 2 (USA)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "crosshair2/romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Crosshair 3 (USA)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "crosshair3/romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Rainbow EXP Bar (EUR)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "gayexpbar1/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Rainbow EXP Bar w/ Crosshair 1 (EUR)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "gayexpbar2/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Rainbow EXP Bar w/ Crosshair 2 (EUR)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "gayexpbar3/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Rainbow EXP Bar w/ Crosshair 3 (EUR)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "gayexpbar4/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Crosshair 1 (EUR)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "crosshair1/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Crosshair 2 (EUR)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "crosshair2/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            },
+            "Crosshair 3 (EUR)":{
+               "size":"256 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/rainbowexpbar_and_crosshairs.zip",
+                     "output": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip",
+                     "input": "crosshair3/romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/rainbowexpbar_and_crosshairs.zip"
+                  }
+               ]
+            }
          }
       ]
    }
