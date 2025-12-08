@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 90,
+        "revision": 91,
         "version": 3
     },
     "storeContent": [
@@ -12682,7 +12682,7 @@
                "version":"1.5",
                "category":["Texture Pack"],
                "console":["New 3DS"],
-               "description":"Centered around "Stay True", this modpack attempts to bring you the best vanilla + experience possible on Minecraft: New Nintendo 3DS Edition.",
+               "description":"Centered around \"Stay True\", this modpack attempts to bring you the best vanilla + experience possible on Minecraft: New Nintendo 3DS Edition.",
                "license":"unknown",
                "releasenotes":"",
                "screenshots": [
