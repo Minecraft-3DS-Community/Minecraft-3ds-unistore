@@ -13207,6 +13207,87 @@
                   }
                ]
             }
+         },
+         {
+            "info":{
+               "title":"Modern Music Expansion",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"Experience the new Minecraft music on your 3DS! Includes the new Nether, Overworld and Menu music (compatible with Megapack).",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":122,
+               "sheet_index":0,
+               "last_updated":"2026-05-04 at 14:20 (CST)"
+            },
+            "Modern Music Expansion (USA)":{
+               "size":"67.1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/ModernMusicExpansion.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmusic.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmusic.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmusic.zip"
+                  }
+               ]
+            },
+            "Modern Music Expansion (EUR)":{
+               "size":"67.1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/ModernMusicExpansion.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmusic.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmusic.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmusic.zip"
+                  }
+               ]
+            },
+            "Modern Music Expansion (JPN)":{
+               "size":"67.1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/ModernMusicExpansion.zip",
+                     "output": "sdmc:/Minecraft 3DS/modernmusic.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmusic.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/modernmusic.zip"
+                  }
+               ]
+            }
          }
       ]
    }
