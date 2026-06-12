@@ -13129,9 +13129,10 @@
          },
          {
             "info":{
-               "title":"C-MPS (Cracko's Modded Performance Shaders)",
+               "title":"C-MPS (Performance Mod)",
                "author":"Cracko298",
-               "version":"1",
+               "version":"1.0.0",
+               "stars":"12",
                "category":["Mod"],
                "console":["New 3DS"],
                "description":"The first performance mod for Minecraft 3DS Edition. Reducing Frametimes, Frame-Skips and Nearly Doubling your FPS in-game.",
@@ -13143,7 +13144,7 @@
                      "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
                   }
                ],
-               "icon_index":38,
+               "icon_index":33,
                "sheet_index":0,
                "last_updated":"2026-06-12 at 14:30 (CST)"
             },
