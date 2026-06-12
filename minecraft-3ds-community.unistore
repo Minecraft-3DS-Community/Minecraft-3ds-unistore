@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 96,
+        "revision": 97,
         "version": 3
     },
     "storeContent": [
@@ -13126,6 +13126,78 @@
                   }
                ]
             }
+         },
+         {
+            "info":{
+               "title":"C-MPS (Cracko's Modded Performance Shaders)",
+               "author":"Cracko298",
+               "version":"1",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"The first performance mod for Minecraft 3DS Edition. Reducing Frametimes, Frame-Skips and Nearly Doubling your FPS in-game.",
+               "license":"MIT License",
+               "releasenotes": "The first performance mod for Minecraft 3DS Edition. Reducing Frametimes, Frame-Skips and Nearly Doubling your FPS in-game.",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":38,
+               "sheet_index":0,
+               "last_updated":"2026-06-12 at 14:30 (CST)"
+            },
+            "C-MPS (USA)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/C-MPS.zip",
+                  "output":"sdmc:/Minecraft 3DS/C-MPS.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip",
+                  "input": "3DS/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip"
+               }
+            ],
+            "C-MPS (EUR)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/C-MPS.zip",
+                  "output":"sdmc:/Minecraft 3DS/C-MPS.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip",
+                  "input": "3DS/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip"
+               }
+            ],
+            "C-MPS (JPN)":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/C-MPS.zip",
+                  "output":"sdmc:/Minecraft 3DS/C-MPS.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip",
+                  "input": "3DS/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip"
+               }
+            ]
          },
          {
             "info":{
