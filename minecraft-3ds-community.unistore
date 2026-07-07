@@ -13157,7 +13157,7 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/C-MPS.zip",
-                  "input": "3DS/",
+                  "input": "/",
                   "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/"
                },
                {
@@ -13174,7 +13174,7 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/C-MPS.zip",
-                  "input": "3DS/",
+                  "input": "/",
                   "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/"
                },
                {
@@ -13191,7 +13191,7 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/C-MPS.zip",
-                  "input": "3DS/",
+                  "input": "/",
                   "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/"
                },
                {
