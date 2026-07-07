@@ -13150,53 +13150,53 @@
             },
             "C-MPS (USA)":[
                {
-                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/C-MPS.zip",
-                  "output":"sdmc:/Minecraft 3DS/C-MPS.zip",
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/C-MPS1.zip",
+                  "output":"sdmc:/Minecraft 3DS/C-MPS1.zip",
                   "type":"downloadFile"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip",
-                  "input": "/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/"
+                  "file": "sdmc:/Minecraft 3DS/C-MPS1.zip",
+                  "input": "romfs/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip"
+                  "file": "sdmc:/Minecraft 3DS/C-MPS1.zip"
                }
             ],
             "C-MPS (EUR)":[
                {
-                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/C-MPS.zip",
-                  "output":"sdmc:/Minecraft 3DS/C-MPS.zip",
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/C-MPS1.zip",
+                  "output":"sdmc:/Minecraft 3DS/C-MPS1.zip",
                   "type":"downloadFile"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip",
-                  "input": "/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/"
+                  "file": "sdmc:/Minecraft 3DS/C-MPS1.zip",
+                  "input": "romfs/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip"
+                  "file": "sdmc:/Minecraft 3DS/C-MPS1.zip"
                }
             ],
             "C-MPS (JPN)":[
                {
-                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/C-MPS.zip",
-                  "output":"sdmc:/Minecraft 3DS/C-MPS.zip",
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/C-MPS1.zip",
+                  "output":"sdmc:/Minecraft 3DS/C-MPS1.zip",
                   "type":"downloadFile"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip",
-                  "input": "/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/"
+                  "file": "sdmc:/Minecraft 3DS/C-MPS1.zip",
+                  "input": "romfs/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/C-MPS.zip"
+                  "file": "sdmc:/Minecraft 3DS/C-MPS1.zip"
                }
             ]
          },
