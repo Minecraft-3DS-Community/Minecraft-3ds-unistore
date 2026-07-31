@@ -42,6 +42,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | PokéTube | <ul><li>PokéTube City Map</li></ul> |
 | RetroRemade | <ul><li>Better Creepers Mod</li></ul> |
 | Ruff64 | <ul><li>The Dropper: 3DS Remaster</li></ul> |
+| SparkTheDog | <ul><li>Dennis Painting</li></ul> |
 | STBUniverse | <ul><li>STB-MC3DS Unistore</li><li>Vanilla 1.20 Textures Port</li></ul> |
 | susbaconhairman | <ul><li>Adventure Time Mashup Pack</li></ul> |
 | TheBrickPublic | <ul><li>Skinathon Winners 2025</li></ul> |

@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 99,
+        "revision": 100,
         "version": 3
     },
     "storeContent": [
@@ -13277,6 +13277,87 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/randomizer.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Dennis Painting",
+               "author":"SparkTheDog",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"Replaces the \"Pigscene\" painting with the \"Dennis\" painting.",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "Image #1",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dennis-painting-1.png"
+                  }
+               ],
+               "icon_index":122,
+               "sheet_index":0,
+               "last_updated":"2026-07-28 at 05:48 (CST)"
+            },
+            "Dennis Painting (USA)":{
+               "size":"80 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/DennisPainting.zip",
+                     "output": "sdmc:/Minecraft 3DS/dennispainting.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/dennispainting.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/dennispainting.zip"
+                  }
+               ]
+            },
+            "Dennis Painting (EUR)":{
+               "size":"80 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/DennisPainting.zip",
+                     "output": "sdmc:/Minecraft 3DS/dennispainting.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/dennispainting.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/dennispainting.zip"
+                  }
+               ]
+            },
+            "Dennis Painting (JPN)":{
+               "size":"80 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/DennisPainting.zip",
+                     "output": "sdmc:/Minecraft 3DS/dennispainting.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/dennispainting.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/dennispainting.zip"
                   }
                ]
             }
