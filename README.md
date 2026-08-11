@@ -35,7 +35,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | Hypid | <ul><li>Skinathon Winners 2025</li></ul> |
 | KrftRV249 | <ul><li>Random Loot Mod</li><li>Guns Mod</li><li>Instant Eating Mod</li></ul> |
 | linuxwizard | <ul><li>Mipmapping Patch (1.0 Only)</li></ul> |
-| Nawrek | <ul><li>JoJo's Bizarre Adventure Skins</li><li>Halloween Mash-Up Pack Port</li></ul> | 
+| Nawrek | <ul><li>JoJo's Bizarre Adventure Skins</li><li>Halloween Mash-Up Pack Port</li><li>MC3DS-Polish</li></ul> | 
 | Nikki Swapdoodle | <ul><li>Skinathon Winners 2025</li></ul> |
 | PanguinBoi | <ul><li>PanGames</li></ul> |
 | Pizzaleader | <ul><li>Husks drop sand</li><li>Attract Villagers</li><li>Bow charge indicator</li><li>Moon end</li></ul> |

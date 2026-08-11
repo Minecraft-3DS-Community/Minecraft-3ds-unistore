@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 100,
+        "revision": 101,
         "version": 3
     },
     "storeContent": [
@@ -13358,6 +13358,87 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/dennispainting.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"MC3DS-Polish",
+               "author":"Nawrek",
+               "version":"1.0",
+               "category":["Mod"],
+               "console":["New 3DS"],
+               "description":"The first and mostly complete Polish translation project for Minecraft: New Nintendo 3DS Edition.",
+               "license":"All Rights Reserved",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":123,
+               "sheet_index":0,
+               "last_updated":"2026-08-09 at 19:00 (CDT)"
+            },
+            "MC3DS-Polish (USA)":{
+               "size":"50 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/mc3ds-polish_v1.0.zip",
+                     "output": "sdmc:/Minecraft 3DS/mc3dspolish.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/mc3dspolish.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/mc3dspolish.zip"
+                  }
+               ]
+            },
+            "MC3DS-Polish (EUR)":{
+               "size":"50 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/mc3ds-polish_v1.0.zip",
+                     "output": "sdmc:/Minecraft 3DS/mc3dspolish.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/mc3dspolish.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/mc3dspolish.zip"
+                  }
+               ]
+            },
+            "MC3DS-Polish (JPN)":{
+               "size":"50 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/mc3ds-polish_v1.0.zip",
+                     "output": "sdmc:/Minecraft 3DS/mc3dspolish.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/mc3dspolish.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/mc3dspolish.zip"
                   }
                ]
             }
