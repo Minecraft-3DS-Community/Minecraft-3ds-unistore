@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 101,
+        "revision": 102,
         "version": 3
     },
     "storeContent": [
@@ -13439,6 +13439,133 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/mc3dspolish.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"TU9 Tutorial World",
+               "author":"Zexlo",
+               "version":"1.0",
+               "category":["World"],
+               "console":["New 3DS"],
+               "description":"Re-experience the TU9 Tutorial world from LCE on your 3DS!",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":124,
+               "sheet_index":0,
+               "last_updated":"2026-09-27 at 8:50 (CDT)"
+            },
+            "TU9 Tutorial World":{
+               "size":"90 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/TU9-Tutorial-world-port.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/tu9tutorial.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/tu9tutorial.zip",
+                     "input": "NQAAAN7IAAA=/",
+                     "output": "sdmc:/Minecraft 3DS/worlds/NQAAAN7IAAA=/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/tu9tutorial.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "To install this world, follow an easy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"Skinathon Winners 2026",
+               "author":"minanations, VeilEnserca, Bloatedsteak",
+               "version":"1.0",
+               "category":["Texture Pack"],
+               "console":["New 3DS"],
+               "description":"The top 3 skins from the 2026 Skinathon (replaces festive skins)",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":125,
+               "sheet_index":0,
+               "last_updated":"2026-09-16 at 16:24 (CDT)"
+            },
+            "Skinathon 2026 (USA)":{
+               "size":"6 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Skinathon2026.zip",
+                     "output": "sdmc:/Minecraft 3DS/skinathon2026.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon2026.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon2026.zip"
+                  }
+               ]
+            },
+            "Skinathon 2026 (EUR)":{
+               "size":"6 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Skinathon2026.zip",
+                     "output": "sdmc:/Minecraft 3DS/skinathon2026.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon2026.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon2026.zip"
+                  }
+               ]
+            },
+            "Skinathon 2026 (JPN)":{
+               "size":"6 KB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Skinathon2026.zip",
+                     "output": "sdmc:/Minecraft 3DS/skinathon2026.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon2026.zip",
+                     "input": "romfs/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/romfs/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon2026.zip"
                   }
                ]
             }

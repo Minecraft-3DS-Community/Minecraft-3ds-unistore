@@ -24,6 +24,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | ArcModzzz | <ul><li>World in a Jar 3DS</li><li>Find the Button</li></ul> |
 | Aspect_X | <ul><li>No Pumpkin Blur</li><li>Stay True Plus</li></ul> | 
 | Babylion122 | <ul><li>Ender Dragon Elytra</li><li>Lapiz's Funland Map</li><li>Stampy's Lovely World Port</li></ul> |
+| Bloatedsteak | <ul><li>Skinathon Winners 2026</li></ul>
 | CleetusMcfarln | <ul><li>DanTDM's Lab</li></ul>
 | Cracko298 | <ul><li>C-MPS (Cracko's Modded Performance Shaders)</li><li>MC3DS-MAC</li><li>MC3DS-OptionsEditor</li><li>Nuclear Creeper</li><li>Bat Bombs</li><li>Mojangles Font</li><li>Festive World Override</li><li>Amplified World Generation</li><li>Zombie Apocalypse</li><li>DevWorld v2</li><li>Rare Bones</li><li>April Fools Mod</li><li>Festive as Default Textures</li><li>TNT Mimic</li><li>Farlandia World</li><li>X-Ray Shader</li><li>Remove Clouds</li><li>Remove Skybox</li><li>Creative Mode Block Break</li></li><li>Remove Mob Cap</li><li>Tricky Trials OST 320kHz</li><li>SkyBlock Plus World</li><li>Mob Tower</li><li>Enhanced Particles</li><li>Block Skin</li><li>SD Card Dropper Map</li><li>IronBrutes</li><li>The Creaking Port</li><li>MC3DS WorldManager</li></ul> |
 | CZX | <ul><li>The Dropper: 3DS Remaster</li><li>GenSpace Mod</li></ul> |
@@ -35,6 +36,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | Hypid | <ul><li>Skinathon Winners 2025</li></ul> |
 | KrftRV249 | <ul><li>Random Loot Mod</li><li>Guns Mod</li><li>Instant Eating Mod</li></ul> |
 | linuxwizard | <ul><li>Mipmapping Patch (1.0 Only)</li></ul> |
+| minanations | <ul><li>Skinathon Winners 2026</li></ul> |
 | Nawrek | <ul><li>JoJo's Bizarre Adventure Skins</li><li>Halloween Mash-Up Pack Port</li><li>MC3DS-Polish</li></ul> | 
 | Nikki Swapdoodle | <ul><li>Skinathon Winners 2025</li></ul> |
 | PanguinBoi | <ul><li>PanGames</li></ul> |
@@ -50,11 +52,12 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | ThorMode9 | <ul><li>Wewelsburg</li><li>Realistic 200% Larger Sun + Moon Collection</li><li>Superflat Survival</li><li>Better Clouds</li><li>Norse Mythology Mash Up</li><li>Sl-enderman: The Minecraft Arrival (16x)</ul> |
 | UnknownLoser | <ul><li>DualFlow</li></ul> |
 | VanceForPresident | <ul><li>Technoblade Skin</li><li>Technoblade's Crown</li><li>SkyBlock Map Port</li><li>Breaking Bad Skins</li><li>Sheeptastic Mod Port</li><li>Giant Baby Zombie Mod</li><li>3DSpleef</li><li>Building Time Map</li><li>Randoms Map Demo</li><li>Frequently Asked Questions</li><li>GenSpace Mod</li><li>Mega Dropper</li></ul> |
+| VeilEnserca | <ul><li>Skinathon Winners 2026</li></ul> |
 | Vicrtl345 | <ul><li>SkyDen</li></ul> |
 | Virtual Overtime | <ul><li>LavaCity PVP Map</li><li>FNAF Hide and Seek Map</li></ul> |
 | WaterMelon | <ul><li>The Dropper: 3DS Remaster</li><li>The Dropper Submission</li><li>Debug Mode 3D</li><li>Blind Mazes</li><li>PC Gamer Cow</li><li>GenSpace Textures</li></ul> |
 | wyndchyme | <ul><li>Modernization MegaPack (includes content from various other people)</li><li>MegaPack Standalone: Classic Textures</li><li>MegaPack Standalone: Achievement Textures</li><li>Pink Floyd Painting Pack</li><li>MegaPack Plugin: Aero GUI</li></ul> |
-| Zexlo | <ul><li>1.20 Lava Textures</li><li>1.20 Mob Textures</li><li>1.20 Seamless Varied Textures</li><li>Bare Bones Textures</li><li>Windows 98 UI</li></ul> | 
+| Zexlo | <ul><li>1.20 Lava Textures</li><li>1.20 Mob Textures</li><li>1.20 Seamless Varied Textures</li><li>Bare Bones Textures</li><li>Windows 98 UI</li><li>TU9 Tutorial World</li></ul> | 
 
 _All content has been approved by their creators to be hosted on this Unistore._
 
