@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 102,
+        "revision": 103,
         "version": 3
     },
     "storeContent": [
@@ -13566,6 +13566,87 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/skinathon2026.zip"
+                  }
+               ]
+            }
+         },
+                  {
+            "info":{
+               "title":"Its Poofy's 1.10 Update",
+               "author":"Its Poofy",
+               "version":"1.10",
+               "category":["Update"],
+               "console":["New 3DS, 3DS"],
+               "description":"wink wink",
+               "license":"unknown",
+               "releasenotes":"",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":126,
+               "sheet_index":0,
+               "last_updated":"2026-11-11 at 16:24 (CDT)"
+            },
+            "1.10 Update (USA)":{
+               "size":"287 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://download1085.mediafire.com/osdldc4red6gK1J7TInb8ztD17YEFSYdhtHz30HAqxQ9cY8fk2ftBGACfGb3LVaspB5ovKIUmanTzaJPLYOAorAE3nXAdW6KJRJxkMLmtAxaOTkLSA3AMM7bQOouwrrSSnznOq1GrZnzn6rYbBYck7FQ0zhiJjFuaW4qSMZTJkC6Cw/ddnsfjvi71j9jcl/numc.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip",
+                     "input": "numc/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip"
+                  }
+               ]
+            },
+            "1.10 Update (EUR)":{
+               "size":"287 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://download1085.mediafire.com/osdldc4red6gK1J7TInb8ztD17YEFSYdhtHz30HAqxQ9cY8fk2ftBGACfGb3LVaspB5ovKIUmanTzaJPLYOAorAE3nXAdW6KJRJxkMLmtAxaOTkLSA3AMM7bQOouwrrSSnznOq1GrZnzn6rYbBYck7FQ0zhiJjFuaW4qSMZTJkC6Cw/ddnsfjvi71j9jcl/numc.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip",
+                     "input": "numc/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/skinathon2026.zip"
+                  }
+               ]
+            },
+            "1.10 Update (JPN)":{
+               "size":"287 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://download1085.mediafire.com/osdldc4red6gK1J7TInb8ztD17YEFSYdhtHz30HAqxQ9cY8fk2ftBGACfGb3LVaspB5ovKIUmanTzaJPLYOAorAE3nXAdW6KJRJxkMLmtAxaOTkLSA3AMM7bQOouwrrSSnznOq1GrZnzn6rYbBYck7FQ0zhiJjFuaW4qSMZTJkC6Cw/ddnsfjvi71j9jcl/numc.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip",
+                     "input": "numc/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip"
                   }
                ]
             }
