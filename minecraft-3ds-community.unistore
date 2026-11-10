@@ -298,9 +298,7 @@
                "sheet_index":0,
                "last_updated":"2023-06-30"
             },
-            "Skyblock 2.1":{
-               "size":"1.53 MB",
-               "script":[
+            "Skyblock 2.1":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/skyblock-21.zip",
@@ -321,8 +319,29 @@
                      "message": "To install this world, follow an easy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
                   }
-               ]
-            }
+            ],
+            "Skyblock 2.1 (Numc3ds/1.10)":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },               
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/skyblock-21.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/skyblock-21.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/skyblock-21.zip",
+                     "input": "Skyblock 2.1/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/Skyblock 2.1/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/skyblock-21.zip"
+                  }
+               ]          
          },
          {
             "info":{
@@ -738,9 +757,7 @@
                "sheet_index":0,
                "last_updated":"2022-10-28 at 00:16 (UTC)"
             },
-            "3DSpleef":{
-               "size":"374 KB",
-               "script":[
+               "3DSpleef":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dspleef.zip",
@@ -761,8 +778,29 @@
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
                   }
+               ],
+               "3DSpleef (Numc3ds/1.10)":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },                  
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dspleef.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip",
+                     "input": "3DSpleef/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/3DSpleef/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip"
+                  }
                ]
-            }
          },
          {
             "info":{
@@ -784,9 +822,7 @@
                "sheet_index":0,
                "last_updated":"2022-03-07 at 12:02 (UTC)"
             },
-            "Building Time":{
-               "size":"245 KB",
-               "script":[
+            "Building Time":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/building-time.zip",
@@ -807,8 +843,29 @@
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
                   }
-               ]
-            }
+               ],
+            "Building Time (Numc3ds/1.10":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },               
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/building-time.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/building-time.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/building-time.zip",
+                     "input": "Building Time/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/BuildingTime/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/building-time.zip"
+                  }
+               ]               
          },
          {
             "info":{
@@ -830,9 +887,7 @@
                "sheet_index":0,
                "last_updated":"2022-11-05 at 04:22 (UTC)"
             },
-            "Randoms Demo":{
-               "size":"318 KB",
-               "script":[
+            "Randoms Demo":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/randoms-demo.zip",
@@ -853,8 +908,29 @@
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
                   }
-               ]
-            }
+               ],
+            "Randoms Demo (Numc3ds/1.10)":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },               
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/randoms-demo.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip",
+                     "input": "Randoms Demo/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/Randoms Demo/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip"
+                  }
+               ]               
          },
          {
             "info":{
@@ -919,9 +995,7 @@
                "sheet_index":0,
                "last_updated":"2022-09-25 at 12:55 (UTC)"
             },
-            "The Dropper: 3DS Remaster":{
-               "size":"1.78 MB",
-               "script":[
+            "The Dropper: 3DS Remaster":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/dropper.zip",
@@ -942,8 +1016,29 @@
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
                   }
-               ]
-            }
+               ],
+            "The Dropper: 3DS Remaster (Numc3ds/1.10)":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/dropper.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/dropper.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/dropper.zip",
+                     "input": "TheDropper3DS/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/TheDropperRM/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/dropper.zip"
+                  }
+               ]               
          },
          {
             "info":{
@@ -969,9 +1064,7 @@
                "sheet_index":0,
                "last_updated":"2022-05-05 at 13:02 (UTC)"
             },
-            "World in a Jar 3DS":{
-               "size":"2.08 MB",
-               "script":[
+            "World in a Jar 3DS":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/world-in-jar.zip",
@@ -992,8 +1085,29 @@
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
                   }
-               ]
-            }
+               ],
+            "World in a Jar 3DS (Numc3ds/1.10)":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },               
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/world-in-jar.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip",
+                     "input": "World in Jar 3DS by ArcModzzz/KwIAAH6MBwA=/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/WorldInAJar/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip"
+                  }
+               ]               
          },
          {
             "info":{
@@ -1019,9 +1133,7 @@
                "sheet_index":0,
                "last_updated":"2022-04-29 at 11:07 (UTC)"
             },
-            "Find the Button":{
-               "size":"1.29 MB",
-               "script":[
+            "Find the Button":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/find-the-button.zip",
@@ -1042,8 +1154,29 @@
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
                   }
-               ]
-            }
+               ],
+            "Find the Button (Numc3ds/1.10)":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/find-the-button.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip",
+                     "input": "Find the Button 3DS/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/FindtheBtn/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip"
+                  }
+               ]               
          },
          {
             "info":{
@@ -1254,6 +1387,31 @@
                   }
                ]
             },
+            "Lapiz's Funland v1.0 (Numc3ds/1.10)":{
+               "size":"1.33 MB",
+               "script":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },                  
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip",
+                     "input": "Lapiz_s Funland/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/Funland v1.0/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip"
+                  }
+               ]
+            },            
             "Lapiz's Funland v1.1 - City and Snow":{
                "size":"1.33 MB",
                "script":[
@@ -1278,7 +1436,32 @@
                      "count": 1
                   }
                ]
-            }
+            },
+            "Lapiz's Funland v1.1 - City and Snow (Numc3ds/1.10)":{
+               "size":"1.33 MB",
+               "script":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },                  
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland-11.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip",
+                     "input": "Lapiz Funland 1_1 City and Snow/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/Funland v1.1/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip"
+                  }
+               ]
+            }            
          },
          {
             "info":{
@@ -1329,6 +1512,31 @@
                   }
                ]
             },
+            "Stampy's Lovely World (Numc3ds/1.10)":{
+               "size":"1.64 MB",
+               "script":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },                  
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/stampys-world.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/stampys-world.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/stampys-world.zip",
+                     "input": "Stampy_s World 3DS/Stampy_s World/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/Lovely World/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/stampys-world.zip"
+                  }
+               ]
+            },            
             "Stampy's Lovely World - v1.1 Snapshot":{
                "size":"1.33 MB",
                "script":[
@@ -1353,7 +1561,32 @@
                      "count": 1
                   }
                ]
-            }
+            },
+            "Stampy's Lovely World - v1.1 Snapshot (Numc3ds/1.10)":{
+               "size":"1.33 MB",
+               "script":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },                  
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/stampys-world-11-snap.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/stampys-world-11-snap.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/stampys-world-11-snap.zip",
+                     "input": "Stampy_s World 3DS/Stampy_s World/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/LovelyW-v1.1/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/stampys-world-11-snap.zip"
+                  }
+               ]
+            }            
          },
          {
             "info":{
@@ -1530,9 +1763,7 @@
                "sheet_index":0,
                "last_updated":"2022-03-27 at 02:47 (UTC)"
             },
-            "DanTDM's Lab":{
-               "size":"1.08 MB",
-               "script":[
+            "DanTDM's Lab":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/dantdm-lab.zip",
@@ -1553,8 +1784,29 @@
                      "message": "To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                      "count": 1
                   }
-               ]
-            }
+               ],
+            "DanTDM's Lab (Numc3ds/1.10)":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },               
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/dantdm-lab.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip",
+                     "input": "DanTDM Lab/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/DanTDM's Lab/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip"
+                  }
+               ]               
          },
          {
             "info":{
@@ -2345,7 +2597,29 @@
                   "message":"To install this world, follow an\neasy guide on our discord server: https://discord.com/invite/PcfekvmjSw",
                   "count":1
                }
-            ]
+            ],
+            "DevWorld v2 (Numc3ds/1.10)":[
+               {
+                  "type": "promptMessage",
+                  "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                  "count": 1
+               },               
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/DevWorld_v2.zip",
+                  "output":"sdmc:/Minecraft 3DS/worlds/DevWorld_v2.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/DevWorld_v2.zip",
+                  "input": "DevWorld_v2/",
+                  "output": "sdmc:/Minecraft 3DS/ImportedWorlds/DevWorld v2/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/DevWorld_v2.zip"
+               }
+            ]            
          },
          {
             "info":{
@@ -2835,9 +3109,7 @@
                "sheet_index":0,
                "last_updated":"2024-04-14 at 16:21 (CST)"
             },
-            "Farlandia":{
-               "size":"5.60 MB",
-               "script":[
+            "Farlandia":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Farlandia.zip",
@@ -2863,8 +3135,29 @@
                      "message":"IMPORTANT NOTICE:\n\nThis should only be played on an emualtor, such as\nCitra, as it is very laggy.\nAlso, in the world, you have to turn to a\n45 degree angle and push the keys in the opposite\ndirection and the way you want.",
                      "count":1
                   }
-               ]
-            }
+               ],
+            "Farlandia (Numc3ds/1.10)":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },               
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Farlandia.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Farlandia.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Farlandia.zip",
+                     "input": "/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/Farlandia/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Farlandia.zip"
+                  }
+               ]               
          },
          {
             "info":{
@@ -3400,6 +3693,31 @@
                   }
                ]
             },
+            "Skyblock Plus (Numc3ds/1.10)":{
+               "size":"398 KB",
+               "script":[
+                  {
+                     "type": "promptMessage",
+                     "message": "This installation is for the 1.10 update,\ndo not install this version if you're playing on 1.9.19 or below",
+                     "count": 1
+                  },                  
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/SkyblockPlus_World.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_World.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_World.zip",
+                     "input": "Skyblock+/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/SkyblockPlus/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_World.zip"
+                  }
+               ]
+            },            
             "Skyblock Plus FWO (USA)":{
                "size":"374 KB",
                "script":[
@@ -3915,7 +4233,27 @@
                      "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip"
                   }
                ]
-            }
+            },
+            "Dropper (Numc3ds/1.10)":{
+               "size":"2.04 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/MC3DS-SDD.zip",
+                     "output": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip",
+                     "input": "templates/festive/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/festive/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/MC3DS-SDD.zip"
+                  }
+               ]
+            }            
          },
          {
             "info":{
