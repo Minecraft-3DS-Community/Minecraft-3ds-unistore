@@ -34,6 +34,7 @@ This is a repository for a Universal-Updater Unistore that hosts mods for Minecr
 | GenSpace | <ul><li>Minecraft 3DS Modernization Map</li><li>The Dropper: 3DS Remaster</li><li>GenSpace's SkyBlock</li><li>SkyDen</li></ul> |
 | Glonk | <ul><li>Broken Stronghold Chest Fix</li></ul> |
 | Hypid | <ul><li>Skinathon Winners 2025</li></ul> |
+| ItsPoofy | <ul><li>NuMC3DS - 1.10 Update</li></ul> |
 | KrftRV249 | <ul><li>Random Loot Mod</li><li>Guns Mod</li><li>Instant Eating Mod</li></ul> |
 | linuxwizard | <ul><li>Mipmapping Patch (1.0 Only)</li></ul> |
 | minanations | <ul><li>Skinathon Winners 2026</li></ul> |
