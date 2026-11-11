@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 106,
+        "revision": 105,
         "version": 3
     },
     "storeContent": [
@@ -13579,7 +13579,7 @@
                "console":["New 3DS, 3DS"],
                "description":"wink wink",
                "license":"unknown",
-               "releasenotes":""
+               "releasenotes":"",
                "screenshots": [
                   {
                      "description": "No image is available. Sorry.",
