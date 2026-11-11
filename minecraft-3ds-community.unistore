@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 104,
+        "revision": 105,
         "version": 3
     },
     "storeContent": [
@@ -13588,15 +13588,20 @@
                ],
                "icon_index":126,
                "sheet_index":0,
-               "last_updated":"2026-11-11 at 16:24 (CDT)"
+               "last_updated":"2026-11-11 at 7:13 (CDT)"
             },
-            "1.10 Update (USA)":{
+            "Install NuMC3DS 1.10 (USA)":{
                "size":"287 MB",
                "script":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc.zip",
                      "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc1.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc1.zip"
                   },
                   {
                      "type": "downloadFile",
@@ -13627,6 +13632,12 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/numc.zip",
                      "input": "numc/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc1.zip",
+                     "input": "numc1/",
                      "output": "sdmc:/luma/titles/00040000001B8700/"
                   },
                   {
@@ -13662,6 +13673,10 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc1.zip"
                   },
                   {
                      "type": "deleteFile",
@@ -13685,13 +13700,18 @@
                   }
                ]
             },
-            "1.10 Update (EUR)":{
+            "Install NuMC3DS 1.10 (EUR)":{
                "size":"287 MB",
                "script":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc.zip",
                      "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc1.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc1.zip"
                   },
                   {
                      "type": "downloadFile",
@@ -13722,6 +13742,12 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/numc.zip",
                      "input": "numc/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc1.zip",
+                     "input": "numc1/",
                      "output": "sdmc:/luma/titles/000400000017CA00/"
                   },
                   {
@@ -13757,6 +13783,10 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc1.zip"
                   },
                   {
                      "type": "deleteFile",
@@ -13780,13 +13810,18 @@
                   }
                ]
             },
-            "1.10 Update (JPN)":{
+            "Install NuMC3DS 1.10 (JPN)":{
                "size":"287 MB",
                "script":[
                   {
                      "type": "downloadFile",
                      "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc.zip",
                      "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc1.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc1.zip"
                   },
                   {
                      "type": "downloadFile",
@@ -13817,6 +13852,12 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/numc.zip",
                      "input": "numc/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc1.zip",
+                     "input": "numc1/",
                      "output": "sdmc:/luma/titles/000400000017FD00/"
                   },
                   {
@@ -13855,6 +13896,10 @@
                   },
                   {
                      "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc1.zip"
+                  },
+                  {
+                     "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/numc2.zip"
                   },
                   {
@@ -13872,6 +13917,66 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/numc6.zip"
+                  }
+               ]
+            },
+            "Update NuMC3DS 1.10 (USA)":{
+               "size":"1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip",
+                     "input": "numc/",
+                     "output": "sdmc:/luma/titles/00040000001B8700/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip"
+                  }
+               ]
+            },
+            "Update NuMC3DS 1.10 (EUR)":{
+               "size":"1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip",
+                     "input": "numc/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip"
+                  }
+               ]
+            },
+            "Update NuMC3DS 1.10 (JPN)":{
+               "size":"1 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip",
+                     "input": "numc/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc.zip"
                   }
                ]
             }
