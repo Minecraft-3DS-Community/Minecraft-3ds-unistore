@@ -13690,8 +13690,33 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://download1085.mediafire.com/osdldc4red6gK1J7TInb8ztD17YEFSYdhtHz30HAqxQ9cY8fk2ftBGACfGb3LVaspB5ovKIUmanTzaJPLYOAorAE3nXAdW6KJRJxkMLmtAxaOTkLSA3AMM7bQOouwrrSSnznOq1GrZnzn6rYbBYck7FQ0zhiJjFuaW4qSMZTJkC6Cw/ddnsfjvi71j9jcl/numc.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc.zip",
                      "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc2.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc2.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc3.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc3.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc4.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc4.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc5.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc5.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc6.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc6.zip"
                   },
                   {
                      "type": "extractFile",
@@ -13700,8 +13725,58 @@
                      "output": "sdmc:/luma/titles/000400000017CA00/"
                   },
                   {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc2.zip",
+                     "input": "numc2/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc3.zip",
+                     "input": "numc3/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc4.zip",
+                     "input": "numc4/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc5.zip",
+                     "input": "numc5/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc6.zip",
+                     "input": "numc6/",
+                     "output": "sdmc:/luma/titles/000400000017CA00/"
+                  },
+                  {
                      "type": "deleteFile",
-                     "file": "sdmc:/Minecraft 3DS/skinathon2026.zip"
+                     "file": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc2.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc3.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc4.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc5.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc6.zip"
                   }
                ]
             },
@@ -13710,8 +13785,33 @@
                "script":[
                   {
                      "type": "downloadFile",
-                     "file": "https://download1085.mediafire.com/osdldc4red6gK1J7TInb8ztD17YEFSYdhtHz30HAqxQ9cY8fk2ftBGACfGb3LVaspB5ovKIUmanTzaJPLYOAorAE3nXAdW6KJRJxkMLmtAxaOTkLSA3AMM7bQOouwrrSSnznOq1GrZnzn6rYbBYck7FQ0zhiJjFuaW4qSMZTJkC6Cw/ddnsfjvi71j9jcl/numc.zip",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc.zip",
                      "output": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc2.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc2.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc3.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc3.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc4.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc4.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc5.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc5.zip"
+                  },
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/numc6.zip",
+                     "output": "sdmc:/Minecraft 3DS/numc6.zip"
                   },
                   {
                      "type": "extractFile",
@@ -13720,8 +13820,58 @@
                      "output": "sdmc:/luma/titles/000400000017FD00/"
                   },
                   {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc2.zip",
+                     "input": "numc2/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc3.zip",
+                     "input": "numc3/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc4.zip",
+                     "input": "numc4/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc5.zip",
+                     "input": "numc5/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/numc6.zip",
+                     "input": "numc6/",
+                     "output": "sdmc:/luma/titles/000400000017FD00/"
+                  },
+                  {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/numc.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc2.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc3.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc4.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc5.zip"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/numc6.zip"
                   }
                ]
             }
