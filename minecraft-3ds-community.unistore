@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 105,
+        "revision": 106,
         "version": 3
     },
     "storeContent": [
@@ -13579,7 +13579,59 @@
                "console":["New 3DS, 3DS"],
                "description":"wink wink",
                "license":"unknown",
-               "releasenotes":"",
+               "releasenotes":"Changelog:
+
+Added:
+
+Two-way crossplay multiplayer between NuMC3DS and MCPE.
+The ability to chat, alongside new menus.
+A custom keyboard replacing the regular keyboard across the entire game.
+Cheats and almost all MCPE 1.1.5 Commands.
+Quick Commands.
+Command blocks, alongside a new command-block screen.
+Cheats controls in the Create World, Edit World, and in-game Options menus.
+Achievement eligibility banners and warnings in the Create World and Edit World menus.
+More graphical settings.
+Controller remapping.
+Maps and Locator Maps, along with their crafting recipes and original cartographer trades. Held maps replace the minimap display and maps can be displayed in item frames.
+New world loading and leaving screens, with loading screen tips.
+Integrated Cracko's optimized shaders and clouds for performance.
+The ability to import and export worlds from SDMC.
+The ability to import custom skins and skin packs from SDMC.
+The ability to import custom behavior packs from SDMC.
+Sounds played with /playsound and by servers.
+Support for external mod loaders.
+Unhardcoded the splash text system and added brand new ones.
+Infinite worlds.
+Added Polish as a new language.
+
+Changed:
+
+World height has been expanded to 256.
+Replaced the music with higher quality versions.
+Some UI elements now match MCPE 1.1.5.
+Updated menus, scrolling lists, selection outlines, and controller tooltips.
+Always Day is now tied to Cheats.
+Mundane potions have been readded to creative menu.
+Removed the eight-world creation and loading restriction.
+Various improvements to performance.
+Various adjustments to UI.
+Removed the ability to trigger totems by having them in your inventory.
+Removed the mob cap.
+Restored the missing "Leader of the Pack" achievement.
+Restored missing Long Mundane Potion and Splash Long Mundane Potion variants in Creative inventory.
+Restored missing Stronghold chest loot tables matching MCPE 1.1.5
+Restored offhand slot.
+Restored Block reach-around.
+Stopped empty boats from retaining player paddle input.
+Stopped fishing hooks from repeatedly striking an already attached entity.
+Fixed random minimap corruption.
+Fixed sign text editing restriction from 3 lines to 4 lines
+Fixed the igloo basement to match MCPE 1.1.5.
+Fixed lighting of spruce leaves.
+Fixed various worldgen differences between MCPE 1.1.5 and MC3DS
+Improved delay in breaking blocks.
+Several loot tables have been changed to match MCPE 1.1.5",
                "screenshots": [
                   {
                      "description": "No image is available. Sorry.",
