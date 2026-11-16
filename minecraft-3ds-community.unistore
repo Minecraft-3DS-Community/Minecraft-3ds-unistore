@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 107,
+        "revision": 108,
         "version": 3
     },
     "storeContent": [
@@ -13588,7 +13588,7 @@
                ],
                "icon_index":126,
                "sheet_index":0,
-               "last_updated":"2026-11-15 at 20:13 (CDT)"
+               "last_updated":"2026-11-16 at 15:22 (CST)"
             },
             "Install NuMC3DS 1.10 (USA)":{
                "size":"287 MB",
