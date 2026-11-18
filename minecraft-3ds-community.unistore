@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 109,
+        "revision": 110,
         "version": 3
     },
     "storeContent": [
@@ -14013,7 +14013,7 @@
                      "type": "extractFile",
                      "file": "sdmc:/Minecraft 3DS/worlds/Dropper110.zip",
                      "input": "/",
-                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/"
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/Dropper110/"
                   },
                   {
                      "type": "deleteFile",
