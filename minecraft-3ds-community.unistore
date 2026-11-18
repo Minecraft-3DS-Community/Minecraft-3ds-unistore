@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 108,
+        "revision": 109,
         "version": 3
     },
     "storeContent": [
@@ -13977,6 +13977,52 @@
                   {
                      "type": "deleteFile",
                      "file": "sdmc:/Minecraft 3DS/numc.zip"
+                  }
+               ]
+            }
+         },
+         {
+            "info":{
+               "title":"The Dropper: 3DS Remaster 1.10",
+               "author":"GenSpace, CZX, DarkForPresident, WaterMelon, Ruff64",
+               "version":"1.10",
+               "category":["World"],
+               "console":["3DS"],
+               "description":"The iconic 3DS Dropper port... Now updated to the 1.10 fan update! This update adds command blocks for teleporting and spawnpoints for your convenience.",
+               "license":"unknown",
+               "releasenotes": "",
+               "screenshots": [
+                  {
+                     "description": "No image is available. Sorry.",
+                     "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  }
+               ],
+               "icon_index":127,
+               "sheet_index":0,
+               "last_updated":"2026-11-17 at 13:51 (CST)"
+            },
+            "The Dropper 1.10":{
+               "size":"1.53 MB",
+               "script":[
+                  {
+                     "type": "downloadFile",
+                     "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Dropper110.zip",
+                     "output": "sdmc:/Minecraft 3DS/worlds/Dropper110.zip"
+                  },
+                  {
+                     "type": "extractFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Dropper110.zip",
+                     "input": "/",
+                     "output": "sdmc:/Minecraft 3DS/ImportedWorlds/"
+                  },
+                  {
+                     "type": "deleteFile",
+                     "file": "sdmc:/Minecraft 3DS/worlds/Dropper110.zip"
+                  },
+                  {
+                     "type": "promptMessage",
+                     "message": "This world requires Its Poofy's 1.10 Update which is also on this unistore! For help, check our Discord server https://discord.com/invite/PcfekvmjSw",
+                     "count": 1
                   }
                ]
             }
