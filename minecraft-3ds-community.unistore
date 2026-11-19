@@ -9,7 +9,7 @@
         "sheetURL": "https://github.com/Minecraft-3DS-Community/Minecraft-3ds-unistore/raw/main/mc3ds.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 110,
+        "revision": 111,
         "version": 3
     },
     "storeContent": [
@@ -13572,8 +13572,8 @@
          },
                   {
             "info":{
-               "title":"Its Poofy's 1.10 Update",
-               "author":"Its Poofy",
+               "title":"Wyndchyme's 1.10 Update",
+               "author":"Wyndchyme",
                "version":"1.10",
                "category":["Update"],
                "console":["New 3DS, 3DS"],
